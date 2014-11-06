@@ -6,7 +6,9 @@
 ######## Data: 
 ######## 1) species localities from Vera Hoffmann's MSc
 ######## 2) climate from Adam Wilson's interpolated daily weather data for the CFR using CDO tools
-######## 3) fire data from Adam Wilson's fire data
+######## 3) biomass data from Adam Wilson's postfire recovery paper
+######## 4) soil moisture and fire return interval data from Merow et al. 2014 Protea repens modelling paper
+######## 5) soils/geology information from the CFR Bayesian Working Group (dig out ref?)
 ##############################################################################
 ######## 
 ###Steps:
@@ -22,11 +24,11 @@
 ##############################################################################
 
 ##############################################################################
-###1) Set working directory and get libraries
+###1) Set working directory and maxent data location and get libraries
 ##############################################################################
-if (Sys.getenv("USER")=='jasper') setwd("/Users/jasper/GIT/Nyasha")
-if (Sys.getenv("USERNAME")=='Nyasha') setwd("C:/Users/Nyasha/Git/Nyasha")
-if (Sys.getenv("USERNAME")=='jasper') setwd("C:/Users/jasper/Git/Nyasha")
+if (Sys.getenv("USER")=='jasper') {setwd("/Users/jasper/GIT/Nyasha"); maxdat="/Applications/maxent/"}
+if (Sys.getenv("USERNAME")=='Nyasha') {setwd("C:/Users/Nyasha/Git/Nyasha"); maxdat="C:/somewhere"}
+if (Sys.getenv("USERNAME")=='jasper') {setwd("C:/Users/jasper/Git/Nyasha"); maxdat="C:/Extra software/maxent/"}
 
 library(raster);library(gdata); library(calibrate); library (ncdf)
 
@@ -41,61 +43,68 @@ ppt=raster("Data/Climate/MAP_Q50.nc")
 #cdd=raster("Data/Climate/CDD_Q50.nc"); NAvalue(x) <- -999 #Cumulative dry days
 #cfd=raster("Data/Climate/CFD_Q50.nc"); NAvalue(x) <- -999 #Cumulative frost days
 
-###Get fire data
+###Get biomass data
 seasonality=raster("Data/BiomassAccumulation/A.tif")
 time_to_recovery=raster("Data/BiomassAccumulation/ages.tif")
 max_NDVI=raster("Data/BiomassAccumulation/gamma.tif")
 recovery_rate=raster("Data/BiomassAccumulation/lambda.tif")
 
-###Add soil moisture and fire return interval data...
+###Get soil moisture and fire return interval data...
 #soil_moisture=raster("Data/BiomassAccumulation/XXXXX.tif")
 #fire_return=raster("Data/BiomassAccumulation/XXXXX.tif")
+
+###Get 
+geol=stack(list.files("/Users/jasper/GIT/Nyasha/Data/Geology", full.names=T, pattern=".asc")); proj4string(geol)=proj4string(seasonality)
 
 ###Resample and reproject all rasters to the same grid and Coordinate Reference System
 tmax=projectRaster(tmax,seasonality) #note that function uses bilinear interpolation by default. Can be a little slow...
 tmin=projectRaster(tmin,seasonality)
 ppt=projectRaster(ppt,seasonality)
+geol=projectRaster(geol,seasonality)
 #gdd=projectRaster(gdd,seasonality)
 #cdd=projectRaster(cdd,seasonality)
 #cfd=projectRaster(cfd,seasonality)
 #soil=projectRaster(soil,seasonality) #if needed?
 #fire_return=projectRaster(fire_return,seasonality) #if needed?
 
+###Pull GIS data into a RasterStack
+env=stack(tmax, tmin, ppt, seasonality, time_to_recovery, max_NDVI, recovery_rate, geol)
+nms=c("tmax", "tmin", "ppt", "seasonality", "time_to_recovery", "max_NDVI", "recovery_rate", names(geol))
+
 ###Drop cells with no biomass accumulation data
-x=is.na(seasonality)
-tmax=tmax*!x
-tmin=tmin*!x
-ppt=ppt*!x
-#gdd=gdd*!x
-#cdd=cdd*!x
-#cfd=cfd*!x
-#soil=soil*!x
-#fire_return=fire_return*!x
+x=is.na(seasonality) #create a raster of 0's and 1's indicating where there is no data
+env=env*!x
+
+rm(list=c("tmax", "tmin", "ppt", "seasonality", "time_to_recovery", "max_NDVI", "recovery_rate", "geol"))
+
+###Paste GIS data into MaxEnt directory
+writeRaster(env, filename=paste(maxdat,"env_layers/",nms,".asc",sep=""), format="ascii", bylayer=T)
 
 ##############################################################################
-###4) Get site data
+###4) Get georef data, intersect with GIS layers and trim to those that still have 20 or more refs
 ##############################################################################
-
-###Summarize ref data and draw out species with 20 or more records
-#Get data and summarize info
+###Get data
 refs=read.csv("Data/Vera_Hoffman/Georef Data_March2011_Jasper.csv",header=T)
+
+###Make frefs a spatial object in R
+coordinates(refs)<-refs[,c(10,9)]
+proj4string(refs) <- CRS(proj4string(seasonality))
+
+###Extract GIS data to georefs and trim out georefs that don't intersect with GIS data
+x=is.na(seasonality) #create a raster of 0's and 1's indicating where there is no data
+xrefs=extract(x,refs) #; rownames(tmaxS)=site$source_pop.
+refs=refs[!xrefs,]
+
+###Trim out species with <15 records
 x=aggregate(1:length(refs$Taxon), by=list(refs$Taxon), FUN="length")
 colnames(x)=c("Taxon","Count")
-y=unique(merge(x, refs[,c("Clade", "Taxon")]))
+#length(which(x$Count>14)) #Checks how many species we're left with
+x=x[which(x$Count>14),]
+refs=refs[which(refs$Taxon%in%x$Taxon),]
 
-#Draw out species with 20 or more georefs
-hmm=y$Taxon[which(y$Count>19)] 
-frefs=refs[which(refs$Taxon%in%hmm),]
+###Clean data by making it a plain dataframe (not spatial anymore) and dropping levels and make it a spatial object again
+refs=as.data.frame(refs)
+refs=droplevels(refs) #Dropped extra factor classes (levels) from the data - e.g. names of species we're no longer using
 
-###Intersect 
-Latitude.Decimal  Longitude.Decimal
-#####
-
-
-coordinates(frefs)<-frefs[,9:10]
-proj4string(frefs) <- CRS(proj4string(seasonality)) #+proj=utm +zone=34 +ellps=WGS84 +south")#
-
-###Extract data to sites and bind site and climate data
-tmaxS=extract(tmax,site); rownames(tmaxS)=site$source_pop.
-tminS=extract(tmin,site); rownames(tminS)=site$source_pop.
-pptS=extract(ppt,site); rownames(pptS)=site$source_pop.
+###Write out georefs file
+write.csv(refs, paste("Data/Vera_Hoffman/nyashafocalspecies",Sys.Date(),".csv",sep=""))
