@@ -28,8 +28,7 @@ if (Sys.getenv("USER")=='jasper') {setwd("/Users/jasper/GIT/Nyasha"); maxdat="/A
 if (Sys.getenv("USERNAME")=='jasper') 
 {
   #setwd("C:/Users/jasper/Git/Nyasha") 
-  maxdat="C:/Extra software/maxent/"
-  maxent="C:/somewhere"
+  maxent="C:/Extra software/maxent/"
   setwd(maxent)
   call="java -mx12288m -jar maxent.jar -e env_layers -s loc.csv -J true -z false threads=4 writeplotdata=true replicates=10 -o maxentoutput -r -a"
   system(call, wait=FALSE)
