@@ -31,36 +31,29 @@ if (Sys.getenv("USERNAME")=='Nyasha') {setwd("C:/Users/Nyasha/Git/Nyasha"); maxd
 #library(raster);library(gdata); library(calibrate); library (ncdf)
 
 ##############################################################################
-###2) Get georef data
+###2) Get and format georef data
 ##############################################################################
 refs=read.csv("Data/Vera_Hoffman/nyashafocalspecies2014-11-06.csv", header=T, row.names=1, stringsAsFactors=F)
-
 refs=refs[,c(10,12,11)]
 colnames(refs)<-c("Species","Lon","Lat")
-
-#write.csv(locality, "D:\\GIS\\MaxEnt\\maxent\\protea.csv", row.names=FALSE)
-
-#library(phyloclim)
-#fix(niche.equivalency.test)
-
-#setwd("D:\\GIS\\MaxEnt\\maxent\\")
+write.csv(local, "loc.csv", row.names=FALSE)
 
 ######################################################################
 ###3) Run MaxEnt
 ######################################################################
-setwd(maxdat)
+#setwd(maxdat)
 
-pnames<-unique(refs[,1])
+#pnames<-unique(refs[,1])
 
-for(i in 1:length(pnames))
-{
-  local<-refs[which(refs$Species==pnames[i]),]
+#for(i in 1:length(pnames))
+#{
+#  local<-refs[which(refs$Species==pnames[i]),]
   
   ### Write out Locality file
-  write.csv(local, "loc.csv", row.names=FALSE)
+#  write.csv(local, "loc.csv", row.names=FALSE)
   
   ### Set batch file details - see setMEbatch in climateTools.R
-  call <-"java -mx5512m -jar maxent.jar environmentallayers=env_layers samplesfile=loc.csv outputdirectory=maxentoutput redoifexists autorun"
-  system(call, wait=TRUE)
+#  call <-"java -mx5512m -jar maxent.jar environmentallayers=env_layers samplesfile=loc.csv outputdirectory=maxentoutput redoifexists autorun"
+#  system(call, wait=TRUE)
   # system("D:/GIS/MaxEnt/maxent/batchProtea.bat", wait=TRUE)
-}
+#}

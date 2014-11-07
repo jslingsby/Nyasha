@@ -48,37 +48,40 @@ seasonality=raster("Data/BiomassAccumulation/A.tif")
 time_to_recovery=raster("Data/BiomassAccumulation/ages.tif")
 max_NDVI=raster("Data/BiomassAccumulation/gamma.tif")
 recovery_rate=raster("Data/BiomassAccumulation/lambda.tif")
+fire_return=raster("Data/BiomassAccumulation/FireReturnTime_WeibullScale500m.tif")
 
 ###Get soil moisture and fire return interval data...
 #soil_moisture=raster("Data/BiomassAccumulation/XXXXX.tif")
-#fire_return=raster("Data/BiomassAccumulation/XXXXX.tif")
 
-###Get 
+###Get geology
 geol=stack(list.files("/Users/jasper/GIT/Nyasha/Data/Geology", full.names=T, pattern=".asc")); proj4string(geol)=proj4string(seasonality)
 
 ###Resample and reproject all rasters to the same grid and Coordinate Reference System
 tmax=projectRaster(tmax,seasonality) #note that function uses bilinear interpolation by default. Can be a little slow...
 tmin=projectRaster(tmin,seasonality)
 ppt=projectRaster(ppt,seasonality)
+fire_return=projectRaster(fire_return,seasonality)
 geol=projectRaster(geol,seasonality)
 #gdd=projectRaster(gdd,seasonality)
 #cdd=projectRaster(cdd,seasonality)
 #cfd=projectRaster(cfd,seasonality)
 #soil=projectRaster(soil,seasonality) #if needed?
-#fire_return=projectRaster(fire_return,seasonality) #if needed?
 
 ###Pull GIS data into a RasterStack
-env=stack(tmax, tmin, ppt, seasonality, time_to_recovery, max_NDVI, recovery_rate, geol)
-nms=c("tmax", "tmin", "ppt", "seasonality", "time_to_recovery", "max_NDVI", "recovery_rate", names(geol))
+env=stack(tmax, tmin, ppt, seasonality, time_to_recovery, max_NDVI, recovery_rate, fire_return, geol)
+nms=c("tmax", "tmin", "ppt", "seasonality", "time_to_recovery", "max_NDVI", "recovery_rate", "fire_return", names(geol))
 
-###Drop cells with no biomass accumulation data
-x=is.na(seasonality) #create a raster of 0's and 1's indicating where there is no data
-env=env*!x
-
-rm(list=c("tmax", "tmin", "ppt", "seasonality", "time_to_recovery", "max_NDVI", "recovery_rate", "geol"))
+###Drop cells with missing data
+mask=is.na(tmax*tmin*ppt*seasonality*time_to_recovery*max_NDVI*recovery_rate*fire_return*geol[[1]])
+env=mask(env, mask, maskvalue=1, updatevalue=NA)
+names(env)=nms
+env=stack(env)
 
 ###Paste GIS data into MaxEnt directory
-writeRaster(env, filename=paste(maxdat,"env_layers/",nms,".asc",sep=""), format="ascii", bylayer=T)
+writeRaster(env, filename=paste(maxdat,"env_layers/",nms,".asc",sep=""), format="ascii", bylayer=T, overwrite=T)
+
+###Clear objects from memory
+#rm(list=c("nms", "env", "tmax", "tmin", "ppt", "seasonality", "time_to_recovery", "max_NDVI", "recovery_rate", "geol", "fire_return"))
 
 ##############################################################################
 ###4) Get georef data, intersect with GIS layers and trim to those that still have 20 or more refs
@@ -88,11 +91,10 @@ refs=read.csv("Data/Vera_Hoffman/Georef Data_March2011_Jasper.csv",header=T)
 
 ###Make frefs a spatial object in R
 coordinates(refs)<-refs[,c(10,9)]
-proj4string(refs) <- CRS(proj4string(seasonality))
+proj4string(refs) <- CRS(proj4string(mask))
 
 ###Extract GIS data to georefs and trim out georefs that don't intersect with GIS data
-x=is.na(seasonality) #create a raster of 0's and 1's indicating where there is no data
-xrefs=extract(x,refs) #; rownames(tmaxS)=site$source_pop.
+xrefs=extract(mask,refs) #; rownames(tmaxS)=site$source_pop.
 refs=refs[!xrefs,]
 
 ###Trim out species with <15 records

@@ -17,8 +17,7 @@ data=BIOMOD_FormatingData(resp.var=resp,
                           resp.name=as.character(spnames[1]),
                           PA.nb.rep=1,
                           PA.nb.absences=1000,
-                          PA.strategy='random'
-)
+                          PA.strategy='random')
 
 if (Sys.getenv("USER")=='jasper') 
 { 
