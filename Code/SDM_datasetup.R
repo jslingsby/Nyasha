@@ -28,9 +28,10 @@
 ##############################################################################
 if (Sys.getenv("USER")=='jasper') {setwd("/Users/jasper/GIT/Nyasha"); maxdat="/Applications/maxent/"}
 if (Sys.getenv("USERNAME")=='Nyasha') {setwd("C:/Users/Nyasha/Git/Nyasha"); maxdat="C:/somewhere"}
-if (Sys.getenv("USERNAME")=='jasper') {setwd("C:/Users/jasper/Git/Nyasha"); maxdat="C:/Extra software/maxent/"}
+if (Sys.getenv("USERNAME")=='jasper') {setwd("C:/GIT/Nyasha"); maxdat="C:/Extra software/maxent/"}
 
 library(raster);library(gdata); library(calibrate); library (ncdf)
+#You may need to install separate software called netCDF (http://www.unidata.ucar.edu/software/netcdf/docs/winbin.html)
 
 ##############################################################################
 ###2) Get GIS data
