@@ -94,8 +94,11 @@ coordinates(refs)<-refs[,c(10,9)]
 proj4string(refs) <- CRS(proj4string(mask))
 
 ###Extract GIS data to georefs and trim out georefs that don't intersect with GIS data
-xrefs=extract(mask,refs) #; rownames(tmaxS)=site$source_pop.
-refs=refs[!xrefs,]
+#xrefs=extract(mask,refs) #; rownames(tmaxS)=site$source_pop.
+#refs=refs[!xrefs,]
+hmm=extract(env,refs)
+y=is.na(hmm)
+refs=refs[-which(rowSums(y)>0),]
 
 ###Trim out species with <15 records
 x=aggregate(1:length(refs$Taxon), by=list(refs$Taxon), FUN="length")
@@ -108,5 +111,10 @@ refs=refs[which(refs$Taxon%in%x$Taxon),]
 refs=as.data.frame(refs)
 refs=droplevels(refs) #Dropped extra factor classes (levels) from the data - e.g. names of species we're no longer using
 
-###Write out georefs file
+###Write out georefs file for records
 write.csv(refs, paste("Data/Vera_Hoffman/nyashafocalspecies",Sys.Date(),".csv",sep=""))
+
+###Write out georefs file to MaxEnt folder in appropriate format
+loc=refs[,c(10,12,11)]
+colnames(loc)<-c("Species","Lon","Lat")
+write.csv(loc, paste(maxdat,"loc",Sys.Date(),".csv",sep=""))
