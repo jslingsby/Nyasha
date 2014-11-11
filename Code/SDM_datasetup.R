@@ -51,7 +51,8 @@ max_NDVI=raster("Data/BiomassAccumulation/gamma.tif")
 recovery_rate=raster("Data/BiomassAccumulation/lambda.tif")
 fire_return=raster("Data/BiomassAccumulation/FireReturnTime_WeibullScale500m.tif")
 
-###Get soil moisture and fire return interval data...
+###Get soil moisture data...
+#cfr=readOGR(dsn="/Users/jasper/Documents/GIS/CFR/cfr_env_cory", layer="cfrdatalayers")
 #soil_moisture=raster("Data/BiomassAccumulation/XXXXX.tif")
 
 ###Get geology
