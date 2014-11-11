@@ -119,4 +119,4 @@ write.csv(refs, paste("Data/Vera_Hoffman/nyashafocalspecies",Sys.Date(),".csv",s
 ###Write out georefs file to MaxEnt folder in appropriate format
 loc=refs[,c(10,12,11)]
 colnames(loc)<-c("Species","Lon","Lat")
-write.csv(loc, paste(maxdat,"loc",Sys.Date(),".csv",sep=""))
+write.csv(loc, paste(maxdat,"loc",Sys.Date(),".csv",sep=""), row.names=F)
