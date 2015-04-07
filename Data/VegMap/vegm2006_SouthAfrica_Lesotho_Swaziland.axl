@@ -1,0 +1,1606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ARCXML version="1.1">
+  <CONFIG>
+    <ENVIRONMENT>
+      <LOCALE country="ZA" language="en" variant="" />
+      <UIFONT color="0,0,0" name="dialog" size="12" style="regular" />
+      <SCREEN dpi="96" />
+    </ENVIRONMENT>
+    <MAP>
+      <PROPERTIES>
+	<ENVELOPE minx="16.038823932172967" miny="-35.0" maxx="33.09763717651367" maxy="-22.0" name="Initial_Extent" />
+	<MAPUNITS units="decimal_degrees" />
+      </PROPERTIES>
+      <WORKSPACES>
+	<SHAPEWORKSPACE name="shp_ws-0" directory=".\Data" />
+      </WORKSPACES>
+      <LAYER type="featureclass" name="vegm2006_biomes_withforests" visible="true" id="6">
+	<DATASET name="vegm2006_biomes_withforests" type="polygon" workspace="shp_ws-0" />
+	<GROUPRENDERER>
+	  <VALUEMAPRENDERER lookupfield="BIOMENAME">
+	    <EXACT value="Albany Thicket" label="Albany Thicket">
+	      <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,27,27" boundarycaptype="round" />
+	    </EXACT>
+	    <EXACT value="Desert" label="Desert">
+	      <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,27,27" boundarycaptype="round" />
+	    </EXACT>
+	    <EXACT value="Forests" label="Forests">
+	      <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,127,27" boundarycaptype="round" />
+	    </EXACT>
+	    <EXACT value="Fynbos" label="Fynbos">
+	      <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,227,27" boundarycaptype="round" />
+	    </EXACT>
+	    <EXACT value="Grassland" label="Grassland">
+	      <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,127,27" boundarycaptype="round" />
+	    </EXACT>
+	    <EXACT value="Indian Ocean Coastal Belt" label="Indian Ocean Coastal Belt">
+	      <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,227,27" boundarycaptype="round" />
+	    </EXACT>
+	    <EXACT value="Nama-Karoo" label="Nama-Karoo">
+	      <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,27,27" boundarycaptype="round" />
+	    </EXACT>
+	    <EXACT value="Savanna" label="Savanna">
+	      <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,227,27" boundarycaptype="round" />
+	    </EXACT>
+	    <EXACT value="Succulent Karoo" label="Succulent Karoo">
+	      <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,127,27" boundarycaptype="round" />
+	    </EXACT>
+	  </VALUEMAPRENDERER>
+	  <SIMPLELABELRENDERER field="BIOMECODE">
+	    <TEXTSYMBOL font="Arial" fontstyle="regular" fontsize="10" />
+	  </SIMPLELABELRENDERER>
+	</GROUPRENDERER>
+      </LAYER>
+      <LAYER type="featureclass" name="vegm2006_bioregions" visible="false" id="5">
+	<DATASET name="vegm2006_bioregions" type="polygon" workspace="shp_ws-0" />
+	<GROUPRENDERER>
+	  <VALUEMAPRENDERER lookupfield="BIOREGION">
+	    <EXACT value="Albany Thicket" label="Albany Thicket">
+	      <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,127,127" boundarycaptype="round" />
+	    </EXACT>
+	    <EXACT value="Bushmanland" label="Bushmanland">
+	      <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,127,227" boundarycaptype="round" />
+	    </EXACT>
+	    <EXACT value="Central Bushveld" label="Central Bushveld">
+	      <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,27,127" boundarycaptype="round" />
+	    </EXACT>
+	    <EXACT value="Drakensberg Grassland" label="Drakensberg Grassland">
+	      <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,27,27" boundarycaptype="round" />
+	    </EXACT>
+	    <EXACT value="Dry Highveld Grassland" label="Dry Highveld Grassland">
+	      <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,127,27" boundarycaptype="round" />
+	    </EXACT>
+	    <EXACT value="East Coast Renosterveld" label="East Coast Renosterveld">
+	      <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,227,27" boundarycaptype="round" />
+	    </EXACT>
+	    <EXACT value="Eastern Fynbos-Renosterveld" label="Eastern Fynbos-Renosterveld">
+	      <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,227,27" boundarycaptype="round" />
+	    </EXACT>
+	    <EXACT value="Eastern Kalahari Bushveld" label="Eastern Kalahari Bushveld">
+	      <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,27,127" boundarycaptype="round" />
+	    </EXACT>
+	    <EXACT value="Gariep Desert" label="Gariep Desert">
+	      <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,27,27" boundarycaptype="round" />
+	    </EXACT>
+	    <EXACT value="Indian Ocean Coastal Belt" label="Indian Ocean Coastal Belt">
+	      <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,227,27" boundarycaptype="round" />
+	    </EXACT>
+	    <EXACT value="Kalahari Duneveld" label="Kalahari Duneveld">
+	      <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,227,227" boundarycaptype="round" />
+	    </EXACT>
+	    <EXACT value="Karoo Renosterveld" label="Karoo Renosterveld">
+	      <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,227,27" boundarycaptype="round" />
+	    </EXACT>
+	    <EXACT value="Knersvlakte" label="Knersvlakte">
+	      <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,227,227" boundarycaptype="round" />
+	    </EXACT>
+	    <EXACT value="Lower Karoo" label="Lower Karoo">
+	      <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,27,127" boundarycaptype="round" />
+	    </EXACT>
+	    <EXACT value="Lowveld" label="Lowveld">
+	      <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,127,127" boundarycaptype="round" />
+	    </EXACT>
+	    <EXACT value="Mesic Highveld Grassland" label="Mesic Highveld Grassland">
+	      <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,27,27" boundarycaptype="round" />
+	    </EXACT>
+	    <EXACT value="Mopane" label="Mopane">
+	      <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,127,27" boundarycaptype="round" />
+	    </EXACT>
+	    <EXACT value="Mopane Bioregion" label="Mopane Bioregion">
+	      <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,127,27" boundarycaptype="round" />
+	    </EXACT>
+	    <EXACT value="Namaqualand Cape Shrublands" label="Namaqualand Cape Shrublands">
+	      <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,227,227" boundarycaptype="round" />
+	    </EXACT>
+	    <EXACT value="Namaqualand Hardeveld" label="Namaqualand Hardeveld">
+	      <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,127,227" boundarycaptype="round" />
+	    </EXACT>
+	    <EXACT value="Namaqualand Sandveld" label="Namaqualand Sandveld">
+	      <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,127,127" boundarycaptype="round" />
+	    </EXACT>
+	    <EXACT value="Northwest Fynbos" label="Northwest Fynbos">
+	      <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,127,27" boundarycaptype="round" />
+	    </EXACT>
+	    <EXACT value="Rainshadow Valley Karoo" label="Rainshadow Valley Karoo">
+	      <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,27,227" boundarycaptype="round" />
+	    </EXACT>
+	    <EXACT value="Richtersveld" label="Richtersveld">
+	      <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,27,27" boundarycaptype="round" />
+	    </EXACT>
+	    <EXACT value="South Coast Fynbos" label="South Coast Fynbos">
+	      <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,27,27" boundarycaptype="round" />
+	    </EXACT>
+	    <EXACT value="Southern Fynbos" label="Southern Fynbos">
+	      <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,227,27" boundarycaptype="round" />
+	    </EXACT>
+	    <EXACT value="Southern Namib Desert" label="Southern Namib Desert">
+	      <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,127,27" boundarycaptype="round" />
+	    </EXACT>
+	    <EXACT value="South Strandveld" label="South Strandveld">
+	      <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,227,27" boundarycaptype="round" />
+	    </EXACT>
+	    <EXACT value="Southwest Fynbos" label="Southwest Fynbos">
+	      <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,27,27" boundarycaptype="round" />
+	    </EXACT>
+	    <EXACT value="Sub-Escarpment Grassland" label="Sub-Escarpment Grassland">
+	      <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,127,27" boundarycaptype="round" />
+	    </EXACT>
+	    <EXACT value="Sub-Escarpment Savanna" label="Sub-Escarpment Savanna">
+	      <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,27,227" boundarycaptype="round" />
+	    </EXACT>
+	    <EXACT value="Trans-Escarpment Succulent Karoo" label="Trans-Escarpment Succulent Karoo">
+	      <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,227,127" boundarycaptype="round" />
+	    </EXACT>
+	    <EXACT value="Upper Karoo" label="Upper Karoo">
+	      <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,227,127" boundarycaptype="round" />
+	    </EXACT>
+	    <EXACT value="West Coast Renosterveld" label="West Coast Renosterveld">
+	      <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,27,227" boundarycaptype="round" />
+	    </EXACT>
+	    <EXACT value="Western Fynbos-Renosterveld" label="Western Fynbos-Renosterveld">
+	      <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,227,127" boundarycaptype="round" />
+	    </EXACT>
+	    <EXACT value="West Strandveld" label="West Strandveld">
+	      <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,127,227" boundarycaptype="round" />
+	    </EXACT>
+	  </VALUEMAPRENDERER>
+	  <SIMPLELABELRENDERER field="BRGNCODE">
+	    <TEXTSYMBOL font="Arial" fontstyle="regular" fontsize="10" />
+	  </SIMPLELABELRENDERER>
+	</GROUPRENDERER>
+      </LAYER>
+      <LAYER type="featureclass" name="vegm2006" visible="false" id="7">
+	<DATASET name="vegm2006" type="polygon" workspace="shp_ws-0" />
+	<VALUEMAPRENDERER lookupfield="TOCLEGEND">
+	  <EXACT value="01 01 001 FFs 1  Bokkeveld Sandstone Fynbos" label="01 01 001 FFs 1  Bokkeveld Sandstone Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,127,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 01 002 FFs 2  Graafwater Sandstone Fynbos" label="01 01 002 FFs 2  Graafwater Sandstone Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,227,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 01 003 FFs 3  Olifants Sandstone Fynbos" label="01 01 003 FFs 3  Olifants Sandstone Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,227,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 01 004 FFs 4  Cederberg Sandstone Fynbos" label="01 01 004 FFs 4  Cederberg Sandstone Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,227,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 01 005 FFs 5  Winterhoek Sandstone Fynbos" label="01 01 005 FFs 5  Winterhoek Sandstone Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,227,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 01 006 FFs 6  Piketberg Sandstone Fynbos" label="01 01 006 FFs 6  Piketberg Sandstone Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,127,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 01 007 FFs 7  North Hex Sandstone Fynbos" label="01 01 007 FFs 7  North Hex Sandstone Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,227,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 01 008 FFs 8  South Hex Sandstone Fynbos" label="01 01 008 FFs 8  South Hex Sandstone Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,127,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 01 009 FFs 9  Peninsula Sandstone Fynbos" label="01 01 009 FFs 9  Peninsula Sandstone Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,27,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 01 010 FFs 10  Hawequas Sandstone Fynbos" label="01 01 010 FFs 10  Hawequas Sandstone Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,27,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 01 011 FFs 11  Kogelberg Sandstone Fynbos" label="01 01 011 FFs 11  Kogelberg Sandstone Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,127,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 01 012 FFs 12  Overberg Sandstone Fynbos" label="01 01 012 FFs 12  Overberg Sandstone Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,127,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 01 013 FFs 13  North Sonderend Sandstone Fynbos" label="01 01 013 FFs 13  North Sonderend Sandstone Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,227,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 01 014 FFs 14  South Sonderend Sandstone Fynbos" label="01 01 014 FFs 14  South Sonderend Sandstone Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,27,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 01 015 FFs 15  North Langeberg Sandstone Fynbos" label="01 01 015 FFs 15  North Langeberg Sandstone Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,227,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 01 016 FFs 16  South Langeberg Sandstone Fynbos" label="01 01 016 FFs 16  South Langeberg Sandstone Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,27,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 01 017 FFs 17  Potberg Sandstone Fynbos" label="01 01 017 FFs 17  Potberg Sandstone Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,127,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 01 018 FFs 18  North Outeniqua Sandstone Fynbos" label="01 01 018 FFs 18  North Outeniqua Sandstone Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,27,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 01 019 FFs 19  South Outeniqua Sandstone Fynbos" label="01 01 019 FFs 19  South Outeniqua Sandstone Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,227,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 01 020 FFs 20  Tsitsikamma Sandstone Fynbos" label="01 01 020 FFs 20  Tsitsikamma Sandstone Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,227,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 01 021 FFs 21  North Rooiberg Sandstone Fynbos" label="01 01 021 FFs 21  North Rooiberg Sandstone Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,127,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 01 022 FFs 22  South Rooiberg Sandstone Fynbos" label="01 01 022 FFs 22  South Rooiberg Sandstone Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,227,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 01 023 FFs 23  North Swartberg Sandstone Fynbos" label="01 01 023 FFs 23  North Swartberg Sandstone Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,27,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 01 024 FFs 24  South Swartberg Sandstone Fynbos" label="01 01 024 FFs 24  South Swartberg Sandstone Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,127,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 01 025 FFs 25  North Kammanassie Sandstone Fynbos" label="01 01 025 FFs 25  North Kammanassie Sandstone Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,27,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 01 026 FFs 26  South Kammanassie Sandstone Fynbos" label="01 01 026 FFs 26  South Kammanassie Sandstone Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,127,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 01 027 FFs 27  Kouga Sandstone Fynbos" label="01 01 027 FFs 27  Kouga Sandstone Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,127,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 01 028 FFs 28  Kouga Grassy Sandstone Fynbos" label="01 01 028 FFs 28  Kouga Grassy Sandstone Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,127,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 01 029 FFs 29  Algoa Sandstone Fynbos" label="01 01 029 FFs 29  Algoa Sandstone Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,227,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 01 030 FFs 30  Western Altimontane Sandstone Fynbos" label="01 01 030 FFs 30  Western Altimontane Sandstone Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,27,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 01 031 FFs 31  Swartberg Altimontane Sandstone Fynbos" label="01 01 031 FFs 31  Swartberg Altimontane Sandstone Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,227,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 02 001 FFq 1  Stinkfonteinberge Quartzite Fynbos" label="01 02 001 FFq 1  Stinkfonteinberge Quartzite Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,227,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 02 002 FFq 2  Swartruggens Quartzite Fynbos" label="01 02 002 FFq 2  Swartruggens Quartzite Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,127,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 02 003 FFq 3  Matjiesfontein Quartzite Fynbos" label="01 02 003 FFq 3  Matjiesfontein Quartzite Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,27,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 02 004 FFq 4  Breede Quartzite Fynbos" label="01 02 004 FFq 4  Breede Quartzite Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,27,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 02 005 FFq 5  Grootrivier Quartzite Fynbos" label="01 02 005 FFq 5  Grootrivier Quartzite Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,27,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 02 006 FFq 6  Suurberg Quartzite Fynbos" label="01 02 006 FFq 6  Suurberg Quartzite Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,127,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 03 001 FFd 1  Namaqualand Sand Fynbos" label="01 03 001 FFd 1  Namaqualand Sand Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,127,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 03 002 FFd 2  Leipoldtville Sand Fynbos" label="01 03 002 FFd 2  Leipoldtville Sand Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,227,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 03 003 FFd 3  Hopefield Sand Fynbos" label="01 03 003 FFd 3  Hopefield Sand Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,27,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 03 004 FFd 4  Atlantis Sand Fynbos" label="01 03 004 FFd 4  Atlantis Sand Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,27,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 03 005 FFd 5  Cape Flats Sand Fynbos" label="01 03 005 FFd 5  Cape Flats Sand Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,27,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 03 006 FFd 6  Hangklip Sand Fynbos" label="01 03 006 FFd 6  Hangklip Sand Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,27,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 03 007 FFd 7  Agulhas Sand Fynbos" label="01 03 007 FFd 7  Agulhas Sand Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,127,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 03 008 FFd 8  Breede Sand Fynbos" label="01 03 008 FFd 8  Breede Sand Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,227,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 03 009 FFd 9  Albertinia Sand Fynbos" label="01 03 009 FFd 9  Albertinia Sand Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,227,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 03 010 FFd 10  Knysna Sand Fynbos" label="01 03 010 FFd 10  Knysna Sand Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,27,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 03 011 FFd 11  Southern Cape Dune Fynbos" label="01 03 011 FFd 11  Southern Cape Dune Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,127,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 04 001 FFh 1  Kouebokkeveld Shale Fynbos" label="01 04 001 FFh 1  Kouebokkeveld Shale Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,227,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 04 002 FFh 2  Matjiesfontein Shale Fynbos" label="01 04 002 FFh 2  Matjiesfontein Shale Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,127,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 04 003 FFh 3  Swartberg Shale Fynbos" label="01 04 003 FFh 3  Swartberg Shale Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,227,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 04 004 FFh 4  Breede Shale Fynbos" label="01 04 004 FFh 4  Breede Shale Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,27,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 04 005 FFh 5  Cape Winelands Shale Fynbos" label="01 04 005 FFh 5  Cape Winelands Shale Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,227,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 04 006 FFh 6  Elgin Shale Fynbos" label="01 04 006 FFh 6  Elgin Shale Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,227,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 04 007 FFh 7  Greyton Shale Fynbos" label="01 04 007 FFh 7  Greyton Shale Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,27,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 04 008 FFh 8  Montagu Shale Fynbos" label="01 04 008 FFh 8  Montagu Shale Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,127,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 04 009 FFh 9  Garden Route Shale Fynbos" label="01 04 009 FFh 9  Garden Route Shale Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,227,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 04 010 FFh 10  Suurberg Shale Fynbos" label="01 04 010 FFh 10  Suurberg Shale Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,27,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 05 001 FFb 1  Northern Inland Shale Band Vegetation" label="01 05 001 FFb 1  Northern Inland Shale Band Vegetation">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,127,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 05 002 FFb 2  Western Coastal Shale Band Vegetation" label="01 05 002 FFb 2  Western Coastal Shale Band Vegetation">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,27,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 05 003 FFb 3  Central Inland Shale Band Vegetation" label="01 05 003 FFb 3  Central Inland Shale Band Vegetation">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,127,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 05 004 FFb 4  Central Coastal Shale Band Vegetation" label="01 05 004 FFb 4  Central Coastal Shale Band Vegetation">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,227,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 05 005 FFb 5  Eastern Inland Shale Band Vegetation" label="01 05 005 FFb 5  Eastern Inland Shale Band Vegetation">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,227,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 05 006 FFb 6  Eastern Coastal Shale Band Vegetation" label="01 05 006 FFb 6  Eastern Coastal Shale Band Vegetation">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,227,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 06 001 FFt 1  Kango Conglomerate Fynbos" label="01 06 001 FFt 1  Kango Conglomerate Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,127,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 06 002 FFt 2  Loerie Conglomerate Fynbos" label="01 06 002 FFt 2  Loerie Conglomerate Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,127,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 07 001 FFa 1  Kouebokkeveld Alluvium Fynbos" label="01 07 001 FFa 1  Kouebokkeveld Alluvium Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,227,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 07 002 FFa 2  Breede Alluvium Fynbos" label="01 07 002 FFa 2  Breede Alluvium Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,227,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 07 003 FFa 3  Swartland Alluvium Fynbos" label="01 07 003 FFa 3  Swartland Alluvium Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,127,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 07 004 FFa 4  Lourensford Alluvium Fynbos" label="01 07 004 FFa 4  Lourensford Alluvium Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,27,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 08 001 FFg 1  Kamiesberg Granite Fynbos" label="01 08 001 FFg 1  Kamiesberg Granite Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,227,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 08 002 FFg 2  Boland Granite Fynbos" label="01 08 002 FFg 2  Boland Granite Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,27,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 08 003 FFg 3  Peninsula Granite Fynbos" label="01 08 003 FFg 3  Peninsula Granite Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,227,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 08 004 FFg 4  Robertson Granite Fynbos" label="01 08 004 FFg 4  Robertson Granite Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,127,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 08 005 FFg 5  Garden Route Granite Fynbos" label="01 08 005 FFg 5  Garden Route Granite Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,227,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 09 001 FFc 1  Swellendam Silcrete Fynbos" label="01 09 001 FFc 1  Swellendam Silcrete Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,227,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 10 001 FFf 1  Elim Ferricrete Fynbos" label="01 10 001 FFf 1  Elim Ferricrete Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,27,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 10 002 FFf 2  Potberg Ferricrete Fynbos" label="01 10 002 FFf 2  Potberg Ferricrete Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,127,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 11 001 FFl 1  Agulhas Limestone Fynbos" label="01 11 001 FFl 1  Agulhas Limestone Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,227,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 11 002 FFl 2  De Hoop Limestone Fynbos" label="01 11 002 FFl 2  De Hoop Limestone Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,227,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 11 003 FFl 3  Canca Limestone Fynbos" label="01 11 003 FFl 3  Canca Limestone Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,127,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 12 001 FRs 1  Vanrhynsdorp Shale Renosterveld" label="01 12 001 FRs 1  Vanrhynsdorp Shale Renosterveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,27,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 12 002 FRs 2  Nieuwoudtville Shale Renosterveld" label="01 12 002 FRs 2  Nieuwoudtville Shale Renosterveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,127,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 12 003 FRs 3  Roggeveld Shale Renosterveld" label="01 12 003 FRs 3  Roggeveld Shale Renosterveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,27,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 12 004 FRs 4  Ceres Shale Renosterveld" label="01 12 004 FRs 4  Ceres Shale Renosterveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,127,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 12 005 FRs 5  Central Mountain Shale Renosterveld" label="01 12 005 FRs 5  Central Mountain Shale Renosterveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,227,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 12 006 FRs 6  Matjiesfontein Shale Renosterveld" label="01 12 006 FRs 6  Matjiesfontein Shale Renosterveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,127,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 12 007 FRs 7  Montagu Shale Renosterveld" label="01 12 007 FRs 7  Montagu Shale Renosterveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,227,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 12 008 FRs 8  Breede Shale Renosterveld" label="01 12 008 FRs 8  Breede Shale Renosterveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,127,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 12 009 FRs 9  Swartland Shale Renosterveld" label="01 12 009 FRs 9  Swartland Shale Renosterveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,227,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 12 010 FRs 10  Peninsula Shale Renosterveld" label="01 12 010 FRs 10  Peninsula Shale Renosterveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,227,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 12 011 FRs 11  Western R1ens Shale Renosterveld" label="01 12 011 FRs 11  Western R1ens Shale Renosterveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,127,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 12 012 FRs 12  Central R1ens Shale Renosterveld" label="01 12 012 FRs 12  Central R1ens Shale Renosterveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,227,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 12 013 FRs 13  Eastern R1ens Shale Renosterveld" label="01 12 013 FRs 13  Eastern R1ens Shale Renosterveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,227,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 12 014 FRs 14  Mossel Bay Shale Renosterveld" label="01 12 014 FRs 14  Mossel Bay Shale Renosterveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,127,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 12 015 FRs 15  Swartberg Shale Renosterveld" label="01 12 015 FRs 15  Swartberg Shale Renosterveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,227,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 12 016 FRs 16  Uniondale Shale Renosterveld" label="01 12 016 FRs 16  Uniondale Shale Renosterveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,127,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 12 017 FRs 17  Langkloof Shale Renosterveld" label="01 12 017 FRs 17  Langkloof Shale Renosterveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,227,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 12 018 FRs 18  Baviaanskloof Shale Renosterveld" label="01 12 018 FRs 18  Baviaanskloof Shale Renosterveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,227,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 12 019 FRs 19  Humansdorp Shale Renosterveld" label="01 12 019 FRs 19  Humansdorp Shale Renosterveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,27,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 14 001 FRg 1  Namaqualand Granite Renosterveld" label="01 14 001 FRg 1  Namaqualand Granite Renosterveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,227,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 14 002 FRg 2  Swartland Granite Renosterveld" label="01 14 002 FRg 2  Swartland Granite Renosterveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,27,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 14 003 FRg 3  Robertson Granite Renosterveld" label="01 14 003 FRg 3  Robertson Granite Renosterveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,127,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 15 001 FRd 1  Nieuwoudtville-Roggeveld Dolerite Renosterveld" label="01 15 001 FRd 1  Nieuwoudtville-Roggeveld Dolerite Renosterveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,127,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 15 002 FRd 2  Hantam Plateau Dolerite Renosterveld" label="01 15 002 FRd 2  Hantam Plateau Dolerite Renosterveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,127,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 16 001 FRa 1  Breede Alluvium Renosterveld" label="01 16 001 FRa 1  Breede Alluvium Renosterveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,27,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 16 002 FRa 2  Swartland Alluvium Renosterveld" label="01 16 002 FRa 2  Swartland Alluvium Renosterveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,127,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 17 001 FRc 1  Swartland Silcrete Renosterveld" label="01 17 001 FRc 1  Swartland Silcrete Renosterveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,27,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 17 002 FRc 2  R1ens Silcrete Renosterveld" label="01 17 002 FRc 2  R1ens Silcrete Renosterveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,127,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 18 001 FRl 1  Kango Limestone Renosterveld" label="01 18 001 FRl 1  Kango Limestone Renosterveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,127,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 19 001 FS 1  Lambert&apos;s Bay Strandveld" label="01 19 001 FS 1  Lambert&apos;s Bay Strandveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,227,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 19 002 FS 2  Saldanha Granite Strandveld" label="01 19 002 FS 2  Saldanha Granite Strandveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,227,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 19 003 FS 3  Saldanha Flats Strandveld" label="01 19 003 FS 3  Saldanha Flats Strandveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,27,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 19 004 FS 4  Saldanha Limestone Strandveld" label="01 19 004 FS 4  Saldanha Limestone Strandveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,227,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 19 005 FS 5  Langebaan Dune Strandveld" label="01 19 005 FS 5  Langebaan Dune Strandveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,227,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 19 006 FS 6  Cape Flats Dune Strandveld" label="01 19 006 FS 6  Cape Flats Dune Strandveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,27,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 19 007 FS 7  Overberg Dune Strandveld" label="01 19 007 FS 7  Overberg Dune Strandveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,27,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 19 008 FS 8  Blombos Strandveld" label="01 19 008 FS 8  Blombos Strandveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,127,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="01 19 009 FS 9  Groot Brak Dune Strandveld" label="01 19 009 FS 9  Groot Brak Dune Strandveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,27,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 01 001 SKr 1  Central Richtersveld Mountain Shrubland" label="02 01 001 SKr 1  Central Richtersveld Mountain Shrubland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,227,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 01 002 SKr 2  Upper Annisvlakte Succulent Shrubland" label="02 01 002 SKr 2  Upper Annisvlakte Succulent Shrubland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,227,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 01 003 SKr 3  Goariep Mountain Succulent Shrubland" label="02 01 003 SKr 3  Goariep Mountain Succulent Shrubland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,127,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 01 004 SKr 4  Lekkersing Succulent Shrubland" label="02 01 004 SKr 4  Lekkersing Succulent Shrubland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,227,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 01 005 SKr 5  Vyftienmyl se Berge Succulent Shrubland" label="02 01 005 SKr 5  Vyftienmyl se Berge Succulent Shrubland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,127,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 01 006 SKr 6  Stinkfonteinberge Eastern Apron Shrubland" label="02 01 006 SKr 6  Stinkfonteinberge Eastern Apron Shrubland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,27,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 01 007 SKr 7  Northern Richtersveld Scorpionstailveld" label="02 01 007 SKr 7  Northern Richtersveld Scorpionstailveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,27,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 01 008 SKr 8  Rosyntjieberg Succulent Shrubland" label="02 01 008 SKr 8  Rosyntjieberg Succulent Shrubland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,227,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 01 009 SKr 9  Tatasberg Mountain Succulent Shrubland" label="02 01 009 SKr 9  Tatasberg Mountain Succulent Shrubland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,27,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 01 010 SKr 10  Die Plate Succulent Shrubland" label="02 01 010 SKr 10  Die Plate Succulent Shrubland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,27,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 01 011 SKr 11  Rooiberg Quartz Vygieveld" label="02 01 011 SKr 11  Rooiberg Quartz Vygieveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,27,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 01 012 SKr 12  Kosiesberg Succulent Shrubland" label="02 01 012 SKr 12  Kosiesberg Succulent Shrubland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,227,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 01 013 SKr 13  Southern Richtersveld Scorpionstailveld" label="02 01 013 SKr 13  Southern Richtersveld Scorpionstailveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,227,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 01 014 SKr 14  Southern Richtersveld Inselberg Shrubland" label="02 01 014 SKr 14  Southern Richtersveld Inselberg Shrubland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,27,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 01 015 SKr 15  Anenous Plateau Shrubland" label="02 01 015 SKr 15  Anenous Plateau Shrubland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,127,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 01 016 SKr 16  Umdaus Mountains Succulent Shrubland" label="02 01 016 SKr 16  Umdaus Mountains Succulent Shrubland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,227,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 01 017 SKr 17  Eenriet Plains Succulent Shrubland" label="02 01 017 SKr 17  Eenriet Plains Succulent Shrubland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,27,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 01 018 SKr 18  Bushmanland Inselberg Shrubland" label="02 01 018 SKr 18  Bushmanland Inselberg Shrubland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,27,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 01 019 SKr 19  Aggeneys Gravel Vygieveld" label="02 01 019 SKr 19  Aggeneys Gravel Vygieveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,127,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 02 001 SKn 1  Namaqualand Klipkoppe Shrubland" label="02 02 001 SKn 1  Namaqualand Klipkoppe Shrubland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,27,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 02 002 SKn 2  Namaqualand Shale Shrubland" label="02 02 002 SKn 2  Namaqualand Shale Shrubland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,227,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 02 003 SKn 3  Namaqualand Blomveld" label="02 02 003 SKn 3  Namaqualand Blomveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,227,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 02 004 SKn 4  Namaqualand Heuweltjieveld" label="02 02 004 SKn 4  Namaqualand Heuweltjieveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,127,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 02 005 SKn 5  Platbakkies Succulent Shrubland" label="02 02 005 SKn 5  Platbakkies Succulent Shrubland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,27,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 02 006 SKn 6  Kamiesberg Mountains Shrubland" label="02 02 006 SKn 6  Kamiesberg Mountains Shrubland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,127,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 03 001 SKs 1  Richtersveld Coastal Duneveld" label="02 03 001 SKs 1  Richtersveld Coastal Duneveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,27,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 03 002 SKs 2  Northern Richtersveld Yellow Duneveld" label="02 03 002 SKs 2  Northern Richtersveld Yellow Duneveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,127,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 03 003 SKs 3  Southern Richtersveld Yellow Duneveld" label="02 03 003 SKs 3  Southern Richtersveld Yellow Duneveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,27,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 03 004 SKs 4  Richtersveld Sandy Coastal Scorpionstailveld" label="02 03 004 SKs 4  Richtersveld Sandy Coastal Scorpionstailveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,127,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 03 005 SKs 5  Richtersveld Red Duneveld" label="02 03 005 SKs 5  Richtersveld Red Duneveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,227,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 03 006 SKs 6  Oograbies Plains Sandy Grassland" label="02 03 006 SKs 6  Oograbies Plains Sandy Grassland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,227,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 03 007 SKs 7  Namaqualand Strandveld" label="02 03 007 SKs 7  Namaqualand Strandveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,127,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 03 008 SKs 8  Namaqualand Coastal Duneveld" label="02 03 008 SKs 8  Namaqualand Coastal Duneveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,227,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 03 009 SKs 9  Namaqualand Inland Duneveld" label="02 03 009 SKs 9  Namaqualand Inland Duneveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,127,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 03 010 SKs 10  Riethuis-Wallekraal Quartz Vygieveld" label="02 03 010 SKs 10  Riethuis-Wallekraal Quartz Vygieveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,127,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 03 011 SKs 11  Namaqualand Arid Grassland" label="02 03 011 SKs 11  Namaqualand Arid Grassland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,127,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 03 012 SKs 12  Namaqualand Spinescent Grassland" label="02 03 012 SKs 12  Namaqualand Spinescent Grassland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,227,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 03 013 SKs 13  Klawer Sandy Shrubland" label="02 03 013 SKs 13  Klawer Sandy Shrubland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,27,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 04 001 SKk 1  Northern Knersvlakte Vygieveld" label="02 04 001 SKk 1  Northern Knersvlakte Vygieveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,127,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 04 002 SKk 2  Central Knersvlakte Vygieveld" label="02 04 002 SKk 2  Central Knersvlakte Vygieveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,27,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 04 003 SKk 3  Knersvlakte Quartz Vygieveld" label="02 04 003 SKk 3  Knersvlakte Quartz Vygieveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,127,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 04 004 SKk 4  Knersvlakte Shale Vygieveld" label="02 04 004 SKk 4  Knersvlakte Shale Vygieveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,227,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 04 005 SKk 5  Vanrhynsdorp Gannabosveld" label="02 04 005 SKk 5  Vanrhynsdorp Gannabosveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,227,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 04 006 SKk 6  Knersvlakte Dolomite Vygieveld" label="02 04 006 SKk 6  Knersvlakte Dolomite Vygieveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,127,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 04 007 SKk 7  Citrusdal Vygieveld" label="02 04 007 SKk 7  Citrusdal Vygieveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,127,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 04 008 SKk 8  Piketberg Quartz Succulent Shrubland" label="02 04 008 SKk 8  Piketberg Quartz Succulent Shrubland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,127,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 05 001 SKt 1  Western Bushmanland Klipveld" label="02 05 001 SKt 1  Western Bushmanland Klipveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,127,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 05 002 SKt 2  Hantam Karoo" label="02 05 002 SKt 2  Hantam Karoo">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,227,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 05 003 SKt 3  Roggeveld Karoo" label="02 05 003 SKt 3  Roggeveld Karoo">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,27,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 06 001 SKv 1  Doringrivier Quartzite Karoo" label="02 06 001 SKv 1  Doringrivier Quartzite Karoo">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,27,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 06 002 SKv 2  Swartruggens Quartzite Karoo" label="02 06 002 SKv 2  Swartruggens Quartzite Karoo">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,227,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 06 003 SKv 3  Agter-Sederberg Shrubland" label="02 06 003 SKv 3  Agter-Sederberg Shrubland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,27,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 06 004 SKv 4  Tanqua Escarpment Shrubland" label="02 06 004 SKv 4  Tanqua Escarpment Shrubland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,27,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 06 005 SKv 5  Tanqua Karoo" label="02 06 005 SKv 5  Tanqua Karoo">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,27,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 06 006 SKv 6  Koedoesberge-Moordenaars Karoo" label="02 06 006 SKv 6  Koedoesberge-Moordenaars Karoo">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,227,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 06 007 SKv 7  Robertson Karoo" label="02 06 007 SKv 7  Robertson Karoo">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,27,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 06 008 SKv 8  Western Little Karoo" label="02 06 008 SKv 8  Western Little Karoo">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,227,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 06 009 SKv 9  Western Gwarrieveld" label="02 06 009 SKv 9  Western Gwarrieveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,227,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 06 010 SKv 10  Little Karoo Quartz Vygieveld" label="02 06 010 SKv 10  Little Karoo Quartz Vygieveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,127,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 06 011 SKv 11  Eastern Little Karoo" label="02 06 011 SKv 11  Eastern Little Karoo">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,227,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 06 012 SKv 12  Willowmore Gwarrieveld" label="02 06 012 SKv 12  Willowmore Gwarrieveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,27,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 06 013 SKv 13  Prince Albert Succulent Karoo" label="02 06 013 SKv 13  Prince Albert Succulent Karoo">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,27,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="02 06 014 SKv 14  Steytlerville Karoo" label="02 06 014 SKv 14  Steytlerville Karoo">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,127,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="03 01 001 Dn 1  Alexander Bay Coastal Duneveld" label="03 01 001 Dn 1  Alexander Bay Coastal Duneveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,27,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="03 01 002 Dn 2  Namib Lichen Fields" label="03 01 002 Dn 2  Namib Lichen Fields">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,127,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="03 01 003 Dn 3  Western Gariep Plains Desert" label="03 01 003 Dn 3  Western Gariep Plains Desert">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,27,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="03 01 004 Dn 4  Western Gariep Lowland Desert" label="03 01 004 Dn 4  Western Gariep Lowland Desert">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,227,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="03 01 005 Dn 5  Western Gariep Hills Desert" label="03 01 005 Dn 5  Western Gariep Hills Desert">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,227,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="03 02 001 Dg 1  Noms Mountain Desert" label="03 02 001 Dg 1  Noms Mountain Desert">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,27,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="03 02 002 Dg 2  Richtersberg Mountain Desert" label="03 02 002 Dg 2  Richtersberg Mountain Desert">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,27,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="03 02 003 Dg 3  Richtersveld Sheet Wash Desert" label="03 02 003 Dg 3  Richtersveld Sheet Wash Desert">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,227,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="03 02 004 Dg 4  Kwaggarug Mountain Desert" label="03 02 004 Dg 4  Kwaggarug Mountain Desert">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,227,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="03 02 005 Dg 5  Kahams Mountain Desert" label="03 02 005 Dg 5  Kahams Mountain Desert">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,127,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="03 02 006 Dg 6  Helskloof Canyon Desert" label="03 02 006 Dg 6  Helskloof Canyon Desert">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,227,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="03 02 007 Dg 7  Northern Nababiepsberge Mountain Desert" label="03 02 007 Dg 7  Northern Nababiepsberge Mountain Desert">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,227,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="03 02 008 Dg 8  Southern Nababiepsberge Mountain Desert" label="03 02 008 Dg 8  Southern Nababiepsberge Mountain Desert">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,127,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="03 02 009 Dg 9  Eastern Gariep Plains Desert" label="03 02 009 Dg 9  Eastern Gariep Plains Desert">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,27,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="03 02 010 Dg 10  Eastern Gariep Rocky Desert" label="03 02 010 Dg 10  Eastern Gariep Rocky Desert">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,227,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="04 01 001 NKb 1  Lower Gariep Broken Veld" label="04 01 001 NKb 1  Lower Gariep Broken Veld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,227,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="04 01 002 NKb 2  Blouputs Karroid Thornveld" label="04 01 002 NKb 2  Blouputs Karroid Thornveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,227,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="04 01 003 NKb 3  Bushmanland Arid Grassland" label="04 01 003 NKb 3  Bushmanland Arid Grassland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,127,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="04 01 004 NKb 4  Bushmanland Sandy Grassland" label="04 01 004 NKb 4  Bushmanland Sandy Grassland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,27,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="04 01 005 NKb 5  Kalahari Karroid Shrubland" label="04 01 005 NKb 5  Kalahari Karroid Shrubland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,127,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="04 01 006 NKb 6  Bushmanland Basin Shrubland" label="04 01 006 NKb 6  Bushmanland Basin Shrubland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,227,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="04 02 001 NKu 1  Western Upper Karoo" label="04 02 001 NKu 1  Western Upper Karoo">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,27,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="04 02 002 NKu 2  Upper Karoo Hardeveld" label="04 02 002 NKu 2  Upper Karoo Hardeveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,227,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="04 02 003 NKu 3  Northern Upper Karoo" label="04 02 003 NKu 3  Northern Upper Karoo">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,27,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="04 02 004 NKu 4  Eastern Upper Karoo" label="04 02 004 NKu 4  Eastern Upper Karoo">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,227,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="04 03 001 NKl 1  Gamka Karoo" label="04 03 001 NKl 1  Gamka Karoo">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,127,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="04 03 002 NKl 2  Eastern Lower Karoo" label="04 03 002 NKl 2  Eastern Lower Karoo">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,127,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="04 03 003 NKl 3  Lower Karoo Gwarrieveld" label="04 03 003 NKl 3  Lower Karoo Gwarrieveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,127,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="04 03 004 NKl 4  Albany Broken Veld" label="04 03 004 NKl 4  Albany Broken Veld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,27,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 01 001 Gd 1  Amathole Montane Grassland" label="05 01 001 Gd 1  Amathole Montane Grassland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,127,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 01 002 Gd 2  Amathole Mistbelt Grassland" label="05 01 002 Gd 2  Amathole Mistbelt Grassland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,227,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 01 003 Gd 3  Stormberg Plateau Grassland" label="05 01 003 Gd 3  Stormberg Plateau Grassland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,127,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 01 004 Gd 4  Southern Drakensberg Highland Grassland" label="05 01 004 Gd 4  Southern Drakensberg Highland Grassland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,227,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 01 005 Gd 5  Northern Drakensberg Highland Grassland" label="05 01 005 Gd 5  Northern Drakensberg Highland Grassland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,27,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 01 006 Gd 6  Drakensberg-Amathole Afromontane Fynbos" label="05 01 006 Gd 6  Drakensberg-Amathole Afromontane Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,127,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 01 007 Gd 7  uKhahlamba Basalt Grassland" label="05 01 007 Gd 7  uKhahlamba Basalt Grassland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,227,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 01 008 Gd 8  Lesotho Highland Basalt Grassland" label="05 01 008 Gd 8  Lesotho Highland Basalt Grassland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,227,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 01 009 Gd 9  Western Lesotho Basalt Shrubland" label="05 01 009 Gd 9  Western Lesotho Basalt Shrubland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,127,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 01 010 Gd 10  Drakensberg Afroalpine Heathland" label="05 01 010 Gd 10  Drakensberg Afroalpine Heathland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,227,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 02 001 Gh 1  Karoo Escarpment Grassland" label="05 02 001 Gh 1  Karoo Escarpment Grassland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,227,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 02 002 Gh 2  Aliwal North Dry Grassland" label="05 02 002 Gh 2  Aliwal North Dry Grassland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,127,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 02 003 Gh 3  Xhariep Karroid Grassland" label="05 02 003 Gh 3  Xhariep Karroid Grassland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,27,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 02 004 Gh 4  Besemkaree Koppies Shrubland" label="05 02 004 Gh 4  Besemkaree Koppies Shrubland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,27,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 02 005 Gh 5  Bloemfontein Dry Grassland" label="05 02 005 Gh 5  Bloemfontein Dry Grassland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,27,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 02 006 Gh 6  Central Free State Grassland" label="05 02 006 Gh 6  Central Free State Grassland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,27,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 02 007 Gh 7  Winburg Grassy Shrubland" label="05 02 007 Gh 7  Winburg Grassy Shrubland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,227,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 02 008 Gh 8  Bloemfontein Karroid Shrubland" label="05 02 008 Gh 8  Bloemfontein Karroid Shrubland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,27,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 02 009 Gh 9  Western Free State Clay Grassland" label="05 02 009 Gh 9  Western Free State Clay Grassland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,227,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 02 010 Gh 10  Vaal-Vet Sandy Grassland" label="05 02 010 Gh 10  Vaal-Vet Sandy Grassland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,27,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 02 011 Gh 11  Vredefort Dome Granite Grassland" label="05 02 011 Gh 11  Vredefort Dome Granite Grassland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,127,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 02 012 Gh 12  Vaal Reefs Dolomite Sinkhole Woodland" label="05 02 012 Gh 12  Vaal Reefs Dolomite Sinkhole Woodland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,127,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 02 013 Gh 13  Klerksdorp Thornveld" label="05 02 013 Gh 13  Klerksdorp Thornveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,127,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 02 014 Gh 14  Western Highveld Sandy Grassland" label="05 02 014 Gh 14  Western Highveld Sandy Grassland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,127,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 02 015 Gh 15  Carletonville Dolomite Grassland" label="05 02 015 Gh 15  Carletonville Dolomite Grassland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,227,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 03 001 Gm 1  Zastron Moist Grassland" label="05 03 001 Gm 1  Zastron Moist Grassland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,227,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 03 002 Gm 2  Senqu Montane Shrubland" label="05 03 002 Gm 2  Senqu Montane Shrubland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,227,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 03 003 Gm 3  Eastern Free State Clay Grassland" label="05 03 003 Gm 3  Eastern Free State Clay Grassland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,27,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 03 004 Gm 4  Eastern Free State Sandy Grassland" label="05 03 004 Gm 4  Eastern Free State Sandy Grassland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,127,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 03 005 Gm 5  Basotho Montane Shrubland" label="05 03 005 Gm 5  Basotho Montane Shrubland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,27,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 03 006 Gm 6  Frankfort Highveld Grassland" label="05 03 006 Gm 6  Frankfort Highveld Grassland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,27,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 03 007 Gm 7  Northern Free State Shrubland" label="05 03 007 Gm 7  Northern Free State Shrubland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,27,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 03 008 Gm 8  Soweto Highveld Grassland" label="05 03 008 Gm 8  Soweto Highveld Grassland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,227,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 03 009 Gm 9  Tsakane Clay Grassland" label="05 03 009 Gm 9  Tsakane Clay Grassland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,127,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 03 010 Gm 10  Egoli Granite Grassland" label="05 03 010 Gm 10  Egoli Granite Grassland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,27,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 03 011 Gm 11  Rand Highveld Grassland" label="05 03 011 Gm 11  Rand Highveld Grassland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,27,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 03 012 Gm 12  Eastern Highveld Grassland" label="05 03 012 Gm 12  Eastern Highveld Grassland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,27,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 03 013 Gm 13  Amersfoort Highveld Clay Grassland" label="05 03 013 Gm 13  Amersfoort Highveld Clay Grassland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,227,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 03 014 Gm 14  Wakkerstroom Montane Grassland" label="05 03 014 Gm 14  Wakkerstroom Montane Grassland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,27,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 03 015 Gm 15  Paulpietersburg Moist Grassland" label="05 03 015 Gm 15  Paulpietersburg Moist Grassland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,227,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 03 016 Gm 16  KaNgwane Montane Grassland" label="05 03 016 Gm 16  KaNgwane Montane Grassland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,227,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 03 017 Gm 17  Barberton Montane Grassland" label="05 03 017 Gm 17  Barberton Montane Grassland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,27,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 03 018 Gm 18  Lydenburg Montane Grassland" label="05 03 018 Gm 18  Lydenburg Montane Grassland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,27,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 03 019 Gm 19  Sekhukhune Montane Grassland" label="05 03 019 Gm 19  Sekhukhune Montane Grassland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,227,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 03 020 Gm 20  Leolo Summit Sourveld" label="05 03 020 Gm 20  Leolo Summit Sourveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,127,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 03 021 Gm 21  Lydenburg Thornveld" label="05 03 021 Gm 21  Lydenburg Thornveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,27,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 03 022 Gm 22  Northern Escarpment Dolomite Grassland" label="05 03 022 Gm 22  Northern Escarpment Dolomite Grassland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,27,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 03 023 Gm 23  Northern Escarpment Quartzite Sourveld" label="05 03 023 Gm 23  Northern Escarpment Quartzite Sourveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,127,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 03 024 Gm 24  Northern Escarpment Afromontane Fynbos" label="05 03 024 Gm 24  Northern Escarpment Afromontane Fynbos">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,227,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 03 025 Gm 25  Woodbush Granite Grassland" label="05 03 025 Gm 25  Woodbush Granite Grassland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,27,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 03 026 Gm 26  Wolkberg Dolomite Grassland" label="05 03 026 Gm 26  Wolkberg Dolomite Grassland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,127,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 03 027 Gm 27  Strydpoort Summit Sourveld" label="05 03 027 Gm 27  Strydpoort Summit Sourveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,127,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 03 028 Gm 28  Soutpansberg Summit Sourveld" label="05 03 028 Gm 28  Soutpansberg Summit Sourveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,227,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 03 029 Gm 29  Waterberg-Magaliesberg Summit Sourveld" label="05 03 029 Gm 29  Waterberg-Magaliesberg Summit Sourveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,27,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 04 001 Gs 1  Northern Zululand Mistbelt Grassland" label="05 04 001 Gs 1  Northern Zululand Mistbelt Grassland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,227,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 04 002 Gs 2  Ithala Quartzite Sourveld" label="05 04 002 Gs 2  Ithala Quartzite Sourveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,27,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 04 003 Gs 3  Low Escarpment Moist Grassland" label="05 04 003 Gs 3  Low Escarpment Moist Grassland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,127,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 04 004 Gs 4  Northern KwaZulu-Natal Moist Grassland" label="05 04 004 Gs 4  Northern KwaZulu-Natal Moist Grassland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,227,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 04 005 Gs 5  Northern KwaZulu-Natal Shrubland" label="05 04 005 Gs 5  Northern KwaZulu-Natal Shrubland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,27,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 04 006 Gs 6  KwaZulu-Natal Highland Thornveld" label="05 04 006 Gs 6  KwaZulu-Natal Highland Thornveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,127,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 04 007 Gs 7  Income Sandy Grassland" label="05 04 007 Gs 7  Income Sandy Grassland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,27,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 04 008 Gs 8  Mooi River Highland Grassland" label="05 04 008 Gs 8  Mooi River Highland Grassland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,27,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 04 009 Gs 9  Midlands Mistbelt Grassland" label="05 04 009 Gs 9  Midlands Mistbelt Grassland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,27,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 04 010 Gs 10  Drakensberg Foothill Moist Grassland" label="05 04 010 Gs 10  Drakensberg Foothill Moist Grassland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,27,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 04 011 Gs 11  Southern KwaZulu-Natal Moist Grassland" label="05 04 011 Gs 11  Southern KwaZulu-Natal Moist Grassland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,127,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 04 012 Gs 12  East Griqualand Grassland" label="05 04 012 Gs 12  East Griqualand Grassland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,27,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 04 013 Gs 13  Mabela Sandy Grassland" label="05 04 013 Gs 13  Mabela Sandy Grassland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,27,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 04 014 Gs 14  Mthatha Moist Grassland" label="05 04 014 Gs 14  Mthatha Moist Grassland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,127,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 04 015 Gs 15  Tsomo Grassland" label="05 04 015 Gs 15  Tsomo Grassland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,127,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 04 016 Gs 16  Queenstown Thornveld" label="05 04 016 Gs 16  Queenstown Thornveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,27,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 04 017 Gs 17  Tarkastad Montane Shrubland" label="05 04 017 Gs 17  Tarkastad Montane Shrubland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,27,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="05 04 018 Gs 18  Bedford Dry Grassland" label="05 04 018 Gs 18  Bedford Dry Grassland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,27,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 01 001 SVcb 1  Dwaalboom Thornveld" label="06 01 001 SVcb 1  Dwaalboom Thornveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,27,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 01 002 SVcb 2  Madikwe Dolomite Bushveld" label="06 01 002 SVcb 2  Madikwe Dolomite Bushveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,227,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 01 003 SVcb 3  Zeerust Thornveld" label="06 01 003 SVcb 3  Zeerust Thornveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,127,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 01 004 SVcb 4  Dwarsberg-Swartruggens Mountain Bushveld" label="06 01 004 SVcb 4  Dwarsberg-Swartruggens Mountain Bushveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,227,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 01 005 SVcb 5  Pilanesberg Mountain Bushveld" label="06 01 005 SVcb 5  Pilanesberg Mountain Bushveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,27,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 01 006 SVcb 6  Marikana Thornveld" label="06 01 006 SVcb 6  Marikana Thornveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,27,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 01 007 SVcb 7  Norite Koppies Bushveld" label="06 01 007 SVcb 7  Norite Koppies Bushveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,127,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 01 008 SVcb 8  Moot Plains Bushveld" label="06 01 008 SVcb 8  Moot Plains Bushveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,27,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 01 009 SVcb 9  Gold Reef Mountain Bushveld" label="06 01 009 SVcb 9  Gold Reef Mountain Bushveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,127,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 01 010 SVcb 10  Gauteng Shale Mountain Bushveld" label="06 01 010 SVcb 10  Gauteng Shale Mountain Bushveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,127,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 01 011 SVcb 11  Andesite Mountain Bushveld" label="06 01 011 SVcb 11  Andesite Mountain Bushveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,227,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 01 012 SVcb 12  Central Sandy Bushveld" label="06 01 012 SVcb 12  Central Sandy Bushveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,227,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 01 013 SVcb 13  Loskop Mountain Bushveld" label="06 01 013 SVcb 13  Loskop Mountain Bushveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,227,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 01 014 SVcb 14  Loskop Thornveld" label="06 01 014 SVcb 14  Loskop Thornveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,27,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 01 015 SVcb 15  Springbokvlakte Thornveld" label="06 01 015 SVcb 15  Springbokvlakte Thornveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,227,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 01 016 SVcb 16  Western Sandy Bushveld" label="06 01 016 SVcb 16  Western Sandy Bushveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,127,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 01 017 SVcb 17  Waterberg Mountain Bushveld" label="06 01 017 SVcb 17  Waterberg Mountain Bushveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,27,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 01 018 SVcb 18  Roodeberg Bushveld" label="06 01 018 SVcb 18  Roodeberg Bushveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,227,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 01 019 SVcb 19  Limpopo Sweet Bushveld" label="06 01 019 SVcb 19  Limpopo Sweet Bushveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,27,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 01 020 SVcb 20  Makhado Sweet Bushveld" label="06 01 020 SVcb 20  Makhado Sweet Bushveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,127,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 01 021 SVcb 21  Soutpansberg Mountain Bushveld" label="06 01 021 SVcb 21  Soutpansberg Mountain Bushveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,127,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 01 022 SVcb 22  VhaVenda Miombo" label="06 01 022 SVcb 22  VhaVenda Miombo">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,227,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 01 023 SVcb 23  Polokwane Plateau Bushveld" label="06 01 023 SVcb 23  Polokwane Plateau Bushveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,27,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 01 024 SVcb 24  Mamabolo Mountain Bushveld" label="06 01 024 SVcb 24  Mamabolo Mountain Bushveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,27,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 01 025 SVcb 25  Poung Dolomite Mountain Bushveld" label="06 01 025 SVcb 25  Poung Dolomite Mountain Bushveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,227,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 01 026 SVcb 26  Ohrigstad Mountain Bushveld" label="06 01 026 SVcb 26  Ohrigstad Mountain Bushveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,227,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 01 027 SVcb 27  Sekhukhune Plains Bushveld" label="06 01 027 SVcb 27  Sekhukhune Plains Bushveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,127,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 01 028 SVcb 28  Sekhukhune Mountain Bushveld" label="06 01 028 SVcb 28  Sekhukhune Mountain Bushveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,127,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 02 001 SVmp 1  Musina Mopane Bushveld" label="06 02 001 SVmp 1  Musina Mopane Bushveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,27,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 02 002 SVmp 2  Limpopo Ridge Bushveld" label="06 02 002 SVmp 2  Limpopo Ridge Bushveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,127,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 02 003 SVmp 3  Cathedral Mopane Bushveld" label="06 02 003 SVmp 3  Cathedral Mopane Bushveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,127,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 02 004 SVmp 4  Mopane Basalt Shrubland" label="06 02 004 SVmp 4  Mopane Basalt Shrubland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,27,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 02 005 SVmp 5  Tsende Mopaneveld" label="06 02 005 SVmp 5  Tsende Mopaneveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,27,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 02 006 SVmp 6  Lowveld Rugged Mopaneveld" label="06 02 006 SVmp 6  Lowveld Rugged Mopaneveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,127,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 02 007 SVmp 7  Phalaborwa-Timbavati Mopaneveld" label="06 02 007 SVmp 7  Phalaborwa-Timbavati Mopaneveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,227,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 02 008 SVmp 8  Mopane Gabbro Shrubland" label="06 02 008 SVmp 8  Mopane Gabbro Shrubland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,127,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 03 001 SVl 1  Makuleke Sandy Bushveld" label="06 03 001 SVl 1  Makuleke Sandy Bushveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,127,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 03 002 SVl 2  Nwambyia-Pumbe Sandy Bushveld" label="06 03 002 SVl 2  Nwambyia-Pumbe Sandy Bushveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,127,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 03 003 SVl 3  Granite Lowveld" label="06 03 003 SVl 3  Granite Lowveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,27,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 03 004 SVl 4  Delagoa Lowveld" label="06 03 004 SVl 4  Delagoa Lowveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,27,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 03 005 SVl 5  Tshokwane-Hlane Basalt Lowveld" label="06 03 005 SVl 5  Tshokwane-Hlane Basalt Lowveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,27,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 03 006 SVl 6  Gabbro Grassy Bushveld" label="06 03 006 SVl 6  Gabbro Grassy Bushveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,27,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 03 007 SVl 7  Gravelotte Rocky Bushveld" label="06 03 007 SVl 7  Gravelotte Rocky Bushveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,127,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 03 008 SVl 8  Tzaneen Sour Bushveld" label="06 03 008 SVl 8  Tzaneen Sour Bushveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,27,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 03 009 SVl 9  Legogote Sour Bushveld" label="06 03 009 SVl 9  Legogote Sour Bushveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,127,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 03 010 SVl 10  Pretoriuskop Sour Bushveld" label="06 03 010 SVl 10  Pretoriuskop Sour Bushveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,227,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 03 011 SVl 11  Malelane Mountain Bushveld" label="06 03 011 SVl 11  Malelane Mountain Bushveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,27,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 03 012 SVl 12  Kaalrug Mountain Bushveld" label="06 03 012 SVl 12  Kaalrug Mountain Bushveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,127,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 03 013 SVl 13  Barberton Serpentine Sourveld" label="06 03 013 SVl 13  Barberton Serpentine Sourveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,127,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 03 014 SVl 14  Swaziland Sour Bushveld" label="06 03 014 SVl 14  Swaziland Sour Bushveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,127,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 03 015 SVl 15  Northern Lebombo Bushveld" label="06 03 015 SVl 15  Northern Lebombo Bushveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,27,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 03 016 SVl 16  Southern Lebombo Bushveld" label="06 03 016 SVl 16  Southern Lebombo Bushveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,127,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 03 017 SVl 17  Lebombo Summit Sourveld" label="06 03 017 SVl 17  Lebombo Summit Sourveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,227,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 03 018 SVl 18  Tembe Sandy Bushveld" label="06 03 018 SVl 18  Tembe Sandy Bushveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,227,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 03 019 SVl 19  Western Maputaland Sandy Bushveld" label="06 03 019 SVl 19  Western Maputaland Sandy Bushveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,227,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 03 020 SVl 20  Western Maputaland Clay Bushveld" label="06 03 020 SVl 20  Western Maputaland Clay Bushveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,27,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 03 021 SVl 21  Makatini Clay Thicket" label="06 03 021 SVl 21  Makatini Clay Thicket">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,227,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 03 022 SVl 22  Northern Zululand Sourveld" label="06 03 022 SVl 22  Northern Zululand Sourveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,227,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 03 023 SVl 23  Zululand Lowveld" label="06 03 023 SVl 23  Zululand Lowveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,27,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 03 024 SVl 24  Zululand Coastal Thornveld" label="06 03 024 SVl 24  Zululand Coastal Thornveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,127,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 04 001 SVs 1  Thukela Valley Bushveld" label="06 04 001 SVs 1  Thukela Valley Bushveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,227,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 04 002 SVs 2  Thukela Thornveld" label="06 04 002 SVs 2  Thukela Thornveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,27,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 04 003 SVs 3  KwaZulu-Natal Hinterland Thornveld" label="06 04 003 SVs 3  KwaZulu-Natal Hinterland Thornveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,27,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 04 004 SVs 4  Ngongoni Veld" label="06 04 004 SVs 4  Ngongoni Veld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,127,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 04 005 SVs 5  KwaZulu-Natal Sandstone Sourveld" label="06 04 005 SVs 5  KwaZulu-Natal Sandstone Sourveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,27,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 04 006 SVs 6  Eastern Valley Bushveld" label="06 04 006 SVs 6  Eastern Valley Bushveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,127,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 04 007 SVs 7  Bhisho Thornveld" label="06 04 007 SVs 7  Bhisho Thornveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,227,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 05 001 SVk 1  Mafikeng Bushveld" label="06 05 001 SVk 1  Mafikeng Bushveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,27,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 05 002 SVk 2  Stella Bushveld" label="06 05 002 SVk 2  Stella Bushveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,127,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 05 003 SVk 3  Schweizer-Reneke Bushveld" label="06 05 003 SVk 3  Schweizer-Reneke Bushveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,127,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 05 004 SVk 4  Kimberley Thornveld" label="06 05 004 SVk 4  Kimberley Thornveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,127,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 05 005 SVk 5  Vaalbos Rocky Shrubland" label="06 05 005 SVk 5  Vaalbos Rocky Shrubland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,127,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 05 006 SVk 6  Schmidtsdrif Thornveld" label="06 05 006 SVk 6  Schmidtsdrif Thornveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,27,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 05 007 SVk 7  Ghaap Plateau Vaalbosveld" label="06 05 007 SVk 7  Ghaap Plateau Vaalbosveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,127,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 05 008 SVk 8  Kuruman Vaalbosveld" label="06 05 008 SVk 8  Kuruman Vaalbosveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,127,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 05 009 SVk 9  Kuruman Thornveld" label="06 05 009 SVk 9  Kuruman Thornveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,227,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 05 010 SVk 10  Kuruman Mountain Bushveld" label="06 05 010 SVk 10  Kuruman Mountain Bushveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,227,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 05 011 SVk 11  Molopo Bushveld" label="06 05 011 SVk 11  Molopo Bushveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,27,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 05 012 SVk 12  Kathu Bushveld" label="06 05 012 SVk 12  Kathu Bushveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,227,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 05 013 SVk 13  Olifantshoek Plains Thornveld" label="06 05 013 SVk 13  Olifantshoek Plains Thornveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,227,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 05 014 SVk 14  Postmasburg Thornveld" label="06 05 014 SVk 14  Postmasburg Thornveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,127,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 05 015 SVk 15  Koranna-Langeberg Mountain Bushveld" label="06 05 015 SVk 15  Koranna-Langeberg Mountain Bushveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,27,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 05 016 SVk 16  Gordonia Plains Shrubland" label="06 05 016 SVk 16  Gordonia Plains Shrubland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,227,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 06 001 SVkd 1  Gordonia Duneveld" label="06 06 001 SVkd 1  Gordonia Duneveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,127,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 06 002 SVkd 2  Gordonia Kameeldoring Bushveld" label="06 06 002 SVkd 2  Gordonia Kameeldoring Bushveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,27,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 06 003 SVkd 3  Auob Duneveld" label="06 06 003 SVkd 3  Auob Duneveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,227,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="06 06 004 SVkd 4  Nossob Bushveld" label="06 06 004 SVkd 4  Nossob Bushveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,227,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="07 02 001 AT 1  Southern Cape Valley Thicket" label="07 02 001 AT 1  Southern Cape Valley Thicket">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,227,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="07 02 002 AT 2  Gamka Thicket" label="07 02 002 AT 2  Gamka Thicket">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,27,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="07 02 003 AT 3  Groot Thicket" label="07 02 003 AT 3  Groot Thicket">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,227,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="07 02 004 AT 4  Gamtoos Thicket" label="07 02 004 AT 4  Gamtoos Thicket">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,127,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="07 02 005 AT 5  Sundays Noorsveld" label="07 02 005 AT 5  Sundays Noorsveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,27,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="07 02 006 AT 6  Sundays Thicket" label="07 02 006 AT 6  Sundays Thicket">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,127,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="07 02 007 AT 7  Coega Bontveld" label="07 02 007 AT 7  Coega Bontveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,127,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="07 02 008 AT 8  Kowie Thicket" label="07 02 008 AT 8  Kowie Thicket">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,27,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="07 02 009 AT 9  Albany Coastal Belt" label="07 02 009 AT 9  Albany Coastal Belt">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,127,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="07 02 010 AT 10  Great Fish Noorsveld" label="07 02 010 AT 10  Great Fish Noorsveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,27,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="07 02 011 AT 11  Great Fish Thicket" label="07 02 011 AT 11  Great Fish Thicket">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,127,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="07 02 012 AT 12  Buffels Thicket" label="07 02 012 AT 12  Buffels Thicket">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,127,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="07 02 013 AT 13  Eastern Cape Escarpment Thicket" label="07 02 013 AT 13  Eastern Cape Escarpment Thicket">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,127,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="07 02 014 AT 14  Camdebo Escarpment Thicket" label="07 02 014 AT 14  Camdebo Escarpment Thicket">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,27,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="08 01 001 CB 1  Maputaland Coastal Belt" label="08 01 001 CB 1  Maputaland Coastal Belt">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,127,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="08 01 002 CB 2  Maputaland Wooded Grassland" label="08 01 002 CB 2  Maputaland Wooded Grassland">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,127,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="08 01 003 CB 3  KwaZulu-Natal Coastal Belt" label="08 01 003 CB 3  KwaZulu-Natal Coastal Belt">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,27,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="08 01 004 CB 4  Pondoland-Ugu Sandstone Coastal Sourveld" label="08 01 004 CB 4  Pondoland-Ugu Sandstone Coastal Sourveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,127,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="08 01 005 CB 5  Transkei Coastal Belt" label="08 01 005 CB 5  Transkei Coastal Belt">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,227,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="09 01 001 FOz 1  Southern Afrotemperate Forest" label="09 01 001 FOz 1  Southern Afrotemperate Forest">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,127,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="09 01 002 FOz 2  Northern Afrotemperate Forest" label="09 01 002 FOz 2  Northern Afrotemperate Forest">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,27,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="09 01 003 FOz 3  Southern Mistbelt Forest" label="09 01 003 FOz 3  Southern Mistbelt Forest">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,227,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="09 01 004 FOz 4  Northern Mistbelt Forest" label="09 01 004 FOz 4  Northern Mistbelt Forest">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,227,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="09 01 005 FOz 5  Scarp Forest" label="09 01 005 FOz 5  Scarp Forest">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,127,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="09 01 006 FOz 6  Southern Coastal Forest" label="09 01 006 FOz 6  Southern Coastal Forest">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,27,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="09 01 007 FOz 7  Northern Coastal Forest" label="09 01 007 FOz 7  Northern Coastal Forest">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,227,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="09 01 008 FOz 8  Sand Forest" label="09 01 008 FOz 8  Sand Forest">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,27,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="09 01 009 FOz 9  Ironwood Dry Forest" label="09 01 009 FOz 9  Ironwood Dry Forest">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,227,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="09 02 001 FOa 1  Lowveld Riverine Forest" label="09 02 001 FOa 1  Lowveld Riverine Forest">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,27,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="09 02 002 FOa 2  Swamp Forest" label="09 02 002 FOa 2  Swamp Forest">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,227,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="09 02 003 FOa 3  Mangrove Forest" label="09 02 003 FOa 3  Mangrove Forest">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,227,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="10 01 001 AZe 1  Arid Estuarine Salt Marshes" label="10 01 001 AZe 1  Arid Estuarine Salt Marshes">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,127,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="10 01 002 AZe 2  Cape Estuarine Salt Marshes" label="10 01 002 AZe 2  Cape Estuarine Salt Marshes">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,227,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="10 01 003 AZe 3  Subtropical Estuarine Salt Marshes" label="10 01 003 AZe 3  Subtropical Estuarine Salt Marshes">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,127,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="10 02 001 AZd 1  Namib Seashore Vegetation" label="10 02 001 AZd 1  Namib Seashore Vegetation">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,227,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="10 02 002 AZd 2  Namaqualand Seashore Vegetation" label="10 02 002 AZd 2  Namaqualand Seashore Vegetation">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,127,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="10 02 003 AZd 3  Cape Seashore Vegetation" label="10 02 003 AZd 3  Cape Seashore Vegetation">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,27,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="10 02 004 AZd 4  Subtropical Seashore Vegetation" label="10 02 004 AZd 4  Subtropical Seashore Vegetation">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,27,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="10 03 001 AZs 1  Algoa Dune Strandveld" label="10 03 001 AZs 1  Algoa Dune Strandveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,27,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="10 03 002 AZs 2  Albany Dune Strandveld" label="10 03 002 AZs 2  Albany Dune Strandveld">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,227,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="10 03 003 AZs 3  Subtropical Dune Thicket" label="10 03 003 AZs 3  Subtropical Dune Thicket">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,127,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="10 04 001 AZf 1  Cape Lowland Freshwater Wetlands" label="10 04 001 AZf 1  Cape Lowland Freshwater Wetlands">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,27,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="10 04 002 AZf 2  Cape Vernal Pools" label="10 04 002 AZf 2  Cape Vernal Pools">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,27,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="10 04 003 AZf 3  Eastern Temperate Freshwater Wetlands" label="10 04 003 AZf 3  Eastern Temperate Freshwater Wetlands">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,27,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="10 04 004 AZf 4  Drakensberg Wetlands" label="10 04 004 AZf 4  Drakensberg Wetlands">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,227,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="10 04 005 AZf 5  Lesotho Mires" label="10 04 005 AZf 5  Lesotho Mires">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,227,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="10 04 006 AZf 6  Subtropical Freshwater Wetlands" label="10 04 006 AZf 6  Subtropical Freshwater Wetlands">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,127,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="10 05 001 AZa 1  Fynbos Riparian Vegetation" label="10 05 001 AZa 1  Fynbos Riparian Vegetation">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,127,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="10 05 002 AZa 2  Cape Lowland Alluvial Vegetation" label="10 05 002 AZa 2  Cape Lowland Alluvial Vegetation">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,27,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="10 05 003 AZa 3  Lower Gariep Alluvial Vegetation" label="10 05 003 AZa 3  Lower Gariep Alluvial Vegetation">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,27,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="10 05 004 AZa 4  Upper Gariep Alluvial Vegetation" label="10 05 004 AZa 4  Upper Gariep Alluvial Vegetation">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,27,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="10 05 005 AZa 5  Highveld Alluvial Vegetation" label="10 05 005 AZa 5  Highveld Alluvial Vegetation">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,127,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="10 05 006 AZa 6  Albany Alluvial Vegetation" label="10 05 006 AZa 6  Albany Alluvial Vegetation">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,227,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="10 05 007 AZa 7  Subtropical Alluvial Vegetation" label="10 05 007 AZa 7  Subtropical Alluvial Vegetation">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,127,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="10 06 001 AZi 1  Namaqualand Riviere" label="10 06 001 AZi 1  Namaqualand Riviere">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,127,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="10 06 002 AZi 2  Namaqualand Salt Pans" label="10 06 002 AZi 2  Namaqualand Salt Pans">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,27,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="10 06 003 AZi 3  Southern Kalahari Mekgacha" label="10 06 003 AZi 3  Southern Kalahari Mekgacha">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,127,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="10 06 004 AZi 4  Southern Kalahari Salt Pans" label="10 06 004 AZi 4  Southern Kalahari Salt Pans">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,227,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="10 06 005 AZi 5  Bushmanland Vloere" label="10 06 005 AZi 5  Bushmanland Vloere">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,127,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="10 06 006 AZi 6  Southern Karoo Riviere" label="10 06 006 AZi 6  Southern Karoo Riviere">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,127,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="10 06 007 AZi 7  Tanqua Wash Riviere" label="10 06 007 AZi 7  Tanqua Wash Riviere">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,127,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="10 06 008 AZi 8  Muscadel Riviere" label="10 06 008 AZi 8  Muscadel Riviere">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,227,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="10 06 009 AZi 9  Cape Inland Salt Pans" label="10 06 009 AZi 9  Cape Inland Salt Pans">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,127,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="10 06 010 AZi 10  Highveld Salt Pans" label="10 06 010 AZi 10  Highveld Salt Pans">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,27,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="10 06 011 AZi 11  Subtropical Salt Pans" label="10 06 011 AZi 11  Subtropical Salt Pans">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="227,127,127" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="25 01 001 W 1  Freshwater Lakes" label="25 01 001 W 1  Freshwater Lakes">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,227,227" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="25 01 002 W 2  Subtropical Coastal Lagoons" label="25 01 002 W 2  Subtropical Coastal Lagoons">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="127,227,27" boundarycaptype="round" />
+	  </EXACT>
+	  <EXACT value="25 01 003 W 3  Cape Coastal Lagoons" label="25 01 003 W 3  Cape Coastal Lagoons">
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="27,27,127" boundarycaptype="round" />
+	  </EXACT>
+	</VALUEMAPRENDERER>
+      </LAYER>
+      <LAYER type="featureclass" name="vegm2006o_places_areas" visible="false" id="0">
+	<DATASET name="vegm2006o_places_areas" type="polygon" workspace="shp_ws-0" />
+	<GROUPRENDERER>
+	  <SIMPLERENDERER>
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="0.0" boundarycaptype="round" boundarycolor="128,128,128" />
+	  </SIMPLERENDERER>
+	  <SIMPLELABELRENDERER field="VMPLACE">
+	    <TEXTSYMBOL font="Arial" fontstyle="regular" fontsize="10" fontcolor="128,128,128" />
+	  </SIMPLELABELRENDERER>
+	</GROUPRENDERER>
+      </LAYER>
+      <LAYER type="featureclass" name="vegm2006o_dams" visible="false" id="1">
+	<DATASET name="vegm2006o_dams" type="polygon" workspace="shp_ws-0" />
+	<GROUPRENDERER>
+	  <SIMPLERENDERER>
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="0.0" boundarycaptype="round" boundarycolor="0,0,255" />
+	  </SIMPLERENDERER>
+	  <SIMPLELABELRENDERER field="DAMNAME">
+	    <TEXTSYMBOL font="Arial" fontstyle="regular" fontsize="10" fontcolor="0,0,255" />
+	  </SIMPLELABELRENDERER>
+	</GROUPRENDERER>
+      </LAYER>
+      <LAYER type="featureclass" name="Province and country names" visible="false" id="2">
+	<DATASET name="vegm2006o_borderspolygon" type="polygon" workspace="shp_ws-0" />
+	<GROUPRENDERER>
+	  <SIMPLERENDERER>
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="0.0" filltransparency="0.0" boundarycaptype="round" />
+	  </SIMPLERENDERER>
+	  <SIMPLELABELRENDERER field="PROVINCE">
+	    <TEXTSYMBOL font="Arial" fontstyle="regular" fontsize="12" />
+	  </SIMPLELABELRENDERER>
+	</GROUPRENDERER>
+      </LAYER>
+      <LAYER type="featureclass" name="vegm2006c_majorparks Labels and query" visible="false" id="4">
+	<DATASET name="vegm2006c_majorparks" type="polygon" workspace="shp_ws-0" />
+	<GROUPRENDERER>
+	  <SIMPLERENDERER>
+	    <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="0.0" boundarycaptype="round" />
+	  </SIMPLERENDERER>
+	  <SIMPLELABELRENDERER field="PA_NAME">
+	    <TEXTSYMBOL font="Arial" fontstyle="regular" fontsize="10" fontcolor="51,102,51" />
+	  </SIMPLELABELRENDERER>
+	</GROUPRENDERER>
+      </LAYER>
+      <LAYER type="featureclass" name="vegm2006o_roadswgs84" visible="false" id="8">
+	<DATASET name="vegm2006o_roadswgs84" type="line" workspace="shp_ws-0" />
+	<VALUEMAPRENDERER lookupfield="VMROADTYPE">
+	  <EXACT value="Main road" label="Main road">
+	    <SIMPLELINESYMBOL width="1" captype="round" color="255,102,102" />
+	  </EXACT>
+	  <EXACT value="National road" label="National road">
+	    <SIMPLELINESYMBOL width="1" captype="round" color="255,102,51" />
+	  </EXACT>
+	  <EXACT value="Secondary road" label="Secondary road">
+	    <SIMPLELINESYMBOL width="1" captype="round" color="255,153,153" />
+	  </EXACT>
+	</VALUEMAPRENDERER>
+      </LAYER>
+      <LAYER type="featureclass" name="vegm2006o_rivers" visible="false" id="9">
+	<DATASET name="vegm2006o_rivers" type="line" workspace="shp_ws-0" />
+	<GROUPRENDERER>
+	  <SIMPLERENDERER>
+	    <SIMPLELINESYMBOL width="1" captype="round" color="0,0,255" />
+	  </SIMPLERENDERER>
+	  <SIMPLELABELRENDERER field="NAME" linelabelposition="placeontop">
+	    <TEXTSYMBOL font="Arial" fontstyle="regular" fontsize="10" fontcolor="0,0,255" />
+	  </SIMPLELABELRENDERER>
+	</GROUPRENDERER>
+      </LAYER>
+      <LAYER type="featureclass" name="vegm2006o_railway" visible="false" id="10">
+	<DATASET name="vegm2006o_railway" type="line" workspace="shp_ws-0" />
+	<SIMPLERENDERER>
+	  <SIMPLELINESYMBOL width="1" captype="round" color="128,128,128" />
+	</SIMPLERENDERER>
+      </LAYER>
+      <LAYER type="featureclass" name="vegm2006o_borders" visible="true" id="11">
+	<DATASET name="vegm2006o_borders" type="line" workspace="shp_ws-0" />
+	<VALUEMAPRENDERER lookupfield="LINETYPE">
+	  <EXACT value="Coastal" label="Coastal">
+	    <SIMPLELINESYMBOL width="1" type="dash" captype="round" color="153,153,255" />
+	  </EXACT>
+	  <EXACT value="National" label="National">
+	    <SIMPLELINESYMBOL width="1" type="dash" captype="round" color="153,51,255" />
+	  </EXACT>
+	  <EXACT value="Provincial" label="Provincial">
+	    <SIMPLELINESYMBOL width="1" type="dash" captype="round" color="255,102,255" />
+	  </EXACT>
+	</VALUEMAPRENDERER>
+      </LAYER>
+      <LAYER type="featureclass" name="vegm2006o_1degree_grid" visible="true" id="12">
+	<DATASET name="vegm2006o_1degree_grid" type="line" workspace="shp_ws-0" />
+	<SIMPLERENDERER>
+	  <SIMPLELINESYMBOL width="1" type="dash" captype="round" color="192,192,192" />
+	</SIMPLERENDERER>
+      </LAYER>
+      <LAYER type="featureclass" name="vegm2006c_majorparksline" visible="false" id="13">
+	<DATASET name="vegm2006c_majorparksline" type="line" workspace="shp_ws-0" />
+	<SIMPLERENDERER>
+	  <SIMPLELINESYMBOL width="1" type="dash" captype="round" color="51,102,51" />
+	</SIMPLERENDERER>
+      </LAYER>
+      <LAYER type="featureclass" name="vegm2006o_places_points" visible="false" id="14">
+	<DATASET name="vegm2006o_places_points" type="point" workspace="shp_ws-0" />
+	<GROUPRENDERER>
+	  <SIMPLERENDERER>
+	    <SIMPLEMARKERSYMBOL color="128,128,128" type="square" width="8" />
+	  </SIMPLERENDERER>
+	  <SIMPLELABELRENDERER field="DIGMAPLBL" labelpriorities="2,2,2,1,5,3,2,4">
+	    <TEXTSYMBOL font="Arial" fontstyle="regular" fontsize="10" fontcolor="128,128,128" />
+	  </SIMPLELABELRENDERER>
+	</GROUPRENDERER>
+      </LAYER>
+    </MAP>
+  </CONFIG>
+</ARCXML>
