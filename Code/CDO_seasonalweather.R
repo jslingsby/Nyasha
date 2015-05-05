@@ -6,6 +6,8 @@ setwd("/Users/jasper/Documents/PostDoc/Connecticut/Adam/weatherdat")
 #cdo eca_cdd,2 -shifttime,6months weather_fine.nc cdd_annualmean.nc
 #selseas,DJF, MAM, JJA, SON
 
+library(raster)
+
 ###Set up CDO calls
 tmx="cdo yseasmean -selvar,tmax_mean weather_fine.nc tmaxseasmean.nc" #Tmax_mean by season
 tmn="cdo yseasmean -selvar,tmin_mean weather_fine.nc tminseasmean.nc" #Tmin_mean by season
@@ -25,6 +27,9 @@ names(tmnseas)=c("DJF", "MAM", "JJA", "SON")
 
 pptseas=stack("pptseasmean.nc")
 names(pptseas)=c("DJF", "MAM", "JJA", "SON")
+
+writeRaster(pptseas, format="CDF", "/Users/jasper/Dropbox/Shared/Kobus/Data/Climate/ppt_seasonal_means.nc")
+writeRaster(pptseas, format="CDF", "/Users/jasper/GIT/Nyasha/Data/Climate/ppt_seasonal_means.nc")
 
 ###########################################
 ###End
