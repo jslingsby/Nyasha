@@ -55,7 +55,7 @@ cors=cor(dat) #cor.table in library(picante) gives you p-values too
 
 pairs(dat[,c(5,6,10,11,12,17:19)])
 
-pairs(dat[,c(5,6,10,12,18,19)]) #drop recovery_rate and time_to_recovery (retain fire_return)
+pairs(dat[,c(5,6,10,12,18,19)]) #drop recovery_rate (11) and time_to_recovery (11) (retain fire_return)
 
 cor(dat[,c(5,6,10,12,18,19)])
 

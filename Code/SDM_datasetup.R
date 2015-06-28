@@ -56,14 +56,20 @@ fire_return=raster("Data/BiomassAccumulation/FireReturnTime_WeibullScale500m.tif
 #soil_moisture=raster("Data/BiomassAccumulation/XXXXX.tif")
 
 ###Get geology
-geol=stack(list.files("/Users/jasper/GIT/Nyasha/Data/Geology", full.names=T, pattern=".asc")); proj4string(geol)=proj4string(seasonality)
+geol=stack(list.files("/Users/jasper/GIT/Nyasha/Data/Geology", full.names=T, pattern=".asc")); proj4string(geol)=proj4string(tmax)
 
 ###Resample and reproject all rasters to the same grid and Coordinate Reference System
-tmax=projectRaster(tmax,seasonality) #note that function uses bilinear interpolation by default. Can be a little slow...
-tmin=projectRaster(tmin,seasonality)
-ppt=projectRaster(ppt,seasonality)
-fire_return=projectRaster(fire_return,seasonality)
-geol=projectRaster(geol,seasonality)
+#tmax=projectRaster(tmax,seasonality) #note that function uses bilinear interpolation by default. Can be a little slow...
+#tmin=projectRaster(tmin,seasonality)
+#ppt=projectRaster(ppt,seasonality)
+#fire_return=projectRaster(fire_return,seasonality)
+
+seasonality=projectRaster(seasonality,tmax)
+time_to_recovery=projectRaster(time_to_recovery,tmax)
+max_NDVI=projectRaster(max_NDVI,tmax)
+recovery_rate=projectRaster(recovery_rate,tmax)
+fire_return=projectRaster(fire_return,tmax)
+geol=projectRaster(geol,tmax)
 #gdd=projectRaster(gdd,seasonality)
 #cdd=projectRaster(cdd,seasonality)
 #cfd=projectRaster(cfd,seasonality)
@@ -80,7 +86,7 @@ names(env)=nms
 env=stack(env)
 
 ###Paste GIS data into MaxEnt directory
-writeRaster(env, filename=paste(maxdat,"env_layers/",nms,".asc",sep=""), format="ascii", bylayer=T, overwrite=T)
+writeRaster(env, filename=paste("Data/MaxEnt_Env layers_1min/",nms,"_1min.asc",sep=""), format="ascii", bylayer=T, overwrite=T)
 
 ###Clear objects from memory
 #rm(list=c("nms", "env", "tmax", "tmin", "ppt", "seasonality", "time_to_recovery", "max_NDVI", "recovery_rate", "geol", "fire_return"))
