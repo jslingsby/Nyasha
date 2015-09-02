@@ -75,10 +75,14 @@ TrtSpSet <- TrtSpSet[which(rowSums(TrtSpSet[,c("graminoid", "low_shrub", "mid_sh
 
 ###Extract locality records for species of interest
 LocSet <- unique(plant_sa[which(plant_sa$TAXNAME %in% TrtSpSet$TAXNAME), ])
+LocSet <- LocSet[!duplicated(cbind(LocSet$TAXNAME, LocSet$cellID)),]
 
-###Look at how many records per spp
+###Look at how many records per spp once we drop duplicates per cell
 x <- aggregate(rep(1,nrow(LocSet)), by=list(LocSet$TAXNAME), FUN="sum")
-length(x[which(x[,2]>14),1])
+x <- x[which(x[,2]<11),1]
+
+LocSet <- LocSet[-which(LocSet$TAXNAME %in% x), ]
+TrtSpSet <- TrtSpSet[-which(TrtSpSet$TAXNAME %in% x), ]
 
 ##############################################################################
 ###4) Save out results
