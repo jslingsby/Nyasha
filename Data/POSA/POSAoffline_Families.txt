@@ -1,0 +1,628 @@
+"FAMNO","NAME","ALTNAME","NOTES","COMPILER"
+0,"UNKNOWN","","",
+1,"THUIDIACEAE","","","J. van Rooy"
+2,"SEMATOPHYLLACEAE","","","J. van Rooy"
+3,"POTTIACEAE","","","J. van Rooy"
+4,"ACROBOLBACEAE","","","S.M. Perold"
+5,"MESEMBRYANTHEMACEAE","","","P. Chesselet, P.M. Burgoyne, C. Klak, H. Kurzweil, A.P. Dold, N.J. Griffin & G.F. Smith"
+6,"LEPIDOZIACEAE","","","S.M. Perold"
+7,"CUPRESSACEAE","","","H.F. Glen"
+8,"BOMBACACEAE","","","M. Jordaan"
+9,"ADELANTHACEAE","","","S.M. Perold"
+10,"METEORIACEAE","","","J. van Rooy"
+11,"FABACEAE","Leguminosae","","T. Nkonki, H.F. Glen, N. Swelankomo, M. Jordaan, G. Germishuizen & A. Moteetee"
+12,"ALLIACEAE","","","C. Archer & R.H. Archer"
+13,"ARAUCARIACEAE","","",
+14,"ALISMATACEAE","","","R.P. Glen, C.D.K. Cook & R. Klopper"
+15,"CEPHALOZIACEAE","","","S.M. Perold & J. van Rooy"
+17,"CYATHEACEAE","","","J.P. Roux & R. Klopper"
+18,"MEESIACEAE","","","J. van Rooy"
+19,"AMBLYSTEGIACEAE","","","J. van Rooy"
+20,"THELYPTERIDACEAE","","","J.P. Roux & R. Klopper"
+21,"ORTHOTRICHACEAE","","","J. van Rooy"
+22,"BARTRAMIACEAE","","","J. van Rooy"
+23,"JUNGERMANNIACEAE","","","S.M. Perold"
+24,"EUPHORBIACEAE","","","R.H. Archer"
+25,"ANDREAEACEAE","","","J. van Rooy"
+26,"ANEMIACEAE","","","J.P. Roux & R. Klopper"
+27,"MARATTIACEAE","","","J.P. Roux & R. Klopper"
+28,"LINACEAE","","","C. Archer, R. Klopper & M. Govender"
+29,"DICRANACEAE","","","J. van Rooy"
+30,"LEJEUNEACEAE","","","S.M. Perold"
+31,"BRYACEAE","","","J. van Rooy"
+32,"ANTHELIACEAE","","","S.M. Perold"
+33,"ANTHOCEROTACEAE","","","S.M. Perold"
+34,"SANTALACEAE","","","P.M. Burgoyne  & P.J.D. Winter"
+35,"LEUCODONTACEAE","","","J. van Rooy"
+36,"APONOGETONACEAE","","","R.P. Glen, C.D.K. Cook & R. Klopper"
+37,"ARCHIDIACEAE","","","J. van Rooy"
+38,"BIGNONIACEAE","","","S.J. Smithies"
+39,"CACTACEAE","","","H.F. Glen & P.J.D. Winter"
+40,"ASPARAGACEAE","","","E.T. Moeng, N.L. Meyer & R. Klopper"
+41,"MALPIGHIACEAE","","","R.H. Archer"
+42,"ASPLENIACEAE","","","J.P. Roux & R. Klopper"
+43,"AYTONIACEAE","","","S.M. Perold"
+44,"SAXIFRAGACEAE","","",
+45,"DITRICHACEAE","","","J. van Rooy"
+46,"CLEVEACEAE","","","S.M. Perold"
+47,"POLYTRICHACEAE","","","J. van Rooy"
+48,"BRUNIACEAE","","","M. Quint & P.J.D. Winter"
+49,"ERPODIACEAE","","","J. van Rooy"
+50,"SALVADORACEAE","","","M. Jordaan"
+51,"AZOLLACEAE","","","J.P. Roux & R. Klopper"
+52,"BALANITACEAE","","",
+53,"BASELLACEAE","","","M. Jordaan & P.J.D. Winter"
+55,"PROTEACEAE","","","J.P. Rourke & P.J.D. Winter"
+56,"ELATINACEAE","","","C.L. Bredenkamp & R.H. Archer"
+57,"MELIANTHACEAE","","","R.H. Archer"
+58,"SELIGERIACEAE","","","J. van Rooy"
+59,"OPHIOGLOSSACEAE","","",
+60,"ZAMIACEAE","","","H.F. Glen & P.J.H. Hurter"
+61,"BRACHYTHECIACEAE","","","J. van Rooy"
+62,"HEDWIGIACEAE","","","J. van Rooy"
+63,"BROMELIACEAE","","",
+64,"BRYOBARTRAMIACEAE","","","J. van Rooy"
+65,"LESKEACEAE","","","J. van Rooy"
+66,"ANACARDIACEAE","","","R.H. Archer & E. Retief"
+67,"MELASTOMATACEAE","","","C.L. Bredenkamp"
+68,"BUTOMACEAE","","",
+69,"HOOKERIACEAE","","",
+70,"CALLITRICHACEAE","","","R.H. Archer & R.P. Glen"
+71,"CALYMPERACEAE","","","J. van Rooy"
+72,"CALYPOGEIACEAE","","","S.M. Perold"
+73,"PTEROBRYACEAE","","","J. van Rooy"
+74,"CAMPANULACEAE","","","W.G. Welman & C.N. Cupido"
+75,"STILBACEAE","","","J.P. Rourke, Retzia by E. Retief"
+76,"CANELLACEAE","","",
+77,"CANNACEAE","","","C. Archer"
+78,"CANNABACEAE","","",
+79,"CARICACEAE","","",
+80,"HYDRANGEACEAE","","",
+81,"TILIACEAE","","","C.L. Bredenkamp & M. Jordaan"
+82,"MONOCARPACEAE","","","S.M. Perold"
+83,"ICACINACEAE","","","R.H. Archer & M. Jordaan"
+84,"CASUARINACEAE","","","M. Jordaan & P.J.D. Winter"
+85,"CATAGONIACEAE","","","J. van Rooy"
+86,"RESEDACEAE","","","M.C. Makgakga & P.J.D. Winter"
+87,"MELIACEAE","","","R.H. Archer"
+88,"CEPHALOZIELLACEAE","","","S.M. Perold"
+89,"ACHARIACEAE","","","C.L. Bredenkamp & R.H.Archer"
+90,"CERATOPHYLLACEAE","","","R.P. Glen, C.D.K. Cook & P.J.D. Winter"
+91,"APOCYNACEAE","","","J.E. Victor, A. Nicholas, P.V. Bruyns, H.J.T. Venter, H.F. Glen & P. Bester"
+92,"GIGASPERMACEAE","","","J. van Rooy"
+93,"CHEIROPLEURIACEAE","","",
+95,"CHRYSOBALANACEAE","","","M. Jordaan & R.H. Archer"
+96,"HYPNACEAE","","","J. van Rooy"
+97,"LAURACEAE","","","M. Jordaan"
+98,"SCROPHULARIACEAE","","","S.J. Smithies & J.A. Ready"
+99,"CAPPARACEAE","","",
+100,"POLEMONIACEAE","","",
+101,"POACEAE","Graminae","","L. Fish"
+102,"RUBIACEAE","","","E. Retief"
+103,"FISSIDENTACEAE","","","J. van Rooy"
+104,"BORAGINACEAE","","","E. Retief"
+105,"BURSERACEAE","","","R.H. Archer & M. Jordaan"
+106,"IRIDACEAE","","","P. Goldblatt, J.C. Manning & C. Archer"
+107,"RHIZOPHORACEAE","","","C.L. Bredenkamp & R.H. Archer"
+108,"CRYPHAEACEAE","","","J. van Rooy"
+109,"GRAMMITIDACEAE","","","J.P. Roux & R. Klopper"
+110,"HYPOXIDACEAE","","","D.A. Snijman, Y. Singh & R.H. Archer"
+111,"CONVOLVULACEAE","","","W.G. Welman"
+112,"TARGIONIACEAE","","","S.M. Perold"
+113,"CYCADACEAE","","",
+114,"FUNARIACEAE","","","J. van Rooy"
+115,"LAMIACEAE","Labiatae","","E. Retief & P.P.J. Herman"
+116,"ZANNICHELLIACEAE","","","R.P. Glen, C.D.K. Cook & R. Klopper"
+117,"LOBELIACEAE","","","P.B. Phillipson, E.B. Knox & W.G. Welman"
+118,"AMARANTHACEAE","","","P.Winter"
+119,"DICHAPETALACEAE","","","R.H. Archer"
+120,"FABRONIACEAE","","","J. van Rooy"
+121,"DROSERACEAE","","","T. Nkonki & P.J.D. Winter"
+122,"DIOSCOREACEAE","","","R.H. Archer"
+123,"DIPTERIDACEAE","","",
+124,"DIPTEROCARPACEAE","","",
+125,"ACERACEAE","","",
+126,"HAMAMELIDACEAE","","","M. Jordaan & P.J.D. Winter"
+127,"DRACAENACEAE","","","R.H. Archer & R. Klopper"
+128,"PUNICACEAE","","",
+129,"MARCHANTIACEAE","","","S.M. Perold"
+130,"OXALIDACEAE","","","L.L. Dreyer, M.C. Makgakga & E. Retief"
+131,"ERICACEAE","","","E.G.H. Oliver & I.M. Oliver"
+132,"ENCALYPTACEAE","","","J. van Rooy"
+133,"PENAEACEAE","","","J.P. Rourke & C.L. Bredenkamp"
+134,"ENTODONTACEAE","","","J. van Rooy"
+135,"STEREOPHYLLACEAE","","","J. van Rooy"
+136,"EPHEMERACEAE","","","J. van Rooy"
+137,"EQUISETACEAE","","","J.P. Roux & R. Klopper"
+138,"ERIOCAULACEAE","","","R.P. Glen, C.D.K. Cook & R. Klopper"
+139,"STERCULIACEAE","","","C.L. Bredenkamp"
+140,"ERIOSPERMACEAE","","","C. Archer & R. Klopper"
+141,"ERYTHROXYLACEAE","","","M. Jordaan & R.H. Archer"
+142,"ESCALLONIACEAE","","","M. Jordaan & P.J.D. Winter"
+143,"EUSTICHIACEAE","","","J. van Rooy"
+144,"CELASTRACEAE","","","R.H. Archer & M. Jordaan"
+145,"GENTIANACEAE","","","C.L. Bredenkamp & N. Govender"
+146,"EXORMOTHECACEAE","","","S.M. Perold"
+147,"FAGACEAE","","","H.F. Glen & P.J.D. Winter"
+148,"MORACEAE","","","M. Jordaan & M.C. Makgakga"
+149,"CUCURBITACEAE","","","W.G. Welman"
+150,"LECYTHIDACEAE","","","C.L. Bredenkamp"
+151,"OLEACEAE","","","M. Jordaan"
+152,"FONTINALACEAE","","","J. van Rooy"
+153,"LEPTODONTACEAE","","","J. van Rooy"
+156,"PHYTOLACCACEAE","","","A.M. Makwarela, M.C. Makgakga & P.J.D. Winter"
+157,"CORNACEAE","","","R.H. Archer"
+158,"GEISSOLOMATACEAE","","","C.L. Bredenkamp"
+159,"LOGANIACEAE","","",
+160,"GERANIACEAE","","","T. Nkonki, L.L. Dreyer, H.F. Glen, K. Maserumule & E. Retief"
+161,"GINKGOACEAE","","",
+162,"AIZOACEAE","","","M.C. Makgakga & P.J.D. Winter"
+163,"RANUNCULACEAE","","","H.F. Glen & P.J.D. Winter"
+164,"GLEICHENIACEAE","","","J.P. Roux & R. Klopper"
+165,"PTYCHOMITRIACEAE","","","J. van Rooy"
+166,"ARNELLIACEAE","","","S.M. Perold"
+167,"GROSSULARIACEAE","","",
+168,"GREYIACEAE","","","R.H. Archer"
+169,"GRIMMIACEAE","","","J. van Rooy"
+170,"LOASACEAE","","","C.L. Bredenkamp"
+171,"GRUBBIACEAE","","","A.M. Makwarela, M.C. Makgakga & P.J.D. Winter"
+172,"COMBRETACEAE","","","M. Jordaan"
+173,"GYMNOMITRIACEAE","","","S.M. Perold"
+174,"HAEMODORACEAE","","","R.H. Archer"
+175,"HYDROCHARITACEAE","","","R.P. Glen, C.D.K. Cook & R. Klopper"
+176,"ZINGIBERACEAE","","","C. Archer"
+177,"HERBERTACEAE","","","S.M. Perold"
+178,"NYCTAGINACEAE","","","A.M. Makwarela & P.J.D. Winter"
+179,"AMARYLLIDACEAE","","","D.A. Snijman & R.H. Archer"
+180,"BEGONIACEAE","","","C.L. Bredenkamp"
+181,"LYCOPODIACEAE","","","J.P. Roux & R. Klopper"
+182,"HYDNORACEAE","","","M.C. Makgakga & P.J.D. Winter"
+183,"APIACEAE","Umbelliferae","","B.-E. van Wyk, P.M. Tilney & P.J.D. Winter"
+184,"HYDROPHYLLACEAE","","",
+185,"HYDROSTACHYACEAE","","","R.P. Glen, C.D.K. Cook & R. Klopper"
+186,"HYMENOPHYLLACEAE","","","J.P. Roux & R. Klopper"
+187,"HYMENOPHYLLOPSIDACEAE","","",
+188,"FRANKENIACEAE","","","C.L. Bredenkamp"
+189,"AQUIFOLIACEAE","","","M. Jordaan"
+190,"BALSAMINACEAE","","","R.H. Archer"
+191,"ISOETACEAE","","","J.P. Roux & R. Klopper"
+192,"PALLAVICINIACEAE","","","S.M. Perold"
+193,"FLAGELLARIACEAE","","","C. Archer"
+194,"CONNARACEAE","","","M. Jordaan & M.C. Makgakga"
+195,"ONAGRACEAE","","","C.L. Bredenkamp"
+196,"ASPHODELACEAE","","","H.F. Glen, G.F. Smith, I. Breuer, E.M.A. Steyn, C. Archer & R. Klopper"
+197,"POLYGONACEAE","","","G. Germishuizen, R.P. Glen & P.J.D. Winter"
+198,"PODOSTEMACEAE","","","R.P. Glen, C.D.K. Cook & R.H. Archer"
+199,"LEPICOLEACEAE","","","S.M. Perold"
+200,"HYLOCOMIACEAE","","",
+201,"PLAGIOCHILACEAE","","","S.M. Perold"
+202,"LEPTOSTOMATACEAE","","",
+204,"DAVALLIACEAE","","","J.P. Roux & R. Klopper"
+206,"LILIACEAE","","","R.P. Glen, C. Archer & R. Klopper"
+207,"CYPERACEAE","","","C. Archer"
+208,"LOMARIOPSIDACEAE","","","J.P. Roux & R. Klopper"
+209,"LOPHOSORIACEAE","","",
+210,"HALORAGACEAE","","","C.L. Bredenkamp"
+211,"LOXOMATACEAE","","",
+212,"LUNULARIACEAE","","","S.M. Perold"
+213,"RESTIONACEAE","","","C. Archer & R. Klopper"
+214,"LYGODIACEAE","","","J.P. Roux & R. Klopper"
+215,"MYRSINACEAE","","","M.A. Ngwenya & C.L. Bredenkamp"
+216,"CLUSIACEAE","Guttiferae","","C.L. Bredenkamp & R.H. Archer"
+217,"MALVACEAE","","Malvaceae Adans.nom.cons.sensu lato.[Kubitzi & Bayer. Fam & Gen Vascular plants 5: 225-311. See Fam.Pl.2.:390 (1763)]","C.Bredenkamp & O.A. Leistner"
+218,"MARSILEACEAE","","","J.P. Roux & R. Klopper"
+219,"MARTYNIACEAE","","",
+220,"MATONIACEAE","","",
+221,"MAYACACEAE","","",
+222,"MENISPERMACEAE","","","H.F. Glen & P.J.D. Winter"
+223,"METAXYACEAE","","",
+224,"METZGERIACEAE","","","S.M. Perold"
+225,"ASCLEPIADACEAE","","",
+226,"PASSIFLORACEAE","","","R.H. Archer"
+227,"MNIACEAE","","","J. van Rooy"
+228,"MONACHOSORACEAE","","",
+230,"PONTEDERIACEAE","","","R.P. Glen, C.D.K. Cook & R. Klopper"
+231,"MONTINIACEAE","","","E. Retief"
+232,"DIPSACACEAE","","","W.G. Welman"
+233,"MORINGACEAE","","","M. Jordaan & M.C. Makgakga"
+234,"MUSACEAE","","","C. Archer"
+235,"MYRICACEAE","","","H.F. Glen & P.J.D. Winter"
+236,"MYROTHAMNACEAE","","","M. Jordaan & P.J.D. Winter"
+237,"BALANOPHORACEAE","","","A.M. Makwarela, M.C. Makgakga & P.J.D. Winter"
+238,"NAJADACEAE","","","R.P. Glen, C.D.K. Cook & R. Klopper"
+239,"NECKERACEAE","","","J. van Rooy"
+240,"CABOMBACEAE","","","R.P. Glen, C.D.K. Cook & P.J.D. Winter"
+241,"NEURADACEAE","","","H.F. Glen & M. Jordaan"
+242,"ORCHIDACEAE","","","H. Kurzweil & C. Archer"
+243,"SOLANACEAE","","","W.G. Welman"
+244,"BRASSICACEAE","Cruciferae","","H.F. Glen, M. Jordaan & P.J.D. Winter"
+245,"LORANTHACEAE","","","G. Germishuizen & P.J.D. Winter"
+246,"MENYANTHACEAE","","","C.L. Bredenkamp & R. Klopper"
+247,"OCHNACEAE","","","R.H. Archer"
+248,"THYMELAEACEAE","","","C.L. Bredenkamp & J.B.P. Beyers"
+249,"OLEANDRACEAE","","","J.P. Roux & R. Klopper"
+250,"OLINIACEAE","","","R.H. Archer"
+251,"OPILIACEAE","","","M. Jordaan & P.J.D. Winter"
+252,"MYRTACEAE","","","H.F. Glen & M. Jordaan"
+253,"OSMUNDACEAE","","","J.P. Roux & R. Klopper"
+254,"BETULACEAE","","",
+255,"OXYMITRACEAE","","","S.M. Perold"
+256,"ASTERACEAE","Compositae","Martynov proposed name ASTERACEAE in 1820 but it is conserved from the later authorship of Dumortier in 1822.","P.P.J. Herman, W.G. Welman, E. Retief, M. Koekemoer, N. Netnou & N. Swelankomo"
+257,"RUTACEAE","","","J.E. Victor, M. Jordaan, R.H. Archer & P. Bester"
+258,"SAPOTACEAE","","","M. Jordaan"
+259,"VIOLACEAE","","","C.L. Bredenkamp & R.H. Archer"
+260,"PEDALIACEAE","","","S.J. Smithies & P.P.J. Herman"
+261,"ZYGOPHYLLACEAE","","","E. Retief"
+262,"ARECACEAE","Palmae","","H.F. Glen & C. Archer"
+263,"MYOPORACEAE","","","W.G. Welman"
+264,"ULMACEAE","","","M. Jordaan & P.J.D. Winter"
+265,"ROSACEAE","","","T. Nkonki, H.F. Glen & M.C. Makgakga"
+266,"LENTIBULARIACEAE","","","S.J. Smithies"
+267,"THAMNOBRYACEAE","","",
+268,"PINACEAE","","","H.F. Glen"
+269,"PITTOSPORACEAE","","","M. Jordaan & P.J.D. Winter"
+270,"PLAGIOGYRIACEAE","","",
+271,"PLAGIOTHECIACEAE","","","J. van Rooy"
+272,"PLANTAGINACEAE","","","W.G. Welman"
+273,"POLYPODIACEAE","","","J.P. Roux & R. Klopper"
+274,"PTERIDACEAE","","","J.P. Roux & R. Klopper"
+275,"VALERIANACEAE","","","W.G. Welman"
+276,"PLUMBAGINACEAE","","","C.L. Bredenkamp"
+277,"BERBERIDACEAE","","",
+278,"COMMELINACEAE","","","E.T. Moeng & L. Fish"
+279,"CHENOPODIACEAE","","","P.Winter"
+280,"POLYGALACEAE","","","C.L. Bredenkamp"
+281,"SALICACEAE","","","M. Jordaan & R.H. Archer"
+282,"PORELLACEAE","","","S.M. Perold"
+283,"POTAMOGETONACEAE","","","R.P. Glen, C.D.K. Cook & R. Klopper"
+284,"ARACEAE","","","Y. Singh & R. Klopper"
+285,"PRIMULACEAE","","","H.F. Glen & C.L. Bredenkamp"
+286,"JUNCACEAE","","","R.P. Glen, C.D.K. Cook & R. Klopper"
+287,"PRIONODONTACEAE","","","J. van Rooy"
+288,"PSILOTACEAE","","","J.P. Roux & R. Klopper"
+289,"PTAEROXYLACEAE","","",
+290,"PAPAVERACEAE","","","H.F. Glen & P.J.D. Winter"
+291,"RHIZOGONIACEAE","","","J. van Rooy"
+292,"RACOPILACEAE","","","J. van Rooy"
+293,"RADULACEAE","","","S.M. Perold"
+294,"RAFFLESIACEAE","","",
+295,"GESNERIACEAE","","","S.J. Smithies"
+296,"FLACOURTIACEAE","","","C.L. Bredenkamp & R.H. Archer"
+297,"TAMARICACEAE","","","C.L. Bredenkamp"
+300,"RHACHITHECIACEAE","","","J. van Rooy"
+301,"VITTARIACEAE","","","J.P. Roux & R. Klopper"
+302,"RHYNCHOCALYCACEAE","","","C.L. Bredenkamp & M. Jordaan"
+303,"ANEURACEAE","","","S.M. Perold"
+304,"RICCIACEAE","","","S.M. Perold"
+305,"RIELLACEAE","","","S.M. Perold"
+306,"RIGODIACEAE","","","J. van Rooy"
+307,"RORIDULACEAE","","","T. Nkonki & P.J.D. Winter"
+308,"LYTHRACEAE","","","C.L. Bredenkamp"
+309,"EBENACEAE","","","M. Jordaan"
+310,"DRYOPTERIDACEAE","","","J.P. Roux & R. Klopper"
+311,"RUPPIACEAE","","","R.P. Glen, C.D.K. Cook & R. Klopper"
+312,"DENNSTAEDTIACEAE","","","J.P. Roux & R. Klopper"
+313,"SALVINIACEAE","","","J.P. Roux & R. Klopper"
+314,"CAPRIFOLIACEAE","","","W.G. Welman"
+315,"BUXACEAE","","","R.H. Archer"
+316,"ARISTOLOCHIACEAE","","","M. Jordaan & P.J.D. Winter"
+317,"PODOCARPACEAE","","","H.F. Glen"
+318,"SCHISTOCHILACEAE","","","S.M. Perold"
+319,"SCHIZAEACEAE","","","J.P. Roux & R. Klopper"
+320,"HYACINTHACEAE","","","J.C. Manning, P. Goldblatt & R. Klopper"
+321,"OLACACEAE","","","M. Jordaan & P.J.D. Winter"
+322,"TAXODIACEAE","","",
+323,"CRASSULACEAE","","","P.M. Burgoyne, Tylecodon by P.V. Bruyns"
+324,"SELAGINELLACEAE","","","J.P. Roux & R. Klopper"
+325,"SAPINDACEAE","","","R.H. Archer"
+326,"SMILACACEAE","","","R.P. Glen & R. Klopper"
+327,"HERNANDIACEAE","","","M. Jordaan & P.J.D. Winter"
+328,"SPHAEROCARPACEAE","","","S.M. Perold"
+329,"ILLECEBRACEAE","","",
+330,"SPHAGNACEAE","","","J. van Rooy"
+331,"SPHENOCLEACEAE","","","W.G. Welman"
+332,"CUNONIACEAE","","","M. Jordaan & M.C. Makgakga"
+333,"LEMNACEAE","","","R.P. Glen, C.D.K. Cook & R. Klopper"
+334,"STANGERIACEAE","","","H.F. Glen"
+335,"ACANTHACEAE","","","W.G. Welman"
+336,"CARYOPHYLLACEAE","","","P.J.D. Winter"
+337,"STRELITZIACEAE","","","C. Archer"
+338,"SIMAROUBACEAE","","",
+339,"PORTULACACEAE","","","H.F. Glen & P.M. Burgoyne"
+340,"SPLACHNACEAE","","","J. van Rooy"
+341,"LIMNOCHARITACEAE","","","R.P. Glen, C.D.K. Cook & R. Klopper"
+342,"BURMANNIACEAE","","","C. Archer"
+343,"DICKSONIACEAE","","",
+344,"COLCHICACEAE","","","C. Archer"
+346,"TRAPACEAE","","","R.P. Glen & C.L. Bredenkamp"
+347,"TURNERACEAE","","","C.L. Bredenkamp & R.H. Archer"
+348,"JUNCAGINACEAE","","","R.P. Glen, C.D.K. Cook & R. Klopper"
+349,"TRIMENIACEAE","","",
+350,"ARALIACEAE","","","M. Jordaan"
+351,"TYPHACEAE","","","R.P. Glen, C.D.K. Cook & R. Klopper"
+352,"URTICACEAE","","","M. Jordaan & P.J.D. Winter"
+353,"ANNONACEAE","","","M. Jordaan & P.J.D. Winter"
+354,"VAHLIACEAE","","","A.M. Makwarela & P.J.D. Winter"
+355,"GOODENIACEAE","","","W.G. Welman"
+356,"VELLOZIACEAE","","","R.H. Archer"
+357,"RHAMNACEAE","","","M. Jordaan & J.B.P. Beyers"
+358,"VERBENACEAE","","","E. Retief"
+359,"NYMPHAEACEAE","","","R.P. Glen, C.D.K. Cook & P.J.D. Winter"
+360,"VISCACEAE","","","G. Germishuizen & P.J.D. Winter"
+361,"VITACEAE","","","E. Retief"
+363,"WARDIACEAE","","","J. van Rooy"
+364,"WELWITSCHIACEAE","","","H.F. Glen"
+365,"BLECHNACEAE","","","J.P. Roux & R. Klopper"
+366,"XYRIDACEAE","","","R.P. Glen, C.D.K. Cook & R. Klopper"
+367,"PIPERACEAE","","","M. Jordaan & P.J.D. Winter"
+368,"ZOSTERACEAE","","","R.P. Glen, C.D.K. Cook & R. Klopper"
+369,"LANARIACEAE","","","R.H. Archer"
+370,"NEPENTHACEAE","","",
+373,"ANTHERICACEAE","","","C. Archer & R. Klopper"
+374,"PHORMIACEAE","","",
+375,"TECOPHILAEACEAE","","","R.H. Archer"
+377,"HEMEROCALLIDACEAE","","","C. Archer"
+383,"AGAVACEAE","","","G.F. Smith & R.H. Archer"
+386,"RUSCACEAE","","",
+387,"CONVALLARIACEAE","","",
+391,"DORYANTHACEAE","","",
+392,"ALSTROEMERIACEAE","","",
+394,"TACCACEAE","","",
+397,"THEACEAE","","",
+398,"CISTACEAE","","",
+399,"FOUQUIERIACEAE","","",
+400,"MONIMIACEAE","","","M. Jordaan"
+401,"TREMANDRACEAE","","",
+402,"VOCHYSIACEAE","","",
+403,"TRIGONIACEAE","","",
+404,"ALANGIACEAE","","",
+405,"JUGLANDACEAE","","",
+406,"HUACEAE","","",
+407,"HIPPOCRATEACEAE","","",
+408,"ANCISTROCLADACEAE","","",
+409,"ANISOPHYLLEACEAE","","",
+410,"BARBEYACEAE","","",
+411,"BIXACEAE","","",
+412,"SCYTOPETALACEAE","","",
+413,"BREXIACEAE","","",
+414,"SAMYDACEAE","","Synonym of Flacourtiaceae. Flora Neotropica 22. 1980 p7-8",
+415,"HYPERICACEAE","","","C.L. Bredenkamp & R.H. Archer"
+416,"COCHLOSPERMACEAE","","",
+417,"CTENOLOPHONACEAE","","",
+418,"DILLENIACEAE","","",
+419,"DIONCOPHYLLACEAE","","",
+420,"PANDACEAE","","",
+421,"DIRACHMACEAE","","",
+422,"HUMIRIACEAE","","",
+423,"IRVINGIACEAE","","",
+424,"IXONANTHACEAE","","",
+425,"LEEACEAE","","",
+426,"LEPIDOBOTRYACEAE","","",
+427,"MEDUSANDRACEAE","","",
+428,"MYRISTICACEAE","","",
+430,"NITRARIACEAE","","",
+431,"OCTOKNEMACEAE","","",
+432,"PENTADIPLANDRACEAE","","",
+433,"PLATANACEAE","","",
+434,"SONNERATIACEAE","","",
+435,"TRIBULACEAE","","",
+436,"FUMARIACEAE","","","M.C. Makgakga & P.J.D. Winter"
+437,"TROPAEOLACEAE","","",
+438,"CYMODOCEACEAE","","","R.P. Glen, C.D.K. Cook & R. Klopper"
+439,"SARCOLAENAEACEAE","","",
+440,"HELICONIACEAE","","",
+441,"EPHEDRACEAE","","",
+444,"MELANTHIACEAE","","",
+445,"CYCLANTHACEAE","","",
+446,"BUDDLEJACEAE","","","M. Jordaan & J. Victor"
+447,"STRYCHNACEAE","","","M. Jordaan & J. Victor"
+448,"HETEROPYXIDACEAE","","","M. Jordaan"
+449,"GELSEMIACEAE","","",
+450,"ANTONIACEAE","","",
+452,"AUCUBACEAE","","",
+453,"GISEKIACEAE","","","A.M. Makwarela, M.C. Makgakga & P.J.D. Winter"
+454,"MOLLUGINACEAE","","","M.C. Makgakga & P.J.D. Winter"
+456,"LEUCOBRYACEAE","","","J. van Rooy"
+463,"FOSSOMBRONIACEAE","","","S.M. Perold"
+464,"MAGNOLIACEAE","","",
+465,"ELAEAGNACEAE","","",
+466,"PHYLLOCLADACEAE","","",
+467,"TAXACEAE","","",
+468,"CEPHALOTAXACEAE","","",
+469,"NELUMBONACAEAE","","",
+470,"HOSTACEAE","","",
+471,"COSTACEAE","","",
+472,"MARANTACEAE","","",
+473,"SAURURACEAE","","",
+474,"CORYLACEAE","","",
+475,"CERCIDIPHYLLACEAE","","",
+476,"PAEONIACEAE","","",
+477,"ILLICIACEAE","","",
+478,"WINTERACEAE","","",
+479,"CALYCANTHACEAE","","",
+480,"SARRACENIACEAE","","",
+481,"CNEORACEAE","","",
+482,"DAPHNIPHYLLACEAE","","",
+483,"SIMMONDSIACEAE","","",
+484,"CORIARIACEAE","","",
+485,"CORYNOCARPACEAE","","",
+486,"HIPPOCASTANACEAE","","",
+487,"ELAEOCARPACEAE","","",
+488,"ACTINIDIACEAE","","",
+489,"MARCGRAVIACEAE","","",
+490,"STACHYURACEAE","","",
+491,"CLETHRACEAE","","",
+492,"EPACRIDACEAE","","",
+493,"THEOPHRASTACEAE","","","H.F. Glen & C.L. Bredenkamp"
+494,"STYRACACEAE","","",
+495,"SYMPLOCACEAE","","",
+496,"ANOMODONTACEAE","","","J. van Rooy"
+497,"MAESACEAE","","","C.L. Bredenkamp & A. Ngwenya"
+499,"BRUNELLIACEAE","","",
+500,"DAVIDSONIACEAE","","",
+501,"PTYCHOMNIACEAE","","",
+503,"SPHAEROSEPALACEAE","","",
+504,"CYCLOCHEILACEAE","","",
+505,"TRIURIDACEAE","","",
+506,"GLOBULARIACEAE","","",
+507,"HAPLOMITRIACEAE","","","S.M. Perold"
+508,"GEOCALYCACEAE","","","S.M. Perold"
+509,"BRUCHIACEAE","","","J. van Rooy"
+510,"OROBANCHACEAE","","","S.J. Smithies & J.A. Ready"
+511,"AVICENNIACEAE","","",
+512,"CALYCERACEAE","","",
+513,"ADOXACEAE","","",
+515,"SCAPANIACEAE","","","S.M. Perold"
+516,"NARTHECIACEAE","","",
+517,"HYPOPTERYGIACEAE","","","J. van Rooy"
+518,"PILOTRICHACEAE","","","J. van Rooy"
+519,"NEPHROLEPIDACEAE","","","J.P. Roux & R. Klopper"
+520,"PARKERIACEAE","","","J.P. Roux & R. Klopper"
+521,"CENTROLEPIDACEAE","","",
+523,"CARYOCARACEAE","","",
+524,"STAPHYLEACEAE","","",
+525,"CHLORANTHACEAE","","",
+526,"BALANOPACEAE","","",
+527,"BATACEAE","","",
+528,"DIAPENSIACEAE","","",
+529,"RAPATEACEAE","","",
+530,"CEPHALOTACEAE","","",
+531,"EMPETRACEAE","","",
+532,"CYRILLACEAE","","",
+533,"COLUMELLIACEAE","","",
+534,"MALESHERBIACEAE","","",
+535,"STEMONACEAE","","",
+536,"CROSSOSOMATACEAE","","",
+537,"EUCOMMIACEAE","","",
+538,"LACTORIDACEAE","","",
+539,"EUCRYPHIACEAE","","",
+540,"MELIOSMACEAE","","",
+541,"CRYPTERONIACEAE","","",
+542,"DATISCACEAE","","",
+543,"STYLIDIACEAE","","",
+544,"STACKHOUSIACEAE","","",
+545,"EUPTELEACEAE","","",
+546,"GOMORTEGACEAE","","",
+547,"PHILYDRACEAE","","",
+548,"LACISTEMATACEAE","","",
+549,"LARDIZABALACEAE","","",
+550,"LEITNERIACEAE","","",
+551,"MISODENDRACEAE","","",
+552,"WOODSIACEAE","","","J.P. Roux & R. Klopper"
+553,"INCERTAE_SEDIS","","",
+554,"SURIANACEAE","","",
+555,"PENTAPHYLACACEAE","","",
+556,"PHRYMACEAE","","",
+557,"SABIACEAE","","",
+558,"PRIONIACEAE","","","R.P. Glen, C.D.K. Cook & R. Klopper"
+559,"ALLISONIACEAE","","",
+560,"TROCHODENDRACEAE","","",
+561,"BOLETACEAE","","",
+562,"RUSSULACEAE","","",
+563,"AGARICACEAE","","",
+564,"MORCHELLACEAE","","",
+565,"COPRINACEAE","","",
+566,"LEPIOTACEAE","","",
+567,"MYRINIACEAE","","","J. van Rooy"
+568,"BALANTIOPSIDACEAE","","","S.M. Perold & J. van Rooy"
+569,"BALANTIOPSACEAE","","",
+570,"ACORACEAE","","","Y. Singh & R. Klopper"
+571,"AGAPANTHACEAE","","","C. Archer & R.H. Archer"
+572,"GUNNERACEAE","","","C.L. Bredenkamp"
+573,"BEHNIACEAE","","","R.P.Glen & R. Klopper"
+575,"CELTIDACEAE","","","M. Jordaan"
+576,"TECTARIACEAE","","","J.P. Roux & R. Klopper"
+584,"PANDANACEAE","","For FSA/FTA checklist",
+585,"KIRKIACEAE","","For FSA/FTA checklist","R.H. Archer"
+586,"LINDSAEACEAE","","","J.P. Roux & R. Klopper"
+587,"JUBULACEAE","","","S.M. Perold"
+588,"ORTHODONTIACEAE","","","J. van Rooy"
+589,"DALTONIACEAE","","","J. van Rooy"
+591,"CYTINACEAE","","","S.J. Smithies & P.M. Burgoyne"
+592,"PEGANACEAE","","Sheahan & Chase. 1996. Botanical Journal of the Linnean Society 122: 279-300","E. Retief"
+593,"CYNOMORIACEAE","","",
+594,"LIMNANTHACEAE",,"",
+595,"PHYLLANTHACEAE",,"",
+596,"PICRODENDRACEAE",,"",
+597,"PUTRANJIVACEAE",,"",
+598,"VERRUCARIACEAE",,"Goebel & Kunze, Pharmaceutische Waarenkunde: 123 (1827)","J. van Rooy"
+600,"THELOTREMATACEAE ",,"[as 'as 'Thelotremeae''], Ber. Tät. St Gall. naturw. Ges.: 167 (1862)","J. van Rooy"
+601,"PARMELIACEAE",,"Goebel & Kunze, Pharmaceutische Waarenkunde: 124 (1827)","J. van Rooy"
+602,"HAEMATOMMATACEAE",,"Beih. Nova Hedwigia 79: 281 (1984)","J. van Rooy"
+603,"TELOSCHISTACEAE ",,"[as 'as 'Theloschistaceae''], in Engler, Syllabus, edn 2: 45 (1898)","J. van Rooy"
+604,"CANDELARIACEAE",,"Ann. bot. Soc. Zool.-Bot. Fenn. Vanamo 27(3): 11 (1954)","J. van Rooy"
+605,"ROCCELLACEAE",,"[as 'as 'Rocellaceae''], Fl. gén. env. Paris (Paris): 604 (1826)",
+606,"LECANORACEAE ",,"[as 'as 'Lecanoreae Fée emend.''], Syst. lich. germ. (Breslau): 104 (1855)","J. van Rooy"
+607,"PORPIDIACEAE",,"Beih. Nova Hedwigia 79: 318 (1984)","J. van Rooy"
+608,"PELTULACEAE",,"Eriksson & Hawksworth, Syst. Ascom. 5: 149 (1986)",
+609,"PHYSCIACEAE",,"Engler, Syllabus, edn 2: 46 (1898)",
+610,"PSORACEAE",,"Engler, Syllabus, edn 2: 44 (1898)","J. van Rooy"
+611,"RAMALINACEAE",,"[as 'as 'Ramalineae''], Aphor. bot. (Lund): 93 (1821)",
+612,"ECTOLECHIACEAE ",,"Nat. Pflanzenfam. (Leipzig) 1(1*): 122 (1905)",
+613,"GOMPHILLACEAE",,"Beih. Nova Hedwigia 79: 280 (1984)",
+614,"CATILLARIACEAE",,"Nova Hedwigia 79: 271 (1984)",
+615,"TRYPETHELIACEAE ",,"Goebel & Kunze, Pharmaceutische Waarenkunde: 123 (1827)",
+616,"UMBILICARIACEAE ",,"[as 'as 'Umbilicarieae''], Fl. gén. env. Paris (Paris): 640 (1826)",
+617,"PILOCARPACEAE",,"Nat. Pflanzenfam. (Leipzig) 1(1*): 116 (1905)",
+618,"ACAROSPORACEAE",,"Nat. Pflanzenfam. (Leipzig) 1(1*): 150 (1906)",
+619,"STICTIDACEAE",,"[as 'as 'Stictei''], Summa veg. Scand. (Stockholm) 2: 345 (1849)",
+620,"THELENELLACEAE",,"Biblthca Lichenol. 26: 16 (1987)",
+621,"MONOBLASTIACEAE",,"New Phytol. 28: 106 (1929)",
+622,"CALICIACEAE ",,"[as 'as 'Calicineae''], Fl. gén. env. Paris (Paris): 314 (1826)",
+624,"BACIDIACEAE ",,"New Phytol. 28: 27 (1929)",
+625,"LICHINACEAE",,"Mém. Soc. natn. Sci. nat. math. Cherbourg 2: 8 (1854)",
+626,"PYRENULACEAE",,"Krypt.-Fl. Sachsen (Leipzig) 2: 42 (1870)",
+627,"ARTHONIACEAE",,"Deut. Bot. Herb.-Buch: 13 (1841)",
+628,"HEPPIACEAE ",,"Nat. Pflanzenfam. (Leipzig) 1(1*): 176 (1906)",
+629,"ARTHOPYRENIACEAE ",,"New Phytol. 28: 107 (1929)",
+630,"CLADONIACEAE",,"Goebel, Pharmaceutische Waarenkunde 1: 124 (1827)",
+631,"ARTHRORHAPHIDACEAE",,"Horn 17: 220 (1976)",
+632,"HYMENELIACEAE",,"[as 'as 'Hymenelieae''], Syst. lich. germ. (Breslau): 327 (1855)",
+633,"ASTEROTHYRIACEAE ",,"Symb. bot. upsal. 12(1): 316 (1952)",
+634,"MEGALOSPORACEAE",,"Nova Hedwigia 35: 216 (1982)",
+635,"BAEOMYCETACEAE",,"[as 'as 'Baeomyceae''], Anal. fam. pl.: 71 (1829)",
+636,"BRIGANTIAEACEAE",,"Nova Hedwigia 35: 246 (1982)",
+637,"MYCOPORACEAE",,"Nat. Pflanzenfam. (Leipzig) 1(1*): 77 (1903)",
+638,"COLLEMATACEAE",,"[as 'as 'Collemata' Fée'], in Goebel, Pharmaceutische Waarenkunde 1(3): 124 (1827)",
+639,"FUSCIDEACEAE",,"Hafellner, Beih. Nova Hedwigia 79: 278 (1984)",
+640,"LOBARIACEAE",,"[as 'as 'Lobarieae''], Fl. gén. env. Paris (Paris): 609 (1826)",
+641,"AGYRIACEAE",,"Icon. fung. (Prague) 2: 36 (1838)",
+642,"LETROUITIACEAE",,"Nova Hedwigia 35: 382 (1982)",
+643,"LECIDEACEAE",,"[as 'as 'Lecideae''], Fl. gén. env. Paris (Paris): 549 (1826)",
+644,"CHRYSOTHRICACEAE",,"Nat. Pflanzenfam. (Leipzig) 1(1*): 117 (1905)",
+645,"BIATORELLACEAE",,"Nova Hedwigia 55(3-4): 316 (1992)",
+646,"OCHROLECHIACEAE",,"Schmitt, Yamamoto & Lumbsch, J. Hattori Bot. Lab. 100: 760 (2006",
+647,"PERTUSARIACEAE ",,"[as 'as 'Pertusarieae''], Syst. lich. germ. (Breslau): 377 (1855)",
+648,"PANNARIACEAE",,"[as 'as 'Pannariei''], Gen. lich. (Amherst): xii (1872)",
+649,"COCCOCARPIACEAE ",,"Henssen, Syst. Ascom. 5: 314 (1986)",
+650,"COENOGONIACEAE ",,"[as 'as 'Coenogonieae''], Ber. Tät. St Gall. naturw. Ges.: 140 (1862)",
+651,"DACAMPIACEAE ",,"[as 'as 'Dacampieae''], Syst. lich. germ. (Breslau): 322 (1855)",
+652,"TRICHOLOMATACEAE",,"Ceská Mykol. 37: 175 (1983)",
+653,"DIDYMOSPHAERIACEAE ",,"Munk, Dansk bot. Ark. 15(2): 128 (1953)",
+654,"GRAPHIDACEAE ",,"Dumort. [as 'as 'Graphineae''], Comment. Bot.: 69 (1822)",
+655,"ATHELIACEAE ",,"Biblthca Mycol. 85: 355 (1982)",
+656,"GYALECTACEAE",,"[as 'as 'Gyalecteae''], Ber. Tät. St Gall. naturw. Ges.: 158 (1862)",
+657,"XANTHOPYRENIACEAE ",,"Nat. Pflanzenfam., Edn 2 (Leipzig) 8: 91 (1926)",
+658,"RHIZOCARPACEAE",,"Beih. Nova Hedwigia 79: 327 (1984)",
+659,"PLACYNTHIACEAE ",,"Meddr Gronland, Biosc. 150(2): 49 (1950)",
+660,"PATELLARIACEAE",,"Icon. fung. (Prague) 2: 37 (1838)",
+661,"PHLYCTIDACEAE",,"Likhenoflora Kryma i eë analiz: 245 (1986)",
+662,"STRIGULACEAE ",,"Engler, Syllabus, edn 2: 46 (1898)",
+663,"MASSALONGIACEAE",,"Lichenologist 39(1): 63 (2007)",
+664,"PELTIGERACEAE",,"[as 'as 'Peltigereae''], Comment. Bot.: 68 (1822)",
+665,"SPHINCTRINACEAE",,"Bull. mens. Soc. linn. Lyon 19: 65 (1950)",
+666,"ICMADOPHILACEAE ",,"Rambold, Triebel & Hertel, Biblthca Lichenol. 53: 227 (1993)",
+667,"SPHAEROPHORACEAE",,"Lich. eur. reform. (Lund): 7 (1831)",
+668,"STEREOCAULACEAE ",,"[as 'as 'Stereocauleae''], Fl. gén. env. Paris (Paris): 596 (1826)",
+669,"NEPHROMATACEAE",,"[as 'as 'Nephromaceae''], Publs. Mich. St. Univ. Mus., ser. biol. 1: 394 (1960)",
+670,"DOTHIORACEAE",,"Annls mycol. 15: 444 (1918)",
+671,"MICAREACEAE",,"Beih. Nova Hedwigia 79: 306 (1984)",
+672,"XYLARIACEAE ",,"[as 'as 'Xylariei''], Select. fung. carpol. 2: 3 (1861)","J. van Rooy"
+673,"MYCOCALICIACEAE",,"Mitt. Staatsinst. Allg. Bot. Hamburg 13: 127 (1970)",
+674,"NAETROCYMBACEAE ",,"More Florida Lichens, Incl. 10 Cent Tour Pyrenol. (New York): 59 (1995)",
+675,"MELASPILEACEAE",,"New Phytol. 28: 94 (1929)","J. van Rooy"
+676,"ARCTOMIACEAE ",,"[as 'as 'Arctomiei''], Nova Acta R. Soc. Scient. upsal., Ser. 3 3: 287 (1860)",
+677,"ASPIDOTHELIACEAE",,"Syst. Ascom. 10(1): 13 (1991)",
+678,"MASTODIACEAE",,"Nat. Pflanzenfam. (Leipzig) 1(1*): 240 (1907)","J. van Rooy"
+679,"MELANOMMATACEAE",,"","Melanommataceae G. Winter [as 'as 'Melanommeae''], Rabenh. Krypt.-Fl. 1(2): 220 (1885)"
+680,"MYCOSPHAERELLACEAE",,"Nat. Pflanzenfam. (Leipzig) 1(1): 421 (1897)","MYCOSPHAERELLACEAE"

@@ -56,7 +56,7 @@ fire_return=raster("Data/BiomassAccumulation/FireReturnTime_WeibullScale500m.tif
 #soil_moisture=raster("Data/BiomassAccumulation/XXXXX.tif")
 
 ###Get geology
-geol=stack(list.files("/Users/jasper/GIT/Nyasha/Data/Geology", full.names=T, pattern=".asc")); proj4string(geol)=proj4string(tmax)
+geol=stack(list.files("Data/Geology", full.names=T, pattern=".asc")); proj4string(geol)=proj4string(tmax)
 
 ###Resample and reproject all rasters to the same grid and Coordinate Reference System
 #tmax=projectRaster(tmax,seasonality) #note that function uses bilinear interpolation by default. Can be a little slow...
