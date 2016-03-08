@@ -6,7 +6,7 @@
 ######## Data: 
 ######## 1) Species trait and var contribution table for enhanced SDM
 ##############################################################################
-setwd ("C:/PhD_GIT/Nyasha")
+if (Sys.getenv("USERNAME")=='nyasha') {setwd ("C:/PhD_GIT/Nyasha")}
 if (Sys.getenv("USER")=='jasper') {setwd("/Users/jasper/GIT/Nyasha")}
 
 library(nlme)

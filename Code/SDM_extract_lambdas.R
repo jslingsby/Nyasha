@@ -4,6 +4,9 @@
 ######## Compiled by Jasper Slingsby 2016
 ######## Last edited: 8 March 2016
 ##############################################################################
+# See http://gsp.humboldt.edu/OLM/GSP_570/Learning%20Modules/10%20BlueSpray_Maxent_Uncertinaty/MaxEnt%20lambda%20files.pdf for guidelines etc
+
+if (Sys.getenv("USER")=='jasper') {lambdas_location <- "/Users/jasper/Dropbox/Shared/Nyasha/Maxent_run7_dec2015/Test_lambdas"}
 
 ##############################################################################
 ###1) Get function (from John B. Baumgartner - https://github.com/johnbaums/things/blob/master/R/parse_lambdas.R)
@@ -46,30 +49,65 @@ parse_lambdas <- function(lambdas) {
 ###2) Get species names
 ##############################################################################
 
-
+spnames <- unique(read.csv("Data/LocalityData/PRECIS_locality_data_dec2015.csv", stringsAsFactors = F)$TAXON)
 
 ##############################################################################
-###3) Get lambda files
+###3) Get lambda files and create a loop to parse lambdas by species
 ##############################################################################
 
 #Get list of lambda files from MaxEnt output directory
-lambdas <- list.files("/Users/jasper/Documents/GIS/MaxEnt/maxent/nyashatest/", pattern=".lambdas", full.names=TRUE)
+lambdas <- list.files(lambdas_location, pattern=".lambdas", full.names=TRUE)
 
-#parse_lambdas("/Users/jasper/Documents/GIS/MaxEnt/maxent/nyashatest/crinifolia_0.lambdas")
+#LOOP over species
+
+mean_lambda <- list()
+sdev_lambda <- list()
+n_models <- list()
+
+for(i in 1:length(spnames)) {
 
 #Get lambda files for species of interest
-index <- grep("crinifolia", lambdas)
+index <- grep(spnames[i], lambdas)
 focal <- lambdas[index]
 
-#Gets the files in the order in object "lambdas"
-lfls <- lapply(focal, "read.csv", header=F)
+#Make a list of all lambdas for species i
+lfls <- lapply(focal, "parse_lambdas")
 
-#lapply(lfls, function(x){return(x[,1:2])})
-ldf <- do.call("rbind", lfls)
+#Extract just the lambdas tables into a list of tables
+lfls <- lapply(lfls, function(x){x$lambdas})
 
-ave <- aggregate(ldf[,2:ncol(ldf)], by = list(ldf[,1]), mean)
-sdev <- aggregate(ldf[,2:ncol(ldf)], by = list(ldf[,1]), sd)
+#Collapse into one table and remove covariates with zero lambdas
+lfls <- do.call("rbind", lfls)
+lfls <- lfls[-which(lfls$lambda==0),]
 
+#Calculate mean and range for each lambda for each covariate for each species
+ave <- aggregate(lfls[,3], by = list(lfls[,1]), mean, na.rm=T)
+sdev <- aggregate(lfls[,3], by = list(lfls[,1]), sd)
+n <- aggregate(lfls[,3], by = list(lfls[,1]), function(x){sum(x!=0)})
 
+#Organize outputs
+colnames(ave)[2] <- spnames[i]; colnames(sdev)[2] <- spnames[i]; colnames(n)[2] <- spnames[i]
 
-#lapply(me, function(x) x@lambdas)
+#Plce outputs in lists
+mean_lambda[[i]] <- ave
+sdev_lambda[[i]] <- sdev
+n_models[[i]] <- n
+
+} #END LOOP
+
+###Reorganize means into a table [You'd need to repeat this code replacing mean_lambda with sdev_lambda etc to get sdev or n...]
+names(mean_lambda) <- spnames
+vs <- unique(unlist(lapply(mean_lambda, function(x){x[,1]})))
+vs <- as.data.frame(vs)
+colnames(vs)="Group.1"
+for(i in 1:length(mean_lambda)) {vs <- merge(vs, mean_lambda[[i]], all=T)}
+rownames(vs) <- vs[,1]
+vs <-as.data.frame(t(vs[,2:ncol(vs)]))
+#vs$Species <- rownames(vs)
+
+##############################################################################
+###4) Bind on species attributes and create boxplots...
+##############################################################################
+
+#e.g.
+boxplot(vs$fire_return_1min ~ rep(c("A","B"), 55))
