@@ -13,6 +13,8 @@ library(raster)
 library(gdalUtils)
 library(rgdal)
 
+setwd("/Users/jasper/GIT/Nyasha")
+
 ##########################################
 ###2) Get example raster
 ##########################################
@@ -88,6 +90,8 @@ for (i in 1:nlayers(clim))
 }
 
 names(fclimplus) <- names(clim)
+
+#writeRaster(fclimplus, "Data/Adam/futurepluscurrentclimate.grd")
 
 #for (i in 1:nlayers(clim))
 #{
