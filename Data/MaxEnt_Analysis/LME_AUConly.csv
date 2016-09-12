@@ -1,0 +1,109 @@
+TAXON,Growthform_trait,Fire_response,Growth_form,Pair,geocombined,map,mmp01,pptconc,rec_rate,tmax01,tmin07
+AgathBifid,ShrubOR,A,Low shrub,pair1,0.6629,0.4519,0.4935,0.4192,0.667,0.4547,0.6714
+AgathCapen,ShrubOR,A,Low shrub,pair2,0.6124,0.4394,0.5579,0.4339,0.5294,0.6752,0.6081
+AgathImbri,ShrubOR,A,Low shrub,pair3,0.6847,0.4479,0.407,0.6198,0.74,0.6578,0.7932
+AgathMucro,ShrubOS,B,Low shrub,pair1,0.5963,0.6986,0.6857,0.6457,0.5997,0.6513,0.5679
+AgathMundt,ShrubOS,B,Low shrub,pair2,0.7374,0.5835,0.8054,0.6911,0.7537,0.7658,0.5124
+AgathUnica,ShrubOS,B,Low shrub,pair3,0.631,0.5904,0.7208,0.5964,0.669,0.5,0.4818
+BerzeInter,ShrubOR,A,Medium shrub,pair4,0.7372,0.8448,0.9004,0.753,0.8533,0.6391,0.5511
+BerzeLanug,ShrubOS,B,Medium shrub,pair4,0.6508,0.9128,0.7433,0.677,0.6349,0.6163,0.6427
+CalopAsper,GraminoidOS,B,Graminoid,pair5,0.7398,0.9873,0.853,0.6796,0.796,0.6309,0.826
+CalopHyali,GraminoidOR,A,Graminoid,pair5,0.7113,0.9844,0.8313,0.685,0.7549,0.6603,0.8099
+CalopMonos,GraminoidOS,B,Graminoid,pair6,0.6594,0.8402,0.8506,0.8612,0.6546,0.6028,0.5092
+CalopPanic,GraminoidOR,A,Graminoid,pair6,0.6885,0.6843,0.4537,0.7533,0.4429,0.5,0.5
+ClutiAlate,ShrubOR,A,Low shrub,pair7,0.6978,0.7983,0.6463,0.3924,0.5346,0.5694,0.6015
+ClutiErico,ShrubOS,B,Low shrub,pair7,0.6366,0.442,0.6293,0.653,0.5,0.5,0.6206
+ClutiPolif,ShrubOS,B,Low shrub,pair8,0.6173,0.557,0.6327,0.3984,0.5031,0.6683,0.4588
+ClutiPolyg,ShrubOR,A,Low shrub,pair8,0.6033,0.9897,0.8529,0.715,0.7301,0.6439,0.6727
+EhrhaBulbo,GraminoidOR,A,Graminoid,pair9,0.4542,0.6852,0.5212,0.6593,0.4174,0.7667,0.64
+EhrhaRehma,GraminoidOS,B,Graminoid,pair9,0.6443,0.9916,0.8729,0.7576,0.7065,0.6241,0.5391
+ElegiAsper,GraminoidOR,A,Graminoid,pair10,0.6364,0.8973,0.7794,0.4525,0.6728,0.4276,0.5645
+ElegiCapen,GraminoidOR,A,Graminoid,pair11,0.6511,0.8376,0.6758,0.6247,0.4658,0.6759,0.5161
+ElegiFilac,GraminoidOS,B,Graminoid,pair10,0.685,0.8709,0.7143,0.6423,0.5954,0.6557,0.5823
+ElegiGalpi,GraminoidOR,A,Graminoid,pair12,0.6632,0.7156,0.8097,0.7857,0.672,0.6124,0.602
+ElegiJunce,GraminoidOR,A,Graminoid,pair13,0.6679,0.8851,0.8711,0.6346,0.7571,0.5209,0.5539
+ElegiNeesi,GraminoidOS,B,Graminoid,pair11,0.6175,0.9463,0.7871,0.7346,0.5704,0.6995,0.4843
+ElegiPersi,GraminoidOS,B,Graminoid,pair12,0.6907,0.9883,0.8683,0.6845,0.7971,0.6649,0.7488
+ElegiRacem,GraminoidOR,A,Graminoid,pair14,0.6702,0.9572,0.868,0.6255,0.7571,0.6476,0.6242
+ElegiSpath,GraminoidOS,B,Graminoid,pair13,0.6996,0.9863,0.8496,0.7006,0.7415,0.6547,0.7077
+ElegiStipu,GraminoidOS,B,Graminoid,pair14,0.7368,0.764,0.7399,0.4341,0.7872,0.616,0.8526
+EragrCapen,GraminoidOR,A,Graminoid,pair15,0.546,0.6235,0.7906,0.6949,0.7576,0.44,0.6034
+EragrObtus,GraminoidOS,B,Graminoid,pair15,0.6623,0.5648,0.6944,0.7539,0.7108,0.6117,0.4262
+EricaCerin,ShrubOR,A,Low shrub,pair16,0.7401,0.7241,0.7777,0.6896,0.7611,0.4591,0.6362
+EricaCocci,ShrubOR,A,Medium shrub,pair17,0.6847,0.9783,0.8653,0.6737,0.7892,0.6447,0.7608
+EricaConfe,ShrubOS,B,Low shrub,pair16,0.6586,0.8844,0.8905,0.8683,0.7548,0.6192,0.5679
+EricaCurvi,ShrubOS,B,Medium shrub,pair17,0.6071,0.7739,0.7155,0.4538,0.6184,0.585,0.4294
+EricaDensi,ShrubOS,B,Medium shrub,pair18,0.85,0.9187,0.9746,0.7595,0.9467,0.7955,0.5189
+EricaEquis,ShrubOS,B,Low shrub,pair19,0.6179,0.967,0.8261,0.6927,0.7539,0.6598,0.7322
+EricaErico,ShrubOS,B,Low shrub,pair20,0.7105,0.9863,0.8525,0.6796,0.7938,0.6502,0.8145
+EricaMammo,ShrubOR,A,Medium shrub,pair18,0.4334,0.575,0.7509,0.863,0.5,0.4747,0.8127
+EricaStrig,ShrubOR,A,Low shrub,pair19,0.573,0.6304,0.6723,0.6726,0.4942,0.646,0.6668
+EricaUmbel,ShrubOR,A,Low shrub,pair20,0.5895,0.6232,0.6072,0.7406,0.4356,0.6393,0.7286
+GnidiGalpi,ShrubOS,B,Low shrub,pair21,0.5917,0.9044,0.8664,0.5,0.7432,0.435,0.6324
+GnidiGemin,ShrubOR,A,Low shrub,pair21,0.5972,0.5088,0.7925,0.8663,0.7284,0.6917,0.4288
+GrubbRosma,ShrubOS,B,Medium shrub,pair22,0.6649,0.9852,0.912,0.626,0.8078,0.7545,0.619
+GrubbTomen,ShrubOR,A,Medium shrub,pair22,0.7211,0.9569,0.8945,0.465,0.8656,0.6078,0.7607
+HelicCymos,ShrubOS,B,Low shrub,pair23,0.6218,0.6186,0.772,0.4309,0.6638,0.5523,0.4422
+HelicTeret,ShrubOR,A,Low shrub,pair23,0.4737,0.5388,0.6453,0.6472,0.7009,0.5131,0.671
+HypodAlbo-,GraminoidOS,B,Graminoid,pair24,0.6118,0.6991,0.8114,0.6771,0.6928,0.4841,0.4159
+HypodArgen,GraminoidOR,A,Graminoid,pair24,0.6963,0.882,0.7961,0.5447,0.6811,0.4334,0.67
+HypodLaevi,GraminoidOR,A,Graminoid,pair25,0.7041,0.6926,0.4289,0.7391,0.7697,0.6707,0.6903
+HypodNeesi,GraminoidOS,B,Graminoid,pair25,0.5,0.5,0.727,0.8212,0.8581,0.6544,0.7706
+IndigHeter,ShrubOR,A,Low shrub,pair26,0.6201,0.5266,0.4662,0.6242,0.6598,0.6797,0.6412
+IndigSarme,ShrubOS,B,Low shrub,pair26,0.6322,0.8926,0.8825,0.7408,0.7194,0.5802,0.4614
+IschyMonan,GraminoidOS,B,Graminoid,pair27,0.7819,0.5,0.6921,0.8525,0.7542,0.5,0.5
+IschyOcrea,GraminoidOS,B,Graminoid,pair28,0.423,0.5,0.5,0.5813,0.6676,0.6106,0.4831
+IschyUnisp,GraminoidOR,A,Graminoid,pair27,0.6498,0.6732,0.769,0.8656,0.8117,0.8708,0.6855
+IschyVirge,GraminoidOR,A,Graminoid,pair28,0.7629,0.6624,0.7551,0.878,0.8585,0.886,0.697
+MayteAcumi,ShrubOS,B,Tall shrub,pair29,0.6798,0.9183,0.887,0.4836,0.8067,0.6213,0.5826
+MayteOleoi,ShrubOR,A,Tall shrub,pair29,0.6004,0.61,0.51,0.6635,0.5928,0.6307,0.5731
+MetalFasti,ShrubOS,B,Medium shrub,pair30,0.6759,0.5,0.7184,0.8648,0.7688,0.4373,0.5
+MetalLicht,ShrubOR,A,Medium shrub,pair30,0.7269,0.9869,0.8615,0.681,0.8057,0.6587,0.8032
+MuralCilia,ShrubOS,B,Low shrub,pair31,0.5948,0.7031,0.7926,0.7689,0.7679,0.6428,0.6633
+MuralJunip,ShrubOR,A,Low shrub,pair31,0.6217,0.6815,0.6564,0.6737,0.5191,0.6458,0.6567
+OederImbri,ShrubOS,B,Low shrub,pair32,0.6177,0.5921,0.639,0.6143,0.6177,0.5547,0.6327
+OederSedif,ShrubOR,A,Low shrub,pair32,0.7572,0.5,0.7141,0.868,0.8469,0.4437,0.6782
+PentaAmpla,GraminoidOS,B,Graminoid,pair33,0.6542,0.8663,0.7716,0.7008,0.6566,0.6572,0.4714
+PentaColor,GraminoidOR,A,Graminoid,pair33,0.7096,0.8049,0.8036,0.6875,0.6783,0.5475,0.4936
+PentaCurvi,GraminoidOS,B,Graminoid,pair34,0.6086,0.8393,0.6518,0.7244,0.5665,0.615,0.5803
+PentaErios,GraminoidOR,A,Graminoid,pair34,0.5902,0.5422,0.4843,0.5837,0.5438,0.6025,0.5355
+PentaPalli,GraminoidOS,B,Graminoid,pair35,0.6006,0.6595,0.6639,0.583,0.6153,0.6226,0.5535
+PentaVisci,GraminoidOR,A,Graminoid,pair35,0.7518,0.7205,0.6704,0.853,0.7805,0.8641,0.6501
+PhyliImber,ShrubOR,A,Low shrub,pair36,0.6647,0.8923,0.7813,0.657,0.7485,0.5,0.7829
+PhyliLachn,ShrubOS,B,Low shrub,pair36,0.621,0.6087,0.7154,0.7005,0.6039,0.6105,0.544
+PhyliLeipo,ShrubOR,A,Low shrub,pair37,0.4577,0.476,0.8965,0.8959,0.8764,0.8025,0.6867
+PhyliPinea,ShrubOS,B,Low shrub,pair37,0.571,0.8661,0.8775,0.7532,0.7045,0.4514,0.4908
+PodocElong,ShrubOR,A,Tall shrub,pair38,0.667,0.8255,0.4858,0.7834,0.3805,0.6909,0.5
+PodocLatif,ShrubOS,B,Tall shrub,pair38,0.8187,0.9448,0.9126,0.6091,0.9002,0.6349,0.7818
+ProteAcaul,ShrubOR,A,Low shrub,pair39,0.6264,0.8059,0.5261,0.7921,0.5974,0.6126,0.5584
+ProteGlabr,ShrubOR,A,Tall shrub,pair40,0.5209,0.6457,0.8804,0.865,0.8577,0.565,0.5463
+ProteLaevi,ShrubOS,B,Low shrub,pair39,0.5504,0.4442,0.7534,0.7899,0.8803,0.8198,0.8182
+ProteLauri,ShrubOS,B,Tall shrub,pair40,0.5237,0.5221,0.7176,0.744,0.738,0.5599,0.5555
+ProteMundi,ShrubOS,B,Tall shrub,pair41,0.7671,0.7958,0.8819,0.7444,0.8226,0.6664,0.5558
+ProteNitid,ShrubOR,A,Tall shrub,pair41,0.5735,0.6246,0.4904,0.557,0.5167,0.5136,0.5031
+ProtePunct,ShrubOS,B,Low shrub,pair42,0.5218,0.5195,0.5066,0.5654,0.6332,0.6924,0.7474
+ProteTenax,ShrubOR,A,Low shrub,pair42,0.6719,0.6221,0.7889,0.7429,0.7176,0.7071,0.5588
+PteroCamph,ShrubOS,B,Low shrub,pair43,0.7743,0.6869,0.4194,0.7133,0.75,0.6918,0.7124
+PteroTeret,ShrubOR,A,Low shrub,pair43,0.4877,0.5,0.7799,0.7216,0.6837,0.452,0.4485
+RestiBifar,GraminoidOS,B,Graminoid,pair44,0.6683,0.9885,0.853,0.7052,0.7634,0.6334,0.7122
+RestiDebil,GraminoidOS,B,Graminoid,pair45,0.6619,0.9894,0.8578,0.6873,0.7769,0.6357,0.7641
+RestiDispa,GraminoidOR,A,Graminoid,pair44,0.6666,0.9825,0.7958,0.7069,0.6715,0.6863,0.7091
+RestiEgreg,GraminoidOR,A,Graminoid,pair45,0.6923,0.9868,0.8507,0.6837,0.7794,0.6559,0.7857
+RestiFragi,GraminoidOR,A,Graminoid,pair46,0.6047,0.9274,0.9499,0.8882,0.8411,0.6762,0.4732
+RestiIncon,GraminoidOR,A,Graminoid,pair47,0.7374,0.8579,0.8888,0.8487,0.7605,0.6496,0.5535
+RestiPerpl,GraminoidOR,A,Graminoid,pair48,0.7006,0.8398,0.6224,0.809,0.5,0.729,0.6137
+RestiPurpu,GraminoidOS,B,Graminoid,pair46,0.6053,0.9917,0.8698,0.7232,0.7531,0.6697,0.6224
+RestiSimil,GraminoidOS,B,Graminoid,pair47,0.681,0.9698,0.8434,0.673,0.8048,0.6472,0.8101
+RestiStoko,GraminoidOS,B,Graminoid,pair48,0.5446,0.9692,0.8751,0.5221,0.7709,0.6334,0.6381
+RestiTriti,GraminoidOR,A,Graminoid,pair49,0.6101,0.5627,0.7203,0.6369,0.6546,0.5106,0.5688
+RestiVersa,GraminoidOS,B,Graminoid,pair49,0.694,0.9884,0.8568,0.6949,0.7447,0.6806,0.689
+SenecPinif,ShrubOR,A,Low shrub,pair50,0.6526,0.6855,0.7717,0.6614,0.6842,0.6294,0.4774
+SenecPubig,ShrubOS,B,Low shrub,pair50,0.4588,0.7843,0.5,0.8099,0.4582,0.4561,0.4538
+StabeCernu,GraminoidOS,B,Graminoid,pair51,0.6688,0.8873,0.807,0.5399,0.7169,0.5379,0.6553
+StabeDista,GraminoidOR,A,Graminoid,pair51,0.7378,0.4646,0.5216,0.3978,0.4504,0.6029,0.6914
+ThamnFruti,GraminoidOR,A,Graminoid,pair52,0.7434,0.7271,0.6917,0.4339,0.7133,0.6415,0.7855
+ThamnPlaty,GraminoidOS,B,Graminoid,pair52,0.6809,0.6691,0.7068,0.8758,0.7834,0.8218,0.6539
+WiddrCedar,ShrubOS,B,Tall shrub,pair53,0.7417,0.6784,0.7546,0.8902,0.846,0.8792,0.6811
+WiddrNodif,ShrubOR,A,Tall shrub,pair53,0.7161,0.9276,0.9145,0.6537,0.8436,0.5483,0.6082
+WilldAresc,GraminoidOR,A,Graminoid,pair54,0.6852,0.6621,0.6661,0.8414,0.7414,0.7398,0.5969
+WilldGlome,GraminoidOS,B,Graminoid,pair54,0.5982,0.7259,0.7202,0.4967,0.6011,0.4462,0.4384
