@@ -23,6 +23,8 @@ sesdm <- esdm[-which(esdm$FAMILY%in%c("CELASTRACEAE","CUPRESSACEAE","PODOCARPACE
 sesdm$Growth_form[which(sesdm$Growth_form=="Medium shrub")] <- "Tall shrub"
 sesdm <- droplevels(sesdm)
 
+gesdm <- droplevels(esdm[which(esdm$Growth_form=="Graminoid"),])
+
 #Inspect the data
 boxplot(rec_rate ~ Fire_response + Growth_form, data=esdm)
 boxplot(rec_rate ~ Fire_response + Growth_form, data=sesdm)
@@ -41,5 +43,10 @@ dd <- dredge(fit)
 dd #All moodels are within 1.06 delta AUC so you can't really exclude any of them... best to just look at the full model
 summary(fit)
 
+#Let's look at the results if we don't use a random effect? (i.e. is phylogeny important here?)
+summary(lm(rec_rate ~ Fire_response * Growth_form, data=sesdm))
 
+#Graminoids only - just for fun
+fit = lme(rec_rate ~ Fire_response, random = ~1|Pair, data=gesdm, method="ML") #Run through all models
+summary(fit)
 
