@@ -6,7 +6,8 @@
 ##############################################################################
 # See http://gsp.humboldt.edu/OLM/GSP_570/Learning%20Modules/10%20BlueSpray_Maxent_Uncertinaty/MaxEnt%20lambda%20files.pdf for guidelines etc
 
-if (Sys.getenv("USER")=='jasper') {lambdas_location <- "/Users/jasper/Dropbox/Shared/Nyasha/Maxent_run7_dec2015/Test_lambdas"}
+#if (Sys.getenv("USER")=='jasper') {lambdas_location <- "/Users/jasper/Dropbox/Shared/Nyasha/Maxent_run7_dec2015/Test_lambdas"}
+if (Sys.getenv("USER")=='jasper') {lambdas_location <- "/Users/jasper/Dropbox/Shared/Nyasha/Data/Lambdas_12Sept"}
 
 ##############################################################################
 ###1) Get function (from John B. Baumgartner - https://github.com/johnbaums/things/blob/master/R/parse_lambdas.R)
@@ -49,7 +50,7 @@ parse_lambdas <- function(lambdas) {
 ###2) Get species names
 ##############################################################################
 
-spnames <- unique(read.csv("Data/LocalityData/PRECIS_locality_data_dec2015.csv", stringsAsFactors = F)$TAXON)
+#spnames <- unique(read.csv("Data/LocalityData/PRECIS_locality_data_dec2015.csv", stringsAsFactors = F)$TAXON) #SEE NEW WAY OF EXTRACTING NAMES BELOW
 
 ##############################################################################
 ###3) Get lambda files and create a loop to parse lambdas by species
@@ -57,6 +58,10 @@ spnames <- unique(read.csv("Data/LocalityData/PRECIS_locality_data_dec2015.csv",
 
 #Get list of lambda files from MaxEnt output directory
 lambdas <- list.files(lambdas_location, pattern=".lambdas", full.names=TRUE)
+
+#Get sepcies names from lambda files
+slambdas <- list.files(lambdas_location, pattern=".lambdas", full.names=FALSE)
+spnames <- unique(sapply(slambdas, function(x){strsplit(x, split = "_")[[1]][1]}))
 
 #LOOP over species
 
@@ -78,7 +83,7 @@ lfls <- lapply(lfls, function(x){x$lambdas})
 
 #Collapse into one table and remove covariates with zero lambdas
 lfls <- do.call("rbind", lfls)
-lfls <- lfls[-which(lfls$lambda==0),]
+lfls <- lfls[which(lfls$lambda!=0),]
 
 #Calculate mean and range for each lambda for each covariate for each species
 ave <- aggregate(lfls[,3], by = list(lfls[,1]), mean, na.rm=T)
@@ -110,4 +115,4 @@ vs <-as.data.frame(t(vs[,2:ncol(vs)]))
 ##############################################################################
 
 #e.g.
-boxplot(vs$fire_return_1min ~ rep(c("A","B"), 55))
+#boxplot(vs$recovery_rate_1min_clip ~ rep(c("A","B"), 52))
