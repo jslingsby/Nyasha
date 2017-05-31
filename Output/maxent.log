@@ -1,0 +1,20 @@
+Wed Apr 13 15:37:28 SAST 2016
+MaxEnt version 3.3.2
+Checking header of /Users/jasper/GIT/VegMapTools/Data/CTtest.grd
+Error reading file /Users/jasper/GIT/VegMapTools/Data/CTtest.grd: java.lang.NumberFormatException: For input string: ""
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:592)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at density.GridIO$GRDHeader.<init>(GridIO.java:106)
+	at density.LazyGrid.LazyGridGrd(LazyGrid.java:121)
+	at density.LazyGrid.initialize(LazyGrid.java:29)
+	at density.LazyGrid.<init>(LazyGrid.java:17)
+	at density.Extractor.extractSamples(Extractor.java:117)
+	at density.Runner.initializeGrids(Runner.java:191)
+	at density.Runner.start(Runner.java:275)
+	at density.GUI$7.construct(GUI.java:319)
+	at density.SwingWorker$2.run(SwingWorker.java:108)
+	at java.lang.Thread.run(Thread.java:745)
+Time since start: 4.883
+Ending
