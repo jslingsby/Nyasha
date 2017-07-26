@@ -16,6 +16,9 @@ library(MuMIn)
 library(scales)
 library(reshape2)
 library(AUC)
+library(nnet)
+library(ROCR)
+library(GSIF)
 
 ###########################################Create matrix of vegtypes ad environmental vars########################
 ### all data were trimmed to untransformed fynbos in ArcGIS 10.2
@@ -121,3 +124,19 @@ ggplot(outdat,aes(x = Model, y = Count, fill = VegType)) +
   coord_flip()
 
 ####################################################################################################################################################################################
+##Model using GSIF package
+fvtypes = read.csv("obs.csv")
+points = read.csv("coords.csv")
+vars = read.csv("covars.csv")
+
+obs = SpatialPointsDataFrame(points,fvtypes)
+covars = SpatialPixelsDataFrame(points,vars)
+
+
+formulaString = NAME ~ fire_clip1 + map_clip1 + tmin07_clip1 + soils_clip1 + tmax01_clip1 + mmp01_clip1 + pptconc_clip1
+spmnm1 <- spmultinom(formulaString, obs,covars,class.stats = TRUE, predict.probs = TRUE,maxit = 500)
+matrix = as.matrix.data.frame(con)
+spplot(spmnm1@mu, cex = 0.5)
+#spplot(spmnm1@predicted)
+#spplot(spmnm1@model)
+#spplot(spmnm1@confusion)
