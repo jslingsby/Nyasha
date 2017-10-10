@@ -1,0 +1,961 @@
+,models,names.x,x,percent.cover,delta mean fri,delta mean map
+23,bcccsm11,Bokkeveld Sandstone,274,4.511773423,-2.48,-45.94
+24,bcccsm11,Canca Limestone,220,3.6225918,-2.48,-45.94
+25,bcccsm11,Cederberg Sandstone,579,9.534002964,-2.48,-45.94
+26,bcccsm11,De Hoop Limestone,141,2.321752017,-2.48,-45.94
+27,bcccsm11,Graafwater Sandstone,72,1.185575498,-2.48,-45.94
+28,bcccsm11,Grootrivier Quartzite,128,2.107689774,-2.48,-45.94
+29,bcccsm11,Hawequas Sandstone,157,2.585213239,-2.48,-45.94
+30,bcccsm11,Hopefield Sand,156,2.568746913,-2.48,-45.94
+31,bcccsm11,Kango Conglomerate,111,1.827762226,-2.48,-45.94
+32,bcccsm11,Kogelberg Sandstone,306,5.038695867,-2.48,-45.94
+33,bcccsm11,Kouga Grassy Sandstone,938,15.44541413,-2.48,-45.94
+34,bcccsm11,Leipoldtville Sand,192,3.161534662,-2.48,-45.94
+35,bcccsm11,Matjiesfontein Quartzite,199,3.276798946,-2.48,-45.94
+36,bcccsm11,North Hex Sandstone,65,1.070311214,-2.48,-45.94
+37,bcccsm11,North Kammanassie Sandstone,155,2.552280586,-2.48,-45.94
+38,bcccsm11,North Sonderend Sandstone,163,2.684011197,-2.48,-45.94
+39,bcccsm11,North Swartberg Sandstone,282,4.643504034,-2.48,-45.94
+40,bcccsm11,Overberg Sandstone,164,2.700477523,-2.48,-45.94
+41,bcccsm11,South Outeniqua Sandstone,544,8.957681541,-2.48,-45.94
+42,bcccsm11,Swartruggens Quartzite,622,10.242055,-2.48,-45.94
+43,bcccsm11,Tsitsikamma Sandstone,177,2.914539766,-2.48,-45.94
+44,bcccsm11,Winterhoek Sandstone,428,7.047587683,-2.48,-45.94
+89,CNRMCM5,Bokkeveld Sandstone,115,1.89,1.8,-45.29
+90,CNRMCM5,Canca Limestone,83,1.37,1.8,-45.29
+91,CNRMCM5,Cederberg Sandstone,942,15.51,1.8,-45.29
+92,CNRMCM5,De Hoop Limestone,118,1.94,1.8,-45.29
+93,CNRMCM5,Graafwater Sandstone,28,0.46,1.8,-45.29
+94,CNRMCM5,Grootrivier Quartzite,121,1.99,1.8,-45.29
+95,CNRMCM5,Hawequas Sandstone,273,4.5,1.8,-45.29
+96,CNRMCM5,Hopefield Sand,126,2.07,1.8,-45.29
+97,CNRMCM5,Kango Conglomerate,132,2.17,1.8,-45.29
+98,CNRMCM5,Kogelberg Sandstone,155,2.55,1.8,-45.29
+99,CNRMCM5,Kouga Grassy Sandstone,1243,20.47,1.8,-45.29
+100,CNRMCM5,Leipoldtville Sand,152,2.5,1.8,-45.29
+101,CNRMCM5,Matjiesfontein Quartzite,285,4.69,1.8,-45.29
+102,CNRMCM5,North Hex Sandstone,106,1.75,1.8,-45.29
+103,CNRMCM5,North Kammanassie Sandstone,104,1.71,1.8,-45.29
+104,CNRMCM5,North Sonderend Sandstone,126,2.07,1.8,-45.29
+105,CNRMCM5,North Swartberg Sandstone,271,4.46,1.8,-45.29
+106,CNRMCM5,Overberg Sandstone,155,2.55,1.8,-45.29
+107,CNRMCM5,South Outeniqua Sandstone,345,5.68,1.8,-45.29
+108,CNRMCM5,Swartruggens Quartzite,499,8.22,1.8,-45.29
+109,CNRMCM5,Tsitsikamma Sandstone,352,5.8,1.8,-45.29
+110,CNRMCM5,Winterhoek Sandstone,342,5.63,1.8,-45.29
+88,CNRMCM5,Canca Limestone,202,3.326197925,-0.18,-40.69
+89,CNRMCM5,Cederberg Sandstone,989,16.28519677,-0.18,-40.69
+90,CNRMCM5,De Hoop Limestone,123,2.025358143,-0.18,-40.69
+91,CNRMCM5,Graafwater Sandstone,130,2.140622427,-0.18,-40.69
+92,CNRMCM5,Grootrivier Quartzite,126,2.074757122,-0.18,-40.69
+93,CNRMCM5,Hawequas Sandstone,287,4.725835666,-0.18,-40.69
+94,CNRMCM5,Hopefield Sand,136,2.239420385,-0.18,-40.69
+95,CNRMCM5,Kango Conglomerate,128,2.107689774,-0.18,-40.69
+96,CNRMCM5,Kogelberg Sandstone,170,2.799275482,-0.18,-40.69
+97,CNRMCM5,Kouga Grassy Sandstone,1150,18.93627532,-0.18,-40.69
+98,CNRMCM5,Leipoldtville Sand,64,1.053844887,-0.18,-40.69
+99,CNRMCM5,Matjiesfontein Quartzite,244,4.017783632,-0.18,-40.69
+100,CNRMCM5,North Hex Sandstone,111,1.827762226,-0.18,-40.69
+101,CNRMCM5,North Kammanassie Sandstone,108,1.778363247,-0.18,-40.69
+102,CNRMCM5,North Sonderend Sandstone,141,2.321752017,-0.18,-40.69
+103,CNRMCM5,North Swartberg Sandstone,221,3.639058126,-0.18,-40.69
+104,CNRMCM5,Overberg Sandstone,153,2.519347933,-0.18,-40.69
+105,CNRMCM5,South Outeniqua Sandstone,380,6.257204018,-0.18,-40.69
+106,CNRMCM5,Swartruggens Quartzite,515,8.480158077,-0.18,-40.69
+107,CNRMCM5,Tsitsikamma Sandstone,347,5.713815248,-0.18,-40.69
+108,CNRMCM5,Winterhoek Sandstone,348,5.730281574,-0.18,-40.69
+23,bcccsm11,Bokkeveld Sandstone,213,3.51,-1.51,-33.26
+24,bcccsm11,Canca Limestone,169,2.78,-1.51,-33.26
+25,bcccsm11,Cederberg Sandstone,634,10.44,-1.51,-33.26
+26,bcccsm11,De Hoop Limestone,95,1.56,-1.51,-33.26
+27,bcccsm11,Graafwater Sandstone,162,2.67,-1.51,-33.26
+28,bcccsm11,Grootrivier Quartzite,127,2.09,-1.51,-33.26
+29,bcccsm11,Hawequas Sandstone,225,3.7,-1.51,-33.26
+30,bcccsm11,Hopefield Sand,132,2.17,-1.51,-33.26
+31,bcccsm11,Kango Conglomerate,119,1.96,-1.51,-33.26
+32,bcccsm11,Kogelberg Sandstone,230,3.79,-1.51,-33.26
+33,bcccsm11,Kouga Grassy Sandstone,1092,17.98,-1.51,-33.26
+34,bcccsm11,Leipoldtville Sand,155,2.55,-1.51,-33.26
+35,bcccsm11,Matjiesfontein Quartzite,268,4.41,-1.51,-33.26
+36,bcccsm11,North Hex Sandstone,88,1.45,-1.51,-33.26
+37,bcccsm11,North Kammanassie Sandstone,80,1.32,-1.51,-33.26
+38,bcccsm11,North Sonderend Sandstone,208,3.42,-1.51,-33.26
+39,bcccsm11,North Swartberg Sandstone,249,4.1,-1.51,-33.26
+40,bcccsm11,Overberg Sandstone,160,2.63,-1.51,-33.26
+41,bcccsm11,South Outeniqua Sandstone,519,8.55,-1.51,-33.26
+42,bcccsm11,Swartruggens Quartzite,504,8.3,-1.51,-33.26
+43,bcccsm11,Tsitsikamma Sandstone,224,3.69,-1.51,-33.26
+44,bcccsm11,Winterhoek Sandstone,420,6.92,-1.51,-33.26
+220,MIROCESMCHEM,Canca Limestone,110,1.81,1.4,-32.48
+221,MIROCESMCHEM,Cederberg Sandstone,826,13.6,1.4,-32.48
+222,MIROCESMCHEM,De Hoop Limestone,43,0.71,1.4,-32.48
+223,MIROCESMCHEM,Graafwater Sandstone,90,1.48,1.4,-32.48
+224,MIROCESMCHEM,Grootrivier Quartzite,84,1.38,1.4,-32.48
+225,MIROCESMCHEM,Hawequas Sandstone,227,3.74,1.4,-32.48
+226,MIROCESMCHEM,Hopefield Sand,169,2.78,1.4,-32.48
+227,MIROCESMCHEM,Kango Conglomerate,121,1.99,1.4,-32.48
+228,MIROCESMCHEM,Kogelberg Sandstone,163,2.68,1.4,-32.48
+229,MIROCESMCHEM,Kouga Grassy Sandstone,1143,18.82,1.4,-32.48
+230,MIROCESMCHEM,Leipoldtville Sand,231,3.8,1.4,-32.48
+231,MIROCESMCHEM,Matjiesfontein Quartzite,323,5.32,1.4,-32.48
+232,MIROCESMCHEM,North Hex Sandstone,114,1.88,1.4,-32.48
+233,MIROCESMCHEM,North Kammanassie Sandstone,121,1.99,1.4,-32.48
+234,MIROCESMCHEM,North Sonderend Sandstone,202,3.33,1.4,-32.48
+235,MIROCESMCHEM,North Swartberg Sandstone,311,5.12,1.4,-32.48
+236,MIROCESMCHEM,Overberg Sandstone,153,2.52,1.4,-32.48
+237,MIROCESMCHEM,South Outeniqua Sandstone,264,4.35,1.4,-32.48
+238,MIROCESMCHEM,Swartruggens Quartzite,510,8.4,1.4,-32.48
+239,MIROCESMCHEM,Tsitsikamma Sandstone,496,8.17,1.4,-32.48
+240,MIROCESMCHEM,Winterhoek Sandstone,372,6.13,1.4,-32.48
+109,FGOALSs2,Bokkeveld Sandstone,563,9.270541742,-3.84,-25.95
+110,FGOALSs2,Canca Limestone,243,4.001317306,-3.84,-25.95
+111,FGOALSs2,Cederberg Sandstone,555,9.138811131,-3.84,-25.95
+112,FGOALSs2,De Hoop Limestone,130,2.140622427,-3.84,-25.95
+113,FGOALSs2,Graafwater Sandstone,44,0.72451836,-3.84,-25.95
+114,FGOALSs2,Grootrivier Quartzite,114,1.877161205,-3.84,-25.95
+115,FGOALSs2,Hawequas Sandstone,270,4.445908118,-3.84,-25.95
+116,FGOALSs2,Kango Conglomerate,93,1.531368352,-3.84,-25.95
+117,FGOALSs2,Kogelberg Sandstone,228,3.754322411,-3.84,-25.95
+118,FGOALSs2,Kouga Grassy Sandstone,900,14.81969373,-3.84,-25.95
+119,FGOALSs2,Leipoldtville Sand,10,0.164663264,-3.84,-25.95
+120,FGOALSs2,Matjiesfontein Quartzite,283,4.659970361,-3.84,-25.95
+121,FGOALSs2,North Hex Sandstone,133,2.190021406,-3.84,-25.95
+122,FGOALSs2,North Kammanassie Sandstone,127,2.091223448,-3.84,-25.95
+123,FGOALSs2,North Sonderend Sandstone,209,3.44146221,-3.84,-25.95
+124,FGOALSs2,North Swartberg Sandstone,296,4.874032603,-3.84,-25.95
+125,FGOALSs2,Overberg Sandstone,182,2.996871398,-3.84,-25.95
+126,FGOALSs2,South Outeniqua Sandstone,540,8.891816236,-3.84,-25.95
+127,FGOALSs2,Swartruggens Quartzite,562,9.254075416,-3.84,-25.95
+128,FGOALSs2,Tsitsikamma Sandstone,214,3.523793842,-3.84,-25.95
+129,FGOALSs2,Winterhoek Sandstone,377,6.207805039,-3.84,-25.95
+243,MRICGCM3,Bokkeveld Sandstone,220,3.62,-0.34,-25.87
+244,MRICGCM3,Canca Limestone,266,4.38,-0.34,-25.87
+245,MRICGCM3,Cederberg Sandstone,511,8.41,-0.34,-25.87
+246,MRICGCM3,De Hoop Limestone,113,1.86,-0.34,-25.87
+247,MRICGCM3,Graafwater Sandstone,136,2.24,-0.34,-25.87
+248,MRICGCM3,Grootrivier Quartzite,78,1.28,-0.34,-25.87
+249,MRICGCM3,Hawequas Sandstone,264,4.35,-0.34,-25.87
+250,MRICGCM3,Hopefield Sand,130,2.14,-0.34,-25.87
+251,MRICGCM3,Kango Conglomerate,123,2.03,-0.34,-25.87
+252,MRICGCM3,Kogelberg Sandstone,179,2.95,-0.34,-25.87
+253,MRICGCM3,Kouga Grassy Sandstone,905,14.9,-0.34,-25.87
+254,MRICGCM3,Leipoldtville Sand,240,3.95,-0.34,-25.87
+255,MRICGCM3,Matjiesfontein Quartzite,368,6.06,-0.34,-25.87
+256,MRICGCM3,North Hex Sandstone,151,2.49,-0.34,-25.87
+257,MRICGCM3,North Kammanassie Sandstone,133,2.19,-0.34,-25.87
+258,MRICGCM3,North Sonderend Sandstone,135,2.22,-0.34,-25.87
+259,MRICGCM3,North Swartberg Sandstone,379,6.24,-0.34,-25.87
+260,MRICGCM3,Overberg Sandstone,167,2.75,-0.34,-25.87
+261,MRICGCM3,South Outeniqua Sandstone,281,4.63,-0.34,-25.87
+262,MRICGCM3,Swartruggens Quartzite,497,8.18,-0.34,-25.87
+263,MRICGCM3,Tsitsikamma Sandstone,464,7.64,-0.34,-25.87
+264,MRICGCM3,Winterhoek Sandstone,333,5.48,-0.34,-25.87
+240,MRICGCM3,Bokkeveld Sandstone,136,2.239420385,-1.31,-25.84
+241,MRICGCM3,Canca Limestone,172,2.832208134,-1.31,-25.84
+242,MRICGCM3,Cederberg Sandstone,741,12.20154783,-1.31,-25.84
+243,MRICGCM3,De Hoop Limestone,90,1.481969373,-1.31,-25.84
+244,MRICGCM3,Graafwater Sandstone,121,1.99242549,-1.31,-25.84
+245,MRICGCM3,Grootrivier Quartzite,105,1.728964268,-1.31,-25.84
+246,MRICGCM3,Hawequas Sandstone,272,4.478840771,-1.31,-25.84
+247,MRICGCM3,Hopefield Sand,126,2.074757122,-1.31,-25.84
+248,MRICGCM3,Kango Conglomerate,115,1.893627532,-1.31,-25.84
+249,MRICGCM3,Kogelberg Sandstone,183,3.013337724,-1.31,-25.84
+250,MRICGCM3,Kouga Grassy Sandstone,1006,16.56512432,-1.31,-25.84
+251,MRICGCM3,Leipoldtville Sand,151,2.486415281,-1.31,-25.84
+252,MRICGCM3,Matjiesfontein Quartzite,348,5.730281574,-1.31,-25.84
+253,MRICGCM3,North Hex Sandstone,135,2.222954059,-1.31,-25.84
+254,MRICGCM3,North Kammanassie Sandstone,96,1.580767331,-1.31,-25.84
+255,MRICGCM3,North Sonderend Sandstone,210,3.457928536,-1.31,-25.84
+256,MRICGCM3,North Swartberg Sandstone,365,6.010209122,-1.31,-25.84
+257,MRICGCM3,Overberg Sandstone,141,2.321752017,-1.31,-25.84
+258,MRICGCM3,South Outeniqua Sandstone,284,4.676436687,-1.31,-25.84
+259,MRICGCM3,Swartruggens Quartzite,502,8.266095834,-1.31,-25.84
+260,MRICGCM3,Tsitsikamma Sandstone,467,7.689774411,-1.31,-25.84
+261,MRICGCM3,Winterhoek Sandstone,307,5.055162193,-1.31,-25.84
+221,MIROCESMCHEM,Bokkeveld Sandstone,52,0.86,-0.66,-23.32
+222,MIROCESMCHEM,Canca Limestone,211,3.47,-0.66,-23.32
+223,MIROCESMCHEM,Cederberg Sandstone,705,11.61,-0.66,-23.32
+224,MIROCESMCHEM,De Hoop Limestone,103,1.7,-0.66,-23.32
+225,MIROCESMCHEM,Graafwater Sandstone,152,2.5,-0.66,-23.32
+226,MIROCESMCHEM,Grootrivier Quartzite,97,1.6,-0.66,-23.32
+227,MIROCESMCHEM,Hawequas Sandstone,280,4.61,-0.66,-23.32
+228,MIROCESMCHEM,Hopefield Sand,24,0.4,-0.66,-23.32
+229,MIROCESMCHEM,Kango Conglomerate,127,2.09,-0.66,-23.32
+230,MIROCESMCHEM,Kogelberg Sandstone,158,2.6,-0.66,-23.32
+231,MIROCESMCHEM,Kouga Grassy Sandstone,943,15.53,-0.66,-23.32
+232,MIROCESMCHEM,Leipoldtville Sand,345,5.68,-0.66,-23.32
+233,MIROCESMCHEM,Matjiesfontein Quartzite,316,5.2,-0.66,-23.32
+234,MIROCESMCHEM,North Hex Sandstone,116,1.91,-0.66,-23.32
+235,MIROCESMCHEM,North Kammanassie Sandstone,163,2.68,-0.66,-23.32
+236,MIROCESMCHEM,North Sonderend Sandstone,166,2.73,-0.66,-23.32
+237,MIROCESMCHEM,North Swartberg Sandstone,333,5.48,-0.66,-23.32
+238,MIROCESMCHEM,Overberg Sandstone,147,2.42,-0.66,-23.32
+239,MIROCESMCHEM,South Outeniqua Sandstone,266,4.38,-0.66,-23.32
+240,MIROCESMCHEM,Swartruggens Quartzite,559,9.2,-0.66,-23.32
+241,MIROCESMCHEM,Tsitsikamma Sandstone,486,8,-0.66,-23.32
+242,MIROCESMCHEM,Winterhoek Sandstone,324,5.34,-0.66,-23.32
+198,MIROCESM,Bokkeveld Sandstone,363,5.98,0.3,-23.16
+199,MIROCESM,Canca Limestone,156,2.57,0.3,-23.16
+200,MIROCESM,Cederberg Sandstone,807,13.29,0.3,-23.16
+201,MIROCESM,De Hoop Limestone,98,1.61,0.3,-23.16
+202,MIROCESM,Graafwater Sandstone,35,0.58,0.3,-23.16
+203,MIROCESM,Grootrivier Quartzite,121,1.99,0.3,-23.16
+204,MIROCESM,Hawequas Sandstone,257,4.23,0.3,-23.16
+205,MIROCESM,Hopefield Sand,140,2.31,0.3,-23.16
+206,MIROCESM,Kango Conglomerate,128,2.11,0.3,-23.16
+207,MIROCESM,Kogelberg Sandstone,154,2.54,0.3,-23.16
+208,MIROCESM,Kouga Grassy Sandstone,1149,18.92,0.3,-23.16
+209,MIROCESM,Leipoldtville Sand,5,0.08,0.3,-23.16
+210,MIROCESM,Matjiesfontein Quartzite,284,4.68,0.3,-23.16
+211,MIROCESM,North Hex Sandstone,79,1.3,0.3,-23.16
+212,MIROCESM,North Kammanassie Sandstone,127,2.09,0.3,-23.16
+213,MIROCESM,North Sonderend Sandstone,139,2.29,0.3,-23.16
+214,MIROCESM,North Swartberg Sandstone,221,3.64,0.3,-23.16
+215,MIROCESM,Overberg Sandstone,147,2.42,0.3,-23.16
+216,MIROCESM,South Outeniqua Sandstone,384,6.32,0.3,-23.16
+217,MIROCESM,Swartruggens Quartzite,550,9.06,0.3,-23.16
+218,MIROCESM,Tsitsikamma Sandstone,397,6.54,0.3,-23.16
+219,MIROCESM,Winterhoek Sandstone,332,5.47,0.3,-23.16
+89,CNRMCM5,Bokkeveld Sandstone,415,6.83,0.68,-22.7
+90,CNRMCM5,Canca Limestone,199,3.28,0.68,-22.7
+91,CNRMCM5,Cederberg Sandstone,745,12.27,0.68,-22.7
+92,CNRMCM5,De Hoop Limestone,112,1.84,0.68,-22.7
+93,CNRMCM5,Graafwater Sandstone,71,1.17,0.68,-22.7
+94,CNRMCM5,Grootrivier Quartzite,121,1.99,0.68,-22.7
+95,CNRMCM5,Hawequas Sandstone,273,4.5,0.68,-22.7
+96,CNRMCM5,Hopefield Sand,113,1.86,0.68,-22.7
+97,CNRMCM5,Kango Conglomerate,124,2.04,0.68,-22.7
+98,CNRMCM5,Kogelberg Sandstone,158,2.6,0.68,-22.7
+99,CNRMCM5,Kouga Grassy Sandstone,1170,19.27,0.68,-22.7
+100,CNRMCM5,Leipoldtville Sand,6,0.1,0.68,-22.7
+101,CNRMCM5,Matjiesfontein Quartzite,286,4.71,0.68,-22.7
+102,CNRMCM5,North Hex Sandstone,110,1.81,0.68,-22.7
+103,CNRMCM5,North Kammanassie Sandstone,109,1.79,0.68,-22.7
+104,CNRMCM5,North Sonderend Sandstone,140,2.31,0.68,-22.7
+105,CNRMCM5,North Swartberg Sandstone,224,3.69,0.68,-22.7
+106,CNRMCM5,Overberg Sandstone,154,2.54,0.68,-22.7
+107,CNRMCM5,South Outeniqua Sandstone,345,5.68,0.68,-22.7
+108,CNRMCM5,Swartruggens Quartzite,501,8.25,0.68,-22.7
+109,CNRMCM5,Tsitsikamma Sandstone,356,5.86,0.68,-22.7
+110,CNRMCM5,Winterhoek Sandstone,341,5.62,0.68,-22.7
+45,BNUESM,Bokkeveld Sandstone,205,3.38,-1.26,-22.25
+46,BNUESM,Canca Limestone,135,2.22,-1.26,-22.25
+47,BNUESM,Cederberg Sandstone,667,10.98,-1.26,-22.25
+48,BNUESM,De Hoop Limestone,136,2.24,-1.26,-22.25
+49,BNUESM,Graafwater Sandstone,152,2.5,-1.26,-22.25
+50,BNUESM,Grootrivier Quartzite,119,1.96,-1.26,-22.25
+51,BNUESM,Hawequas Sandstone,248,4.08,-1.26,-22.25
+52,BNUESM,Hopefield Sand,111,1.83,-1.26,-22.25
+53,BNUESM,Kango Conglomerate,120,1.98,-1.26,-22.25
+54,BNUESM,Kogelberg Sandstone,216,3.56,-1.26,-22.25
+55,BNUESM,Kouga Grassy Sandstone,1026,16.89,-1.26,-22.25
+56,BNUESM,Leipoldtville Sand,180,2.96,-1.26,-22.25
+57,BNUESM,Matjiesfontein Quartzite,280,4.61,-1.26,-22.25
+58,BNUESM,North Hex Sandstone,110,1.81,-1.26,-22.25
+59,BNUESM,North Kammanassie Sandstone,125,2.06,-1.26,-22.25
+60,BNUESM,North Sonderend Sandstone,153,2.52,-1.26,-22.25
+61,BNUESM,North Swartberg Sandstone,303,4.99,-1.26,-22.25
+62,BNUESM,Overberg Sandstone,159,2.62,-1.26,-22.25
+63,BNUESM,South Outeniqua Sandstone,524,8.63,-1.26,-22.25
+64,BNUESM,Swartruggens Quartzite,499,8.22,-1.26,-22.25
+65,BNUESM,Tsitsikamma Sandstone,235,3.87,-1.26,-22.25
+66,BNUESM,Winterhoek Sandstone,370,6.09,-1.26,-22.25
+133,GFDLESM2G,Bokkeveld Sandstone,288,4.74,-0.91,-22.19
+134,GFDLESM2G,Canca Limestone,139,2.29,-0.91,-22.19
+135,GFDLESM2G,Cederberg Sandstone,647,10.65,-0.91,-22.19
+136,GFDLESM2G,De Hoop Limestone,125,2.06,-0.91,-22.19
+137,GFDLESM2G,Graafwater Sandstone,122,2.01,-0.91,-22.19
+138,GFDLESM2G,Grootrivier Quartzite,110,1.81,-0.91,-22.19
+139,GFDLESM2G,Hawequas Sandstone,205,3.38,-0.91,-22.19
+140,GFDLESM2G,Kango Conglomerate,129,2.12,-0.91,-22.19
+141,GFDLESM2G,Kogelberg Sandstone,180,2.96,-0.91,-22.19
+142,GFDLESM2G,Kouga Grassy Sandstone,1120,18.44,-0.91,-22.19
+143,GFDLESM2G,Leipoldtville Sand,262,4.31,-0.91,-22.19
+144,GFDLESM2G,Matjiesfontein Quartzite,286,4.71,-0.91,-22.19
+145,GFDLESM2G,North Hex Sandstone,88,1.45,-0.91,-22.19
+146,GFDLESM2G,North Kammanassie Sandstone,113,1.86,-0.91,-22.19
+147,GFDLESM2G,North Sonderend Sandstone,154,2.54,-0.91,-22.19
+148,GFDLESM2G,North Swartberg Sandstone,290,4.78,-0.91,-22.19
+149,GFDLESM2G,Overberg Sandstone,164,2.7,-0.91,-22.19
+150,GFDLESM2G,South Outeniqua Sandstone,287,4.73,-0.91,-22.19
+151,GFDLESM2G,Swartruggens Quartzite,546,8.99,-0.91,-22.19
+152,GFDLESM2G,Tsitsikamma Sandstone,434,7.15,-0.91,-22.19
+153,GFDLESM2G,Winterhoek Sandstone,384,6.32,-0.91,-22.19
+67,CanESM2,Bokkeveld Sandstone,41,0.68,-1.3,-22.06
+68,CanESM2,Canca Limestone,251,4.13,-1.3,-22.06
+69,CanESM2,Cederberg Sandstone,619,10.19,-1.3,-22.06
+70,CanESM2,De Hoop Limestone,104,1.71,-1.3,-22.06
+71,CanESM2,Graafwater Sandstone,152,2.5,-1.3,-22.06
+72,CanESM2,Grootrivier Quartzite,107,1.76,-1.3,-22.06
+73,CanESM2,Hawequas Sandstone,249,4.1,-1.3,-22.06
+74,CanESM2,Hopefield Sand,177,2.91,-1.3,-22.06
+75,CanESM2,Kango Conglomerate,123,2.03,-1.3,-22.06
+76,CanESM2,Kogelberg Sandstone,210,3.46,-1.3,-22.06
+77,CanESM2,Kouga Grassy Sandstone,1014,16.7,-1.3,-22.06
+78,CanESM2,Leipoldtville Sand,272,4.48,-1.3,-22.06
+79,CanESM2,Matjiesfontein Quartzite,335,5.52,-1.3,-22.06
+80,CanESM2,North Hex Sandstone,117,1.93,-1.3,-22.06
+81,CanESM2,North Kammanassie Sandstone,125,2.06,-1.3,-22.06
+82,CanESM2,North Sonderend Sandstone,135,2.22,-1.3,-22.06
+83,CanESM2,North Swartberg Sandstone,316,5.2,-1.3,-22.06
+84,CanESM2,Overberg Sandstone,163,2.68,-1.3,-22.06
+85,CanESM2,South Outeniqua Sandstone,355,5.85,-1.3,-22.06
+86,CanESM2,Swartruggens Quartzite,496,8.17,-1.3,-22.06
+87,CanESM2,Tsitsikamma Sandstone,338,5.57,-1.3,-22.06
+88,CanESM2,Winterhoek Sandstone,374,6.16,-1.3,-22.06
+177,MIROC5,Bokkeveld Sandstone,220,3.62,-0.91,-22.03
+178,MIROC5,Canca Limestone,205,3.38,-0.91,-22.03
+179,MIROC5,Cederberg Sandstone,709,11.67,-0.91,-22.03
+180,MIROC5,De Hoop Limestone,145,2.39,-0.91,-22.03
+181,MIROC5,Graafwater Sandstone,149,2.45,-0.91,-22.03
+182,MIROC5,Grootrivier Quartzite,97,1.6,-0.91,-22.03
+183,MIROC5,Hawequas Sandstone,133,2.19,-0.91,-22.03
+184,MIROC5,Hopefield Sand,94,1.55,-0.91,-22.03
+185,MIROC5,Kango Conglomerate,91,1.5,-0.91,-22.03
+186,MIROC5,Kogelberg Sandstone,280,4.61,-0.91,-22.03
+187,MIROC5,Kouga Grassy Sandstone,1000,16.47,-0.91,-22.03
+188,MIROC5,Leipoldtville Sand,184,3.03,-0.91,-22.03
+189,MIROC5,Matjiesfontein Quartzite,336,5.53,-0.91,-22.03
+190,MIROC5,North Hex Sandstone,99,1.63,-0.91,-22.03
+191,MIROC5,North Kammanassie Sandstone,109,1.79,-0.91,-22.03
+192,MIROC5,North Sonderend Sandstone,116,1.91,-0.91,-22.03
+193,MIROC5,North Swartberg Sandstone,381,6.27,-0.91,-22.03
+194,MIROC5,Overberg Sandstone,173,2.85,-0.91,-22.03
+195,MIROC5,South Outeniqua Sandstone,469,7.72,-0.91,-22.03
+196,MIROC5,Swartruggens Quartzite,529,8.71,-0.91,-22.03
+197,MIROC5,Tsitsikamma Sandstone,213,3.51,-0.91,-22.03
+198,MIROC5,Winterhoek Sandstone,341,5.62,-0.91,-22.03
+240,MRICGCM3,Bokkeveld Sandstone,282,4.64,-0.49,-20.22
+241,MRICGCM3,Canca Limestone,167,2.75,-0.36,-20.22
+242,MRICGCM3,Cederberg Sandstone,608,10.01,-0.36,-20.22
+243,MRICGCM3,De Hoop Limestone,122,2.01,-0.36,-20.22
+244,MRICGCM3,Graafwater Sandstone,110,1.81,-0.36,-20.22
+245,MRICGCM3,Grootrivier Quartzite,96,1.58,-0.36,-20.22
+246,MRICGCM3,Hawequas Sandstone,317,5.22,-0.36,-20.22
+247,MRICGCM3,Hopefield Sand,135,2.22,-0.36,-20.22
+248,MRICGCM3,Kango Conglomerate,124,2.04,-0.36,-20.22
+249,MRICGCM3,Kogelberg Sandstone,170,2.8,-0.36,-20.22
+250,MRICGCM3,Kouga Grassy Sandstone,951,15.66,-0.36,-20.22
+251,MRICGCM3,Leipoldtville Sand,141,2.32,-0.36,-20.22
+252,MRICGCM3,Matjiesfontein Quartzite,337,5.55,-0.36,-20.22
+253,MRICGCM3,North Hex Sandstone,145,2.39,-0.36,-20.22
+254,MRICGCM3,North Kammanassie Sandstone,90,1.48,-0.36,-20.22
+255,MRICGCM3,North Sonderend Sandstone,161,2.65,-0.36,-20.22
+256,MRICGCM3,North Swartberg Sandstone,437,7.2,-0.36,-20.22
+257,MRICGCM3,Overberg Sandstone,147,2.42,-0.36,-20.22
+258,MRICGCM3,South Outeniqua Sandstone,273,4.5,-0.36,-20.22
+259,MRICGCM3,Swartruggens Quartzite,499,8.22,-0.36,-20.22
+260,MRICGCM3,Tsitsikamma Sandstone,474,7.81,-0.36,-20.22
+261,MRICGCM3,Winterhoek Sandstone,287,4.73,-0.36,-20.22
+89,CNRMCM5,Bokkeveld Sandstone,4,0.07,0.39,-20.22
+90,CNRMCM5,Canca Limestone,200,3.29,0.39,-20.22
+91,CNRMCM5,Cederberg Sandstone,986,16.24,0.39,-20.22
+92,CNRMCM5,De Hoop Limestone,119,1.96,0.39,-20.22
+93,CNRMCM5,Graafwater Sandstone,311,5.12,0.39,-20.22
+94,CNRMCM5,Grootrivier Quartzite,132,2.17,0.39,-20.22
+95,CNRMCM5,Hawequas Sandstone,196,3.23,0.39,-20.22
+96,CNRMCM5,Hopefield Sand,9,0.15,0.39,-20.22
+97,CNRMCM5,Kango Conglomerate,123,2.03,0.39,-20.22
+98,CNRMCM5,Kogelberg Sandstone,151,2.49,0.39,-20.22
+99,CNRMCM5,Kouga Grassy Sandstone,1196,19.69,0.39,-20.22
+100,CNRMCM5,Leipoldtville Sand,47,0.77,0.39,-20.22
+101,CNRMCM5,Matjiesfontein Quartzite,256,4.22,0.39,-20.22
+102,CNRMCM5,North Hex Sandstone,108,1.78,0.39,-20.22
+103,CNRMCM5,North Kammanassie Sandstone,107,1.76,0.39,-20.22
+104,CNRMCM5,North Sonderend Sandstone,140,2.31,0.39,-20.22
+105,CNRMCM5,North Swartberg Sandstone,219,3.61,0.39,-20.22
+106,CNRMCM5,Overberg Sandstone,147,2.42,0.39,-20.22
+107,CNRMCM5,South Outeniqua Sandstone,385,6.34,0.39,-20.22
+108,CNRMCM5,Swartruggens Quartzite,507,8.35,0.39,-20.22
+109,CNRMCM5,Tsitsikamma Sandstone,308,5.07,0.39,-20.22
+110,CNRMCM5,Winterhoek Sandstone,422,6.95,0.39,-20.22
+176,MIROC5,Bokkeveld Sandstone,367,6.04,-1.24,-18.75
+177,MIROC5,Canca Limestone,217,3.57,-1.24,-18.75
+178,MIROC5,Cederberg Sandstone,687,11.31,-1.24,-18.75
+179,MIROC5,De Hoop Limestone,140,2.31,-1.24,-18.75
+180,MIROC5,Graafwater Sandstone,166,2.73,-1.24,-18.75
+181,MIROC5,Grootrivier Quartzite,120,1.98,-1.24,-18.75
+182,MIROC5,Hawequas Sandstone,209,3.44,-1.24,-18.75
+183,MIROC5,Kango Conglomerate,118,1.94,-1.24,-18.75
+184,MIROC5,Kogelberg Sandstone,193,3.18,-1.24,-18.75
+185,MIROC5,Kouga Grassy Sandstone,1019,16.78,-1.24,-18.75
+186,MIROC5,Leipoldtville Sand,93,1.53,-1.24,-18.75
+187,MIROC5,Matjiesfontein Quartzite,276,4.54,-1.24,-18.75
+188,MIROC5,North Hex Sandstone,92,1.51,-1.24,-18.75
+189,MIROC5,North Kammanassie Sandstone,129,2.12,-1.24,-18.75
+190,MIROC5,North Sonderend Sandstone,172,2.83,-1.24,-18.75
+191,MIROC5,North Swartberg Sandstone,242,3.98,-1.24,-18.75
+192,MIROC5,Overberg Sandstone,156,2.57,-1.24,-18.75
+193,MIROC5,South Outeniqua Sandstone,448,7.38,-1.24,-18.75
+194,MIROC5,Swartruggens Quartzite,539,8.88,-1.24,-18.75
+195,MIROC5,Tsitsikamma Sandstone,306,5.04,-1.24,-18.75
+196,MIROC5,Winterhoek Sandstone,384,6.32,-1.24,-18.75
+45,BNUESM,Bokkeveld Sandstone,93,1.531368352,-2.46,-18.14
+46,BNUESM,Canca Limestone,205,3.375596904,-2.46,-18.14
+47,BNUESM,Cederberg Sandstone,630,10.37378561,-2.46,-18.14
+48,BNUESM,De Hoop Limestone,137,2.255886712,-2.46,-18.14
+49,BNUESM,Graafwater Sandstone,150,2.469948954,-2.46,-18.14
+50,BNUESM,Grootrivier Quartzite,131,2.157088753,-2.46,-18.14
+51,BNUESM,Hawequas Sandstone,185,3.046270377,-2.46,-18.14
+52,BNUESM,Hopefield Sand,140,2.305285691,-2.46,-18.14
+53,BNUESM,Kango Conglomerate,108,1.778363247,-2.46,-18.14
+54,BNUESM,Kogelberg Sandstone,293,4.824633624,-2.46,-18.14
+55,BNUESM,Kouga Grassy Sandstone,816,13.43652231,-2.46,-18.14
+56,BNUESM,Leipoldtville Sand,264,4.34711016,-2.46,-18.14
+57,BNUESM,Matjiesfontein Quartzite,213,3.507327515,-2.46,-18.14
+58,BNUESM,North Hex Sandstone,87,1.432570394,-2.46,-18.14
+59,BNUESM,North Kammanassie Sandstone,119,1.959492837,-2.46,-18.14
+60,BNUESM,North Sonderend Sandstone,150,2.469948954,-2.46,-18.14
+61,BNUESM,North Swartberg Sandstone,298,4.906965256,-2.46,-18.14
+62,BNUESM,Overberg Sandstone,173,2.848674461,-2.46,-18.14
+63,BNUESM,South Outeniqua Sandstone,714,11.75695702,-2.46,-18.14
+64,BNUESM,Swartruggens Quartzite,569,9.3693397,-2.46,-18.14
+65,BNUESM,Tsitsikamma Sandstone,186,3.062736703,-2.46,-18.14
+66,BNUESM,Winterhoek Sandstone,412,6.784126461,-2.46,-18.14
+174,MIROC5,Bokkeveld Sandstone,185,3.046270377,-0.57,-18
+175,MIROC5,Canca Limestone,228,3.754322411,-0.57,-18
+176,MIROC5,Cederberg Sandstone,623,10.25852132,-0.57,-18
+177,MIROC5,De Hoop Limestone,135,2.222954059,-0.57,-18
+178,MIROC5,Graafwater Sandstone,158,2.601679565,-0.57,-18
+179,MIROC5,Grootrivier Quartzite,107,1.761896921,-0.57,-18
+180,MIROC5,Hawequas Sandstone,215,3.540260168,-0.57,-18
+181,MIROC5,Hopefield Sand,135,2.222954059,-0.57,-18
+182,MIROC5,Kango Conglomerate,102,1.679565289,-0.57,-18
+183,MIROC5,Kogelberg Sandstone,246,4.050716285,-0.57,-18
+184,MIROC5,Kouga Grassy Sandstone,987,16.25226412,-0.57,-18
+185,MIROC5,Leipoldtville Sand,180,2.963938745,-0.57,-18
+186,MIROC5,Matjiesfontein Quartzite,389,6.405400955,-0.57,-18
+187,MIROC5,North Hex Sandstone,143,2.35468467,-0.57,-18
+188,MIROC5,North Kammanassie Sandstone,124,2.041824469,-0.57,-18
+189,MIROC5,North Sonderend Sandstone,131,2.157088753,-0.57,-18
+190,MIROC5,North Swartberg Sandstone,359,5.911411164,-0.57,-18
+191,MIROC5,Overberg Sandstone,169,2.782809155,-0.57,-18
+192,MIROC5,South Outeniqua Sandstone,426,7.01465503,-0.57,-18
+193,MIROC5,Swartruggens Quartzite,408,6.718261156,-0.57,-18
+194,MIROC5,Tsitsikamma Sandstone,249,4.100115264,-0.57,-18
+195,MIROC5,Winterhoek Sandstone,374,6.15840606,-0.57,-18
+23,bcccsm11,Bokkeveld Sandstone,149,2.45,-1.05,-15.74
+24,bcccsm11,Canca Limestone,219,3.61,-1.05,-15.74
+25,bcccsm11,Cederberg Sandstone,598,9.85,-1.05,-15.74
+26,bcccsm11,De Hoop Limestone,140,2.31,-1.05,-15.74
+27,bcccsm11,Graafwater Sandstone,147,2.42,-1.05,-15.74
+28,bcccsm11,Grootrivier Quartzite,137,2.26,-1.05,-15.74
+29,bcccsm11,Hawequas Sandstone,329,5.42,-1.05,-15.74
+30,bcccsm11,Hopefield Sand,134,2.21,-1.05,-15.74
+31,bcccsm11,Kango Conglomerate,121,1.99,-1.05,-15.74
+32,bcccsm11,Kogelberg Sandstone,173,2.85,-1.05,-15.74
+33,bcccsm11,Kouga Grassy Sandstone,1085,17.87,-1.05,-15.74
+34,bcccsm11,Leipoldtville Sand,241,3.97,-1.05,-15.74
+35,bcccsm11,Matjiesfontein Quartzite,314,5.17,-1.05,-15.74
+36,bcccsm11,North Hex Sandstone,120,1.98,-1.05,-15.74
+37,bcccsm11,North Kammanassie Sandstone,119,1.96,-1.05,-15.74
+38,bcccsm11,North Sonderend Sandstone,145,2.39,-1.05,-15.74
+39,bcccsm11,North Swartberg Sandstone,246,4.05,-1.05,-15.74
+40,bcccsm11,Overberg Sandstone,153,2.52,-1.05,-15.74
+41,bcccsm11,South Outeniqua Sandstone,420,6.92,-1.05,-15.74
+42,bcccsm11,Swartruggens Quartzite,474,7.81,-1.05,-15.74
+43,bcccsm11,Tsitsikamma Sandstone,239,3.94,-1.05,-15.74
+44,bcccsm11,Winterhoek Sandstone,370,6.09,-1.05,-15.74
+132,GFDLESM2G,Bokkeveld Sandstone,76,1.25,-1.86,-15.35
+133,GFDLESM2G,Canca Limestone,236,3.89,-1.86,-15.35
+134,GFDLESM2G,Cederberg Sandstone,566,9.32,-1.86,-15.35
+135,GFDLESM2G,De Hoop Limestone,125,2.06,-1.86,-15.35
+136,GFDLESM2G,Graafwater Sandstone,138,2.27,-1.86,-15.35
+137,GFDLESM2G,Grootrivier Quartzite,79,1.3,-1.86,-15.35
+138,GFDLESM2G,Hawequas Sandstone,307,5.06,-1.86,-15.35
+139,GFDLESM2G,Hopefield Sand,146,2.4,-1.86,-15.35
+140,GFDLESM2G,Kango Conglomerate,114,1.88,-1.86,-15.35
+141,GFDLESM2G,Kogelberg Sandstone,190,3.13,-1.86,-15.35
+142,GFDLESM2G,Kouga Grassy Sandstone,955,15.73,-1.86,-15.35
+143,GFDLESM2G,Leipoldtville Sand,297,4.89,-1.86,-15.35
+144,GFDLESM2G,Matjiesfontein Quartzite,361,5.94,-1.86,-15.35
+145,GFDLESM2G,North Hex Sandstone,146,2.4,-1.86,-15.35
+146,GFDLESM2G,North Kammanassie Sandstone,140,2.31,-1.86,-15.35
+147,GFDLESM2G,North Sonderend Sandstone,153,2.52,-1.86,-15.35
+148,GFDLESM2G,North Swartberg Sandstone,329,5.42,-1.86,-15.35
+149,GFDLESM2G,Overberg Sandstone,157,2.59,-1.86,-15.35
+150,GFDLESM2G,South Outeniqua Sandstone,336,5.53,-1.86,-15.35
+151,GFDLESM2G,Swartruggens Quartzite,508,8.36,-1.86,-15.35
+152,GFDLESM2G,Tsitsikamma Sandstone,395,6.5,-1.86,-15.35
+153,GFDLESM2G,Winterhoek Sandstone,319,5.25,-1.86,-15.35
+196,MIROCESM,Bokkeveld Sandstone,251,4.133047917,-0.91,-15.09
+197,MIROCESM,Canca Limestone,201,3.309731599,-0.91,-15.09
+198,MIROCESM,Cederberg Sandstone,651,10.71957846,-0.91,-15.09
+199,MIROCESM,De Hoop Limestone,123,2.025358143,-0.91,-15.09
+200,MIROCESM,Graafwater Sandstone,197,3.243866293,-0.91,-15.09
+201,MIROCESM,Grootrivier Quartzite,115,1.893627532,-0.91,-15.09
+202,MIROCESM,Hawequas Sandstone,333,5.483286679,-0.91,-15.09
+203,MIROCESM,Hopefield Sand,120,1.975959164,-0.91,-15.09
+204,MIROCESM,Kango Conglomerate,118,1.943026511,-0.91,-15.09
+205,MIROCESM,Kogelberg Sandstone,158,2.601679565,-0.91,-15.09
+206,MIROCESM,Kouga Grassy Sandstone,1022,16.82858554,-0.91,-15.09
+207,MIROCESM,Leipoldtville Sand,68,1.119710193,-0.91,-15.09
+208,MIROCESM,Matjiesfontein Quartzite,317,5.219825457,-0.91,-15.09
+209,MIROCESM,North Hex Sandstone,116,1.910093858,-0.91,-15.09
+210,MIROCESM,North Kammanassie Sandstone,124,2.041824469,-0.91,-15.09
+211,MIROCESM,North Sonderend Sandstone,147,2.420549975,-0.91,-15.09
+212,MIROCESM,North Swartberg Sandstone,271,4.462374444,-0.91,-15.09
+213,MIROCESM,Overberg Sandstone,151,2.486415281,-0.91,-15.09
+214,MIROCESM,South Outeniqua Sandstone,428,7.047587683,-0.91,-15.09
+215,MIROCESM,Swartruggens Quartzite,481,7.92030298,-0.91,-15.09
+216,MIROCESM,Tsitsikamma Sandstone,334,5.499753005,-0.91,-15.09
+217,MIROCESM,Winterhoek Sandstone,347,5.713815248,-0.91,-15.09
+23,bcccsm11,Bokkeveld Sandstone,223,3.67,-1.29,-15.06
+24,bcccsm11,Canca Limestone,220,3.62,-1.29,-15.06
+25,bcccsm11,Cederberg Sandstone,612,10.08,-1.29,-15.06
+26,bcccsm11,De Hoop Limestone,136,2.24,-1.29,-15.06
+27,bcccsm11,Graafwater Sandstone,190,3.13,-1.29,-15.06
+28,bcccsm11,Grootrivier Quartzite,119,1.96,-1.29,-15.06
+29,bcccsm11,Hawequas Sandstone,304,5.01,-1.29,-15.06
+30,bcccsm11,Hopefield Sand,133,2.19,-1.29,-15.06
+31,bcccsm11,Kango Conglomerate,125,2.06,-1.29,-15.06
+32,bcccsm11,Kogelberg Sandstone,170,2.8,-1.29,-15.06
+33,bcccsm11,Kouga Grassy Sandstone,1023,16.85,-1.29,-15.06
+34,bcccsm11,Leipoldtville Sand,109,1.79,-1.29,-15.06
+35,bcccsm11,Matjiesfontein Quartzite,307,5.06,-1.29,-15.06
+36,bcccsm11,North Hex Sandstone,122,2.01,-1.29,-15.06
+37,bcccsm11,North Kammanassie Sandstone,128,2.11,-1.29,-15.06
+38,bcccsm11,North Sonderend Sandstone,151,2.49,-1.29,-15.06
+39,bcccsm11,North Swartberg Sandstone,245,4.03,-1.29,-15.06
+40,bcccsm11,Overberg Sandstone,155,2.55,-1.29,-15.06
+41,bcccsm11,South Outeniqua Sandstone,412,6.78,-1.29,-15.06
+42,bcccsm11,Swartruggens Quartzite,510,8.4,-1.29,-15.06
+43,bcccsm11,Tsitsikamma Sandstone,325,5.35,-1.29,-15.06
+44,bcccsm11,Winterhoek Sandstone,354,5.83,-1.29,-15.06
+154,GFDLESM2M,Bokkeveld Sandstone,245,4.03,-0.59,-14.79
+155,GFDLESM2M,Canca Limestone,180,2.96,-0.59,-14.79
+156,GFDLESM2M,Cederberg Sandstone,619,10.19,-0.59,-14.79
+157,GFDLESM2M,De Hoop Limestone,121,1.99,-0.59,-14.79
+158,GFDLESM2M,Graafwater Sandstone,150,2.47,-0.59,-14.79
+159,GFDLESM2M,Grootrivier Quartzite,119,1.96,-0.59,-14.79
+160,GFDLESM2M,Hawequas Sandstone,295,4.86,-0.59,-14.79
+161,GFDLESM2M,Hopefield Sand,135,2.22,-0.59,-14.79
+162,GFDLESM2M,Kango Conglomerate,120,1.98,-0.59,-14.79
+163,GFDLESM2M,Kogelberg Sandstone,188,3.1,-0.59,-14.79
+164,GFDLESM2M,Kouga Grassy Sandstone,1117,18.39,-0.59,-14.79
+165,GFDLESM2M,Leipoldtville Sand,137,2.26,-0.59,-14.79
+166,GFDLESM2M,Matjiesfontein Quartzite,226,3.72,-0.59,-14.79
+167,GFDLESM2M,North Hex Sandstone,106,1.75,-0.59,-14.79
+168,GFDLESM2M,North Kammanassie Sandstone,131,2.16,-0.59,-14.79
+169,GFDLESM2M,North Sonderend Sandstone,132,2.17,-0.59,-14.79
+170,GFDLESM2M,North Swartberg Sandstone,291,4.79,-0.59,-14.79
+171,GFDLESM2M,Overberg Sandstone,153,2.52,-0.59,-14.79
+172,GFDLESM2M,South Outeniqua Sandstone,329,5.42,-0.59,-14.79
+173,GFDLESM2M,Swartruggens Quartzite,581,9.57,-0.59,-14.79
+174,GFDLESM2M,Tsitsikamma Sandstone,351,5.78,-0.59,-14.79
+175,GFDLESM2M,Winterhoek Sandstone,347,5.71,-0.59,-14.79
+133,GFDLESM2G,Bokkeveld Sandstone,231,3.8,0.29,-14.15
+134,GFDLESM2G,Canca Limestone,97,1.6,0.29,-14.15
+135,GFDLESM2G,Cederberg Sandstone,671,11.05,0.29,-14.15
+136,GFDLESM2G,De Hoop Limestone,102,1.68,0.29,-14.15
+137,GFDLESM2G,Graafwater Sandstone,141,2.32,0.29,-14.15
+138,GFDLESM2G,Grootrivier Quartzite,72,1.19,0.29,-14.15
+139,GFDLESM2G,Hawequas Sandstone,186,3.06,0.29,-14.15
+140,GFDLESM2G,Hopefield Sand,130,2.14,0.29,-14.15
+141,GFDLESM2G,Kango Conglomerate,121,1.99,0.29,-14.15
+142,GFDLESM2G,Kogelberg Sandstone,185,3.05,0.29,-14.15
+143,GFDLESM2G,Kouga Grassy Sandstone,1044,17.19,0.29,-14.15
+144,GFDLESM2G,Leipoldtville Sand,126,2.07,0.29,-14.15
+145,GFDLESM2G,Matjiesfontein Quartzite,322,5.3,0.29,-14.15
+146,GFDLESM2G,North Hex Sandstone,110,1.81,0.29,-14.15
+147,GFDLESM2G,North Kammanassie Sandstone,138,2.27,0.29,-14.15
+148,GFDLESM2G,North Sonderend Sandstone,196,3.23,0.29,-14.15
+149,GFDLESM2G,North Swartberg Sandstone,356,5.86,0.29,-14.15
+150,GFDLESM2G,Overberg Sandstone,146,2.4,0.29,-14.15
+151,GFDLESM2G,South Outeniqua Sandstone,299,4.92,0.29,-14.15
+152,GFDLESM2G,Swartruggens Quartzite,531,8.74,0.29,-14.15
+153,GFDLESM2G,Tsitsikamma Sandstone,467,7.69,0.29,-14.15
+154,GFDLESM2G,Winterhoek Sandstone,402,6.62,0.29,-14.15
+45,BNUESM,Bokkeveld Sandstone,220,3.62,-1.18,-14.02
+46,BNUESM,Canca Limestone,196,3.23,-1.18,-14.02
+47,BNUESM,Cederberg Sandstone,694,11.43,-1.18,-14.02
+48,BNUESM,De Hoop Limestone,133,2.19,-1.18,-14.02
+49,BNUESM,Graafwater Sandstone,144,2.37,-1.18,-14.02
+50,BNUESM,Grootrivier Quartzite,120,1.98,-1.18,-14.02
+51,BNUESM,Hawequas Sandstone,240,3.95,-1.18,-14.02
+52,BNUESM,Hopefield Sand,95,1.56,-1.18,-14.02
+53,BNUESM,Kango Conglomerate,123,2.03,-1.18,-14.02
+54,BNUESM,Kogelberg Sandstone,223,3.67,-1.18,-14.02
+55,BNUESM,Kouga Grassy Sandstone,996,16.4,-1.18,-14.02
+56,BNUESM,Leipoldtville Sand,142,2.34,-1.18,-14.02
+57,BNUESM,Matjiesfontein Quartzite,245,4.03,-1.18,-14.02
+58,BNUESM,North Hex Sandstone,102,1.68,-1.18,-14.02
+59,BNUESM,North Kammanassie Sandstone,116,1.91,-1.18,-14.02
+60,BNUESM,North Sonderend Sandstone,158,2.6,-1.18,-14.02
+61,BNUESM,North Swartberg Sandstone,285,4.69,-1.18,-14.02
+62,BNUESM,Overberg Sandstone,161,2.65,-1.18,-14.02
+63,BNUESM,South Outeniqua Sandstone,474,7.81,-1.18,-14.02
+64,BNUESM,Swartruggens Quartzite,542,8.92,-1.18,-14.02
+65,BNUESM,Tsitsikamma Sandstone,284,4.68,-1.18,-14.02
+66,BNUESM,Winterhoek Sandstone,380,6.26,-1.18,-14.02
+199,MIROCESM,Bokkeveld Sandstone,270,4.45,-0.63,-13.88
+200,MIROCESM,Canca Limestone,143,2.35,-0.63,-13.88
+201,MIROCESM,Cederberg Sandstone,609,10.03,-0.63,-13.88
+202,MIROCESM,De Hoop Limestone,132,2.17,-0.63,-13.88
+203,MIROCESM,Graafwater Sandstone,155,2.55,-0.63,-13.88
+204,MIROCESM,Grootrivier Quartzite,98,1.61,-0.63,-13.88
+205,MIROCESM,Hawequas Sandstone,280,4.61,-0.63,-13.88
+206,MIROCESM,Hopefield Sand,131,2.16,-0.63,-13.88
+207,MIROCESM,Kango Conglomerate,128,2.11,-0.63,-13.88
+208,MIROCESM,Kogelberg Sandstone,169,2.78,-0.63,-13.88
+209,MIROCESM,Kouga Grassy Sandstone,1096,18.05,-0.63,-13.88
+210,MIROCESM,Leipoldtville Sand,120,1.98,-0.63,-13.88
+211,MIROCESM,Matjiesfontein Quartzite,317,5.22,-0.63,-13.88
+212,MIROCESM,North Hex Sandstone,119,1.96,-0.63,-13.88
+213,MIROCESM,North Kammanassie Sandstone,124,2.04,-0.63,-13.88
+214,MIROCESM,North Sonderend Sandstone,142,2.34,-0.63,-13.88
+215,MIROCESM,North Swartberg Sandstone,303,4.99,-0.63,-13.88
+216,MIROCESM,Overberg Sandstone,153,2.52,-0.63,-13.88
+217,MIROCESM,South Outeniqua Sandstone,326,5.37,-0.63,-13.88
+218,MIROCESM,Swartruggens Quartzite,514,8.46,-0.63,-13.88
+219,MIROCESM,Tsitsikamma Sandstone,400,6.59,-0.63,-13.88
+220,MIROCESM,Winterhoek Sandstone,344,5.66,-0.63,-13.88
+241,MRICGCM3,Bokkeveld Sandstone,234,3.85,-0.04,-10.53
+242,MRICGCM3,Canca Limestone,210,3.46,-0.04,-10.53
+243,MRICGCM3,Cederberg Sandstone,539,8.88,-0.04,-10.53
+244,MRICGCM3,De Hoop Limestone,101,1.66,-0.04,-10.53
+245,MRICGCM3,Graafwater Sandstone,170,2.8,-0.04,-10.53
+246,MRICGCM3,Grootrivier Quartzite,102,1.68,-0.04,-10.53
+247,MRICGCM3,Hawequas Sandstone,222,3.66,-0.04,-10.53
+248,MRICGCM3,Hopefield Sand,134,2.21,-0.04,-10.53
+249,MRICGCM3,Kango Conglomerate,118,1.94,-0.04,-10.53
+250,MRICGCM3,Kogelberg Sandstone,226,3.72,-0.04,-10.53
+251,MRICGCM3,Kouga Grassy Sandstone,1006,16.57,-0.04,-10.53
+252,MRICGCM3,Leipoldtville Sand,176,2.9,-0.04,-10.53
+253,MRICGCM3,Matjiesfontein Quartzite,343,5.65,-0.04,-10.53
+254,MRICGCM3,North Hex Sandstone,145,2.39,-0.04,-10.53
+255,MRICGCM3,North Kammanassie Sandstone,128,2.11,-0.04,-10.53
+256,MRICGCM3,North Sonderend Sandstone,126,2.07,-0.04,-10.53
+257,MRICGCM3,North Swartberg Sandstone,413,6.8,-0.04,-10.53
+258,MRICGCM3,Overberg Sandstone,165,2.72,-0.04,-10.53
+259,MRICGCM3,South Outeniqua Sandstone,312,5.14,-0.04,-10.53
+260,MRICGCM3,Swartruggens Quartzite,506,8.33,-0.04,-10.53
+261,MRICGCM3,Tsitsikamma Sandstone,364,5.99,-0.04,-10.53
+262,MRICGCM3,Winterhoek Sandstone,333,5.48,-0.04,-10.53
+111,FGOALSs2,Bokkeveld Sandstone,248,4.08,-1.87,-8.81
+112,FGOALSs2,Canca Limestone,205,3.38,-1.87,-8.81
+113,FGOALSs2,Cederberg Sandstone,627,10.32,-1.87,-8.81
+114,FGOALSs2,De Hoop Limestone,69,1.14,-1.87,-8.81
+115,FGOALSs2,Graafwater Sandstone,125,2.06,-1.87,-8.81
+116,FGOALSs2,Grootrivier Quartzite,120,1.98,-1.87,-8.81
+117,FGOALSs2,Hawequas Sandstone,212,3.49,-1.87,-8.81
+118,FGOALSs2,Hopefield Sand,6,0.1,-1.87,-8.81
+119,FGOALSs2,Kango Conglomerate,122,2.01,-1.87,-8.81
+120,FGOALSs2,Kogelberg Sandstone,212,3.49,-1.87,-8.81
+121,FGOALSs2,Kouga Grassy Sandstone,1079,17.77,-1.87,-8.81
+122,FGOALSs2,Leipoldtville Sand,278,4.58,-1.87,-8.81
+123,FGOALSs2,Matjiesfontein Quartzite,252,4.15,-1.87,-8.81
+124,FGOALSs2,North Hex Sandstone,92,1.51,-1.87,-8.81
+125,FGOALSs2,North Kammanassie Sandstone,133,2.19,-1.87,-8.81
+126,FGOALSs2,North Sonderend Sandstone,215,3.54,-1.87,-8.81
+127,FGOALSs2,North Swartberg Sandstone,238,3.92,-1.87,-8.81
+128,FGOALSs2,Overberg Sandstone,165,2.72,-1.87,-8.81
+129,FGOALSs2,South Outeniqua Sandstone,348,5.73,-1.87,-8.81
+130,FGOALSs2,Swartruggens Quartzite,584,9.62,-1.87,-8.81
+131,FGOALSs2,Tsitsikamma Sandstone,347,5.71,-1.87,-8.81
+132,FGOALSs2,Winterhoek Sandstone,396,6.52,-1.87,-8.81
+130,GFDLESM2G,Bokkeveld Sandstone,203,3.342664252,-0.91,-8.47
+131,GFDLESM2G,Canca Limestone,230,3.787255063,-0.91,-8.47
+132,GFDLESM2G,Cederberg Sandstone,617,10.15972337,-0.91,-8.47
+133,GFDLESM2G,De Hoop Limestone,125,2.058290795,-0.91,-8.47
+134,GFDLESM2G,Graafwater Sandstone,146,2.404083649,-0.91,-8.47
+135,GFDLESM2G,Grootrivier Quartzite,113,1.860694879,-0.91,-8.47
+136,GFDLESM2G,Hawequas Sandstone,269,4.429441792,-0.91,-8.47
+137,GFDLESM2G,Hopefield Sand,133,2.190021406,-0.91,-8.47
+138,GFDLESM2G,Kango Conglomerate,122,2.008891816,-0.91,-8.47
+139,GFDLESM2G,Kogelberg Sandstone,209,3.44146221,-0.91,-8.47
+140,GFDLESM2G,Kouga Grassy Sandstone,1042,17.15791207,-0.91,-8.47
+141,GFDLESM2G,Leipoldtville Sand,174,2.865140787,-0.91,-8.47
+142,GFDLESM2G,Matjiesfontein Quartzite,276,4.544706076,-0.91,-8.47
+143,GFDLESM2G,North Hex Sandstone,108,1.778363247,-0.91,-8.47
+144,GFDLESM2G,North Kammanassie Sandstone,119,1.959492837,-0.91,-8.47
+145,GFDLESM2G,North Sonderend Sandstone,139,2.288819364,-0.91,-8.47
+146,GFDLESM2G,North Swartberg Sandstone,276,4.544706076,-0.91,-8.47
+147,GFDLESM2G,Overberg Sandstone,158,2.601679565,-0.91,-8.47
+148,GFDLESM2G,South Outeniqua Sandstone,368,6.059608101,-0.91,-8.47
+149,GFDLESM2G,Swartruggens Quartzite,533,8.776551951,-0.91,-8.47
+150,GFDLESM2G,Tsitsikamma Sandstone,352,5.79614688,-0.91,-8.47
+151,GFDLESM2G,Winterhoek Sandstone,361,5.944343817,-0.91,-8.47
+155,GFDLESM2M,Bokkeveld Sandstone,252,4.15,-0.58,-7.36
+156,GFDLESM2M,Canca Limestone,216,3.56,-0.58,-7.36
+157,GFDLESM2M,Cederberg Sandstone,638,10.51,-0.58,-7.36
+158,GFDLESM2M,De Hoop Limestone,67,1.1,-0.58,-7.36
+159,GFDLESM2M,Graafwater Sandstone,114,1.88,-0.58,-7.36
+160,GFDLESM2M,Grootrivier Quartzite,121,1.99,-0.58,-7.36
+161,GFDLESM2M,Hawequas Sandstone,239,3.94,-0.58,-7.36
+162,GFDLESM2M,Hopefield Sand,139,2.29,-0.58,-7.36
+163,GFDLESM2M,Kango Conglomerate,121,1.99,-0.58,-7.36
+164,GFDLESM2M,Kogelberg Sandstone,196,3.23,-0.58,-7.36
+165,GFDLESM2M,Kouga Grassy Sandstone,1066,17.55,-0.58,-7.36
+166,GFDLESM2M,Leipoldtville Sand,141,2.32,-0.58,-7.36
+167,GFDLESM2M,Matjiesfontein Quartzite,223,3.67,-0.58,-7.36
+168,GFDLESM2M,North Hex Sandstone,69,1.14,-0.58,-7.36
+169,GFDLESM2M,North Kammanassie Sandstone,123,2.03,-0.58,-7.36
+170,GFDLESM2M,North Sonderend Sandstone,272,4.48,-0.58,-7.36
+171,GFDLESM2M,North Swartberg Sandstone,245,4.03,-0.58,-7.36
+172,GFDLESM2M,Overberg Sandstone,116,1.91,-0.58,-7.36
+173,GFDLESM2M,South Outeniqua Sandstone,314,5.17,-0.58,-7.36
+174,GFDLESM2M,Swartruggens Quartzite,625,10.29,-0.58,-7.36
+175,GFDLESM2M,Tsitsikamma Sandstone,382,6.29,-0.58,-7.36
+176,GFDLESM2M,Winterhoek Sandstone,394,6.49,-0.58,-7.36
+111,FGOALSs2,Bokkeveld Sandstone,364,5.99,-3.71,-6.66
+112,FGOALSs2,Canca Limestone,235,3.87,-3.71,-6.66
+113,FGOALSs2,Cederberg Sandstone,609,10.03,-3.71,-6.66
+114,FGOALSs2,De Hoop Limestone,128,2.11,-3.71,-6.66
+115,FGOALSs2,Graafwater Sandstone,49,0.81,-3.71,-6.66
+116,FGOALSs2,Grootrivier Quartzite,118,1.94,-3.71,-6.66
+117,FGOALSs2,Hawequas Sandstone,317,5.22,-3.71,-6.66
+118,FGOALSs2,Kango Conglomerate,115,1.89,-3.71,-6.66
+119,FGOALSs2,Kogelberg Sandstone,221,3.64,-3.71,-6.66
+120,FGOALSs2,Kouga Grassy Sandstone,978,16.1,-3.71,-6.66
+121,FGOALSs2,Leipoldtville Sand,118,1.94,-3.71,-6.66
+122,FGOALSs2,Matjiesfontein Quartzite,213,3.51,-3.71,-6.66
+123,FGOALSs2,North Hex Sandstone,120,1.98,-3.71,-6.66
+124,FGOALSs2,North Kammanassie Sandstone,133,2.19,-3.71,-6.66
+125,FGOALSs2,North Sonderend Sandstone,195,3.21,-3.71,-6.66
+126,FGOALSs2,North Swartberg Sandstone,272,4.48,-3.71,-6.66
+127,FGOALSs2,Overberg Sandstone,178,2.93,-3.71,-6.66
+128,FGOALSs2,South Outeniqua Sandstone,450,7.41,-3.71,-6.66
+129,FGOALSs2,Swartruggens Quartzite,636,10.47,-3.71,-6.66
+130,FGOALSs2,Tsitsikamma Sandstone,252,4.15,-3.71,-6.66
+131,FGOALSs2,Winterhoek Sandstone,372,6.13,-3.71,-6.66
+197,MIROCESM,Bokkeveld Sandstone,170,2.8,-1.1,-6.01
+198,MIROCESM,Canca Limestone,141,2.32,-1.1,-6.01
+199,MIROCESM,Cederberg Sandstone,675,11.11,-1.1,-6.01
+200,MIROCESM,De Hoop Limestone,133,2.19,-1.1,-6.01
+201,MIROCESM,Graafwater Sandstone,204,3.36,-1.1,-6.01
+202,MIROCESM,Grootrivier Quartzite,91,1.5,-1.1,-6.01
+203,MIROCESM,Hawequas Sandstone,309,5.09,-1.1,-6.01
+204,MIROCESM,Hopefield Sand,130,2.14,-1.1,-6.01
+205,MIROCESM,Kango Conglomerate,127,2.09,-1.1,-6.01
+206,MIROCESM,Kogelberg Sandstone,165,2.72,-1.1,-6.01
+207,MIROCESM,Kouga Grassy Sandstone,913,15.03,-1.1,-6.01
+208,MIROCESM,Leipoldtville Sand,129,2.12,-1.1,-6.01
+209,MIROCESM,Matjiesfontein Quartzite,253,4.17,-1.1,-6.01
+210,MIROCESM,North Hex Sandstone,84,1.38,-1.1,-6.01
+211,MIROCESM,North Kammanassie Sandstone,173,2.85,-1.1,-6.01
+212,MIROCESM,North Sonderend Sandstone,154,2.54,-1.1,-6.01
+213,MIROCESM,North Swartberg Sandstone,308,5.07,-1.1,-6.01
+214,MIROCESM,Overberg Sandstone,152,2.5,-1.1,-6.01
+215,MIROCESM,South Outeniqua Sandstone,533,8.78,-1.1,-6.01
+216,MIROCESM,Swartruggens Quartzite,595,9.8,-1.1,-6.01
+217,MIROCESM,Tsitsikamma Sandstone,312,5.14,-1.1,-6.01
+218,MIROCESM,Winterhoek Sandstone,322,5.3,-1.1,-6.01
+67,CanESM2,Bokkeveld Sandstone,129,2.12,-2.12,-3.86
+68,CanESM2,Canca Limestone,224,3.69,-2.12,-3.86
+69,CanESM2,Cederberg Sandstone,549,9.04,-2.12,-3.86
+70,CanESM2,De Hoop Limestone,129,2.12,-2.12,-3.86
+71,CanESM2,Graafwater Sandstone,120,1.98,-2.12,-3.86
+72,CanESM2,Grootrivier Quartzite,103,1.7,-2.12,-3.86
+73,CanESM2,Hawequas Sandstone,242,3.98,-2.12,-3.86
+74,CanESM2,Hopefield Sand,141,2.32,-2.12,-3.86
+75,CanESM2,Kango Conglomerate,105,1.73,-2.12,-3.86
+76,CanESM2,Kogelberg Sandstone,283,4.66,-2.12,-3.86
+77,CanESM2,Kouga Grassy Sandstone,909,14.97,-2.12,-3.86
+78,CanESM2,Leipoldtville Sand,253,4.17,-2.12,-3.86
+79,CanESM2,Matjiesfontein Quartzite,393,6.47,-2.12,-3.86
+80,CanESM2,North Hex Sandstone,191,3.15,-2.12,-3.86
+81,CanESM2,North Kammanassie Sandstone,93,1.53,-2.12,-3.86
+82,CanESM2,North Sonderend Sandstone,138,2.27,-2.12,-3.86
+83,CanESM2,North Swartberg Sandstone,439,7.23,-2.12,-3.86
+84,CanESM2,Overberg Sandstone,181,2.98,-2.12,-3.86
+85,CanESM2,South Outeniqua Sandstone,421,6.93,-2.12,-3.86
+86,CanESM2,Swartruggens Quartzite,413,6.8,-2.12,-3.86
+87,CanESM2,Tsitsikamma Sandstone,284,4.68,-2.12,-3.86
+88,CanESM2,Winterhoek Sandstone,333,5.48,-2.12,-3.86
+45,BNUESM,Bokkeveld Sandstone,73,1.2,-2.6,-1.84
+46,BNUESM,Canca Limestone,200,3.29,-2.6,-1.84
+47,BNUESM,Cederberg Sandstone,600,9.88,-2.6,-1.84
+48,BNUESM,De Hoop Limestone,139,2.29,-2.6,-1.84
+49,BNUESM,Graafwater Sandstone,154,2.54,-2.6,-1.84
+50,BNUESM,Grootrivier Quartzite,132,2.17,-2.6,-1.84
+51,BNUESM,Hawequas Sandstone,250,4.12,-2.6,-1.84
+52,BNUESM,Hopefield Sand,131,2.16,-2.6,-1.84
+53,BNUESM,Kango Conglomerate,111,1.83,-2.6,-1.84
+54,BNUESM,Kogelberg Sandstone,248,4.08,-2.6,-1.84
+55,BNUESM,Kouga Grassy Sandstone,968,15.94,-2.6,-1.84
+56,BNUESM,Leipoldtville Sand,311,5.12,-2.6,-1.84
+57,BNUESM,Matjiesfontein Quartzite,202,3.33,-2.6,-1.84
+58,BNUESM,North Hex Sandstone,112,1.84,-2.6,-1.84
+59,BNUESM,North Kammanassie Sandstone,94,1.55,-2.6,-1.84
+60,BNUESM,North Sonderend Sandstone,156,2.57,-2.6,-1.84
+61,BNUESM,North Swartberg Sandstone,381,6.27,-2.6,-1.84
+62,BNUESM,Overberg Sandstone,165,2.72,-2.6,-1.84
+63,BNUESM,South Outeniqua Sandstone,524,8.63,-2.6,-1.84
+64,BNUESM,Swartruggens Quartzite,611,10.06,-2.6,-1.84
+65,BNUESM,Tsitsikamma Sandstone,164,2.7,-2.6,-1.84
+66,BNUESM,Winterhoek Sandstone,347,5.71,-2.6,-1.84
+176,MIROC5,Bokkeveld Sandstone,235,3.87,-1.32,-0.37
+177,MIROC5,Canca Limestone,224,3.69,-1.32,-0.37
+178,MIROC5,Cederberg Sandstone,598,9.85,-1.32,-0.37
+179,MIROC5,De Hoop Limestone,129,2.12,-1.32,-0.37
+180,MIROC5,Graafwater Sandstone,143,2.35,-1.32,-0.37
+181,MIROC5,Grootrivier Quartzite,118,1.94,-1.32,-0.37
+182,MIROC5,Hawequas Sandstone,219,3.61,-1.32,-0.37
+183,MIROC5,Hopefield Sand,6,0.1,-1.32,-0.37
+184,MIROC5,Kango Conglomerate,119,1.96,-1.32,-0.37
+185,MIROC5,Kogelberg Sandstone,211,3.47,-1.32,-0.37
+186,MIROC5,Kouga Grassy Sandstone,978,16.1,-1.32,-0.37
+187,MIROC5,Leipoldtville Sand,293,4.82,-1.32,-0.37
+188,MIROC5,Matjiesfontein Quartzite,215,3.54,-1.32,-0.37
+189,MIROC5,North Hex Sandstone,97,1.6,-1.32,-0.37
+190,MIROC5,North Kammanassie Sandstone,128,2.11,-1.32,-0.37
+191,MIROC5,North Sonderend Sandstone,166,2.73,-1.32,-0.37
+192,MIROC5,North Swartberg Sandstone,270,4.45,-1.32,-0.37
+193,MIROC5,Overberg Sandstone,153,2.52,-1.32,-0.37
+194,MIROC5,South Outeniqua Sandstone,482,7.94,-1.32,-0.37
+195,MIROC5,Swartruggens Quartzite,621,10.23,-1.32,-0.37
+196,MIROC5,Tsitsikamma Sandstone,258,4.25,-1.32,-0.37
+197,MIROC5,Winterhoek Sandstone,410,6.75,-1.32,-0.37
+154,GFDLESM2M,Bokkeveld Sandstone,234,3.85,-1.56,0.2
+155,GFDLESM2M,Canca Limestone,206,3.39,-1.56,0.2
+156,GFDLESM2M,Cederberg Sandstone,582,9.58,-1.56,0.2
+157,GFDLESM2M,De Hoop Limestone,134,2.21,-1.56,0.2
+158,GFDLESM2M,Graafwater Sandstone,155,2.55,-1.56,0.2
+159,GFDLESM2M,Grootrivier Quartzite,101,1.66,-1.56,0.2
+160,GFDLESM2M,Hawequas Sandstone,287,4.73,-1.56,0.2
+161,GFDLESM2M,Hopefield Sand,136,2.24,-1.56,0.2
+162,GFDLESM2M,Kango Conglomerate,121,1.99,-1.56,0.2
+163,GFDLESM2M,Kogelberg Sandstone,183,3.01,-1.56,0.2
+164,GFDLESM2M,Kouga Grassy Sandstone,1026,16.89,-1.56,0.2
+165,GFDLESM2M,Leipoldtville Sand,158,2.6,-1.56,0.2
+166,GFDLESM2M,Matjiesfontein Quartzite,329,5.42,-1.56,0.2
+167,GFDLESM2M,North Hex Sandstone,134,2.21,-1.56,0.2
+168,GFDLESM2M,North Kammanassie Sandstone,135,2.22,-1.56,0.2
+169,GFDLESM2M,North Sonderend Sandstone,144,2.37,-1.56,0.2
+170,GFDLESM2M,North Swartberg Sandstone,311,5.12,-1.56,0.2
+171,GFDLESM2M,Overberg Sandstone,158,2.6,-1.56,0.2
+172,GFDLESM2M,South Outeniqua Sandstone,345,5.68,-1.56,0.2
+173,GFDLESM2M,Swartruggens Quartzite,489,8.05,-1.56,0.2
+174,GFDLESM2M,Tsitsikamma Sandstone,351,5.78,-1.56,0.2
+175,GFDLESM2M,Winterhoek Sandstone,354,5.83,-1.56,0.2
+111,FGOALSs2,Bokkeveld Sandstone,120,1.98,-2.67,0.64
+112,FGOALSs2,Canca Limestone,186,3.06,-2.67,0.64
+113,FGOALSs2,Cederberg Sandstone,642,10.57,-2.67,0.64
+114,FGOALSs2,De Hoop Limestone,123,2.03,-2.67,0.64
+115,FGOALSs2,Graafwater Sandstone,122,2.01,-2.67,0.64
+116,FGOALSs2,Grootrivier Quartzite,124,2.04,-2.67,0.64
+117,FGOALSs2,Hawequas Sandstone,322,5.3,-2.67,0.64
+118,FGOALSs2,Hopefield Sand,10,0.16,-2.67,0.64
+119,FGOALSs2,Kango Conglomerate,124,2.04,-2.67,0.64
+120,FGOALSs2,Kogelberg Sandstone,153,2.52,-2.67,0.64
+121,FGOALSs2,Kouga Grassy Sandstone,943,15.53,-2.67,0.64
+122,FGOALSs2,Leipoldtville Sand,409,6.73,-2.67,0.64
+123,FGOALSs2,Matjiesfontein Quartzite,337,5.55,-2.67,0.64
+124,FGOALSs2,North Hex Sandstone,118,1.94,-2.67,0.64
+125,FGOALSs2,North Kammanassie Sandstone,122,2.01,-2.67,0.64
+126,FGOALSs2,North Sonderend Sandstone,118,1.94,-2.67,0.64
+127,FGOALSs2,North Swartberg Sandstone,255,4.2,-2.67,0.64
+128,FGOALSs2,Overberg Sandstone,158,2.6,-2.67,0.64
+129,FGOALSs2,South Outeniqua Sandstone,467,7.69,-2.67,0.64
+130,FGOALSs2,Swartruggens Quartzite,499,8.22,-2.67,0.64
+131,FGOALSs2,Tsitsikamma Sandstone,383,6.31,-2.67,0.64
+132,FGOALSs2,Winterhoek Sandstone,338,5.57,-2.67,0.64
+219,MIROCESMCHEM,Bokkeveld Sandstone,107,1.76,-0.49,3.63
+220,MIROCESMCHEM,Canca Limestone,174,2.87,-0.49,3.63
+221,MIROCESMCHEM,Cederberg Sandstone,704,11.59,-0.49,3.63
+222,MIROCESMCHEM,De Hoop Limestone,131,2.16,-0.49,3.63
+223,MIROCESMCHEM,Graafwater Sandstone,203,3.34,-0.49,3.63
+224,MIROCESMCHEM,Grootrivier Quartzite,91,1.5,-0.49,3.63
+225,MIROCESMCHEM,Hawequas Sandstone,259,4.26,-0.49,3.63
+226,MIROCESMCHEM,Kango Conglomerate,121,1.99,-0.49,3.63
+227,MIROCESMCHEM,Kogelberg Sandstone,182,3,-0.49,3.63
+228,MIROCESMCHEM,Kouga Grassy Sandstone,1028,16.93,-0.49,3.63
+229,MIROCESMCHEM,Leipoldtville Sand,251,4.13,-0.49,3.63
+230,MIROCESMCHEM,Matjiesfontein Quartzite,321,5.29,-0.49,3.63
+231,MIROCESMCHEM,North Hex Sandstone,128,2.11,-0.49,3.63
+232,MIROCESMCHEM,North Kammanassie Sandstone,129,2.12,-0.49,3.63
+233,MIROCESMCHEM,North Sonderend Sandstone,149,2.45,-0.49,3.63
+234,MIROCESMCHEM,North Swartberg Sandstone,304,5.01,-0.49,3.63
+235,MIROCESMCHEM,Overberg Sandstone,156,2.57,-0.49,3.63
+236,MIROCESMCHEM,South Outeniqua Sandstone,290,4.78,-0.49,3.63
+237,MIROCESMCHEM,Swartruggens Quartzite,528,8.69,-0.49,3.63
+238,MIROCESMCHEM,Tsitsikamma Sandstone,470,7.74,-0.49,3.63
+239,MIROCESMCHEM,Winterhoek Sandstone,347,5.71,-0.49,3.63
+218,MIROCESMCHEM,Bokkeveld Sandstone,229,3.770788737,-1.17,4.63
+219,MIROCESMCHEM,Canca Limestone,236,3.886053022,-1.17,4.63
+220,MIROCESMCHEM,Cederberg Sandstone,632,10.40671826,-1.17,4.63
+221,MIROCESMCHEM,De Hoop Limestone,112,1.844228553,-1.17,4.63
+222,MIROCESMCHEM,Graafwater Sandstone,157,2.585213239,-1.17,4.63
+223,MIROCESMCHEM,Grootrivier Quartzite,98,1.613699984,-1.17,4.63
+224,MIROCESMCHEM,Hawequas Sandstone,186,3.062736703,-1.17,4.63
+225,MIROCESMCHEM,Hopefield Sand,1,0.016466326,-1.17,4.63
+226,MIROCESMCHEM,Kango Conglomerate,120,1.975959164,-1.17,4.63
+227,MIROCESMCHEM,Kogelberg Sandstone,224,3.688457105,-1.17,4.63
+228,MIROCESMCHEM,Kouga Grassy Sandstone,1017,16.74625391,-1.17,4.63
+229,MIROCESMCHEM,Leipoldtville Sand,241,3.968384653,-1.17,4.63
+230,MIROCESMCHEM,Matjiesfontein Quartzite,293,4.824633624,-1.17,4.63
+231,MIROCESMCHEM,North Hex Sandstone,115,1.893627532,-1.17,4.63
+232,MIROCESMCHEM,North Kammanassie Sandstone,145,2.387617323,-1.17,4.63
+233,MIROCESMCHEM,North Sonderend Sandstone,140,2.305285691,-1.17,4.63
+234,MIROCESMCHEM,North Swartberg Sandstone,313,5.153960151,-1.17,4.63
+235,MIROCESMCHEM,Overberg Sandstone,165,2.71694385,-1.17,4.63
+236,MIROCESMCHEM,South Outeniqua Sandstone,360,5.927877491,-1.17,4.63
+237,MIROCESMCHEM,Swartruggens Quartzite,545,8.974147868,-1.17,4.63
+238,MIROCESMCHEM,Tsitsikamma Sandstone,325,5.351556068,-1.17,4.63
+239,MIROCESMCHEM,Winterhoek Sandstone,419,6.899390746,-1.17,4.63
+152,GFDLESM2M,Bokkeveld Sandstone,53,0.872715297,-0.95,5.4
+153,GFDLESM2M,Canca Limestone,218,3.589659147,-0.95,5.4
+154,GFDLESM2M,Cederberg Sandstone,883,14.53976618,-0.95,5.4
+155,GFDLESM2M,De Hoop Limestone,130,2.140622427,-0.95,5.4
+156,GFDLESM2M,Graafwater Sandstone,109,1.794829574,-0.95,5.4
+157,GFDLESM2M,Grootrivier Quartzite,130,2.140622427,-0.95,5.4
+158,GFDLESM2M,Hawequas Sandstone,280,4.610571382,-0.95,5.4
+159,GFDLESM2M,Hopefield Sand,140,2.305285691,-0.95,5.4
+160,GFDLESM2M,Kango Conglomerate,126,2.074757122,-0.95,5.4
+161,GFDLESM2M,Kogelberg Sandstone,198,3.26033262,-0.95,5.4
+162,GFDLESM2M,Kouga Grassy Sandstone,1119,18.4258192,-0.95,5.4
+163,GFDLESM2M,Leipoldtville Sand,108,1.778363247,-0.95,5.4
+164,GFDLESM2M,Matjiesfontein Quartzite,267,4.396509139,-0.95,5.4
+165,GFDLESM2M,North Hex Sandstone,89,1.465503046,-0.95,5.4
+166,GFDLESM2M,North Kammanassie Sandstone,118,1.943026511,-0.95,5.4
+167,GFDLESM2M,North Sonderend Sandstone,127,2.091223448,-0.95,5.4
+168,GFDLESM2M,North Swartberg Sandstone,239,3.935452001,-0.95,5.4
+169,GFDLESM2M,Overberg Sandstone,153,2.519347933,-0.95,5.4
+170,GFDLESM2M,South Outeniqua Sandstone,384,6.323069323,-0.95,5.4
+171,GFDLESM2M,Swartruggens Quartzite,547,9.00708052,-0.95,5.4
+172,GFDLESM2M,Tsitsikamma Sandstone,313,5.153960151,-0.95,5.4
+173,GFDLESM2M,Winterhoek Sandstone,342,5.631483616,-0.95,5.4
+67,CanESM2,Bokkeveld Sandstone,9,0.15,-2.28,8.45
+68,CanESM2,Canca Limestone,234,3.85,-2.28,8.45
+69,CanESM2,Cederberg Sandstone,555,9.14,-2.28,8.45
+70,CanESM2,De Hoop Limestone,128,2.11,-2.28,8.45
+71,CanESM2,Graafwater Sandstone,55,0.91,-2.28,8.45
+72,CanESM2,Grootrivier Quartzite,97,1.6,-2.28,8.45
+73,CanESM2,Hawequas Sandstone,277,4.56,-2.28,8.45
+74,CanESM2,Hopefield Sand,211,3.47,-2.28,8.45
+75,CanESM2,Kango Conglomerate,97,1.6,-2.28,8.45
+76,CanESM2,Kogelberg Sandstone,238,3.92,-2.28,8.45
+77,CanESM2,Kouga Grassy Sandstone,917,15.1,-2.28,8.45
+78,CanESM2,Leipoldtville Sand,397,6.54,-2.28,8.45
+79,CanESM2,Matjiesfontein Quartzite,322,5.3,-2.28,8.45
+80,CanESM2,North Hex Sandstone,176,2.9,-2.28,8.45
+81,CanESM2,North Kammanassie Sandstone,55,0.91,-2.28,8.45
+82,CanESM2,North Sonderend Sandstone,164,2.7,-2.28,8.45
+83,CanESM2,North Swartberg Sandstone,423,6.97,-2.28,8.45
+84,CanESM2,Overberg Sandstone,174,2.87,-2.28,8.45
+85,CanESM2,South Outeniqua Sandstone,565,9.3,-2.28,8.45
+86,CanESM2,Swartruggens Quartzite,481,7.92,-2.28,8.45
+87,CanESM2,Tsitsikamma Sandstone,164,2.7,-2.28,8.45
+88,CanESM2,Winterhoek Sandstone,334,5.5,-2.28,8.45
+67,CanESM2,Canca Limestone,222,3.655524452,-3.4,20.18
+68,CanESM2,Cederberg Sandstone,340,5.598550963,-3.4,20.18
+69,CanESM2,De Hoop Limestone,133,2.190021406,-3.4,20.18
+70,CanESM2,Graafwater Sandstone,35,0.576321423,-3.4,20.18
+71,CanESM2,Grootrivier Quartzite,95,1.564301004,-3.4,20.18
+72,CanESM2,Hawequas Sandstone,333,5.483286679,-3.4,20.18
+73,CanESM2,Hopefield Sand,347,5.713815248,-3.4,20.18
+74,CanESM2,Kango Conglomerate,95,1.564301004,-3.4,20.18
+75,CanESM2,Kogelberg Sandstone,375,6.174872386,-3.4,20.18
+76,CanESM2,Kouga Grassy Sandstone,859,14.14457435,-3.4,20.18
+77,CanESM2,Leipoldtville Sand,252,4.149514243,-3.4,20.18
+78,CanESM2,Matjiesfontein Quartzite,382,6.290136671,-3.4,20.18
+79,CanESM2,North Hex Sandstone,283,4.659970361,-3.4,20.18
+80,CanESM2,North Kammanassie Sandstone,45,0.740984686,-3.4,20.18
+81,CanESM2,North Sonderend Sandstone,163,2.684011197,-3.4,20.18
+82,CanESM2,North Swartberg Sandstone,519,8.546023382,-3.4,20.18
+83,CanESM2,Overberg Sandstone,198,3.26033262,-3.4,20.18
+84,CanESM2,South Outeniqua Sandstone,505,8.315494813,-3.4,20.18
+85,CanESM2,Swartruggens Quartzite,355,5.845545859,-3.4,20.18
+86,CanESM2,Tsitsikamma Sandstone,184,3.029804051,-3.4,20.18
+87,CanESM2,Winterhoek Sandstone,353,5.812613206,-3.4,20.18
